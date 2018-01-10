@@ -1,10 +1,13 @@
 {
   "name": "garlicoin-helper",
   "version": "1.0.0",
-  "description": "A guide on Garliocin",
+  "description": "Helper Website for Garlicoin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	  "dev": "node index.js",
+	  "build": "gulp build",
+	  "deploy": "gulp deploy",
+	  "fix": "eslint --fix "
   },
   "keywords": [
     "garlicoin",
@@ -26,6 +29,7 @@
     "gh-pages": "^1.1.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
+    "gulp-ejs": "^3.1.1",
     "gulp-eslint": "^4.0.1",
     "gulp-htmlclean": "^2.7.16",
     "gulp-less": "^3.4.0",

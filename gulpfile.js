@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const pump = require('pump');
 const htmlclean = require('gulp-htmlclean');
+const ejs = require('gulp-ejs');
 const eslint = require('gulp-eslint');
 const rename = require('gulp-rename');
 const concat = require('gulp-concat');
@@ -14,16 +15,21 @@ const ghpages = require('gh-pages');
 
 
 // Clean HTML
-gulp.task('html', function(cb) {
+gulp.task('html', function (cb) {
 	pump([
-		gulp.src('src/**/*.html'),
+		gulp.src('src/*.ejs'),
+		ejs({
+			site_title: 'Garlic Helper'
+		}, {}, {
+			ext: '.html'
+		}),
 		htmlclean(),
 		gulp.dest('dist/')
 	], cb);
 });
 
 // Run task js, only if verify is successful
-gulp.task('js', ['verify'], function(cb) {
+gulp.task('js', ['verify'], function (cb) {
 	pump([
 		gulp.src(['src/js/**/*.js', '!src/lib/**/*']),
 		concat('script.js'),
@@ -39,7 +45,7 @@ gulp.task('js', ['verify'], function(cb) {
 });
 
 // Lints the js files
-gulp.task('verify', function(cb) {
+gulp.task('verify', function (cb) {
 	pump([
 		gulp.src(['src/js/**/*.js', '!src/lib/**/*']),
 		eslint(),
@@ -49,7 +55,7 @@ gulp.task('verify', function(cb) {
 });
 
 // Copies any file in lib
-gulp.task('lib', function(cb) {
+gulp.task('lib', function (cb) {
 	pump([
 		gulp.src(['src/lib/**/*']),
 		gulp.dest('dist/lib')
@@ -57,7 +63,7 @@ gulp.task('lib', function(cb) {
 });
 
 // Do a bunch of stuff to CSS files
-gulp.task('less', function(cb) {
+gulp.task('less', function (cb) {
 	pump([
 		gulp.src('src/less/**/*.less'),
 		less(),
@@ -77,16 +83,16 @@ gulp.task('less', function(cb) {
 	], cb);
 });
 
-gulp.task('deploy', ['build'], function(cb) {
-  ghpages.publish('dist', cb);
+gulp.task('deploy', ['build'], function (cb) {
+	ghpages.publish('dist', cb);
 });
 
 gulp.task('build', ['js', 'less', 'html', 'lib']);
 
-gulp.task('watch', ['js', 'less', 'html', 'lib'], function() {
+gulp.task('watch', ['build'], function () {
 	gulp.watch('src/js/**/*.js', ['js'])
 	gulp.watch('src/less/**/*.less', ['less'])
-	gulp.watch('src/html/**/*.html', ['html'])
+	gulp.watch('src/**/*.ejs', ['html'])
 	gulp.watch('src/lib/**/*', ['lib'])
 
 });

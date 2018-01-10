@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" class="has-navbar-fixed-top">
+
+<% page_title = "Getting Started" %>
+<% title = site_title + " - " + page_title; %>
+<%- include partials/head %>
+
+<body>
+	<%- include partials/navbar %>
+		<section class="hero is-info is-large">
+			<div class="hero-body">
+				<div class="container">
+				<h1 class="title is-1">
+					<%= page_title %>
+				</h1>
+				<div class="columns" id="get-started">
+					<div class="column is-one-third">
+						<div class="card start-box" id="wallet">
+							<div class="card-content">
+								<span class="icon is-info">
+									<i class="fas fa-credit-card fa-4x" id="wallet-icon"></i>
+								</span>
+								<h1 class="subtitle is-3">Wallet</h1>
+								<p>Setup a wallet in minutes on all platforms.</p>
+							</div>
+						</div>
+					</div>
+					<div class="column is-one-third">
+						<div class="card start-box" id="mining">
+							<div class="card-content">
+								<span class="icon  is-info">
+									<i class="fa fa-server fa-4x" id="mining-icon"></i>
+								</span>
+								<h1 class="subtitle is-3">Mining</h1>
+								<p>Learn to mine on the network using your CPU or GPU.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+	<%- include partials/footer %>
+  <script src="js/script.min.js"></script>
+</body>
+
+</html>

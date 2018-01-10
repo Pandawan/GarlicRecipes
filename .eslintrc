@@ -6,9 +6,7 @@
 	"rules": {
 		"no-tabs": 0,
 		"indent": ["error", "tab"],
-		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"]
-	},
-	"globals": {
-		"Phaser": false
+		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
+		"prefer-destructuring": ["error", {"object": false, "array": false}]
 	}
 }
