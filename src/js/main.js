@@ -19,32 +19,18 @@ function setupNavBar() {
 	}
 }
 
-/*
 function getStarted() {
+	const getStartedDiv = document.getElementById('get-started');
+	const getWalletBtn = document.getElementById('wallet');
+	const getWalletDiv = document.getElementById('get-wallet');
 
-	const startCards = Array.prototype.slice.call(document.querySelectorAll('.start-box'), 0);
-
-	if (startCards.length > 0) {
-		startCards.forEach((element) => {
-			// TODO: Change those to click events so that on click, it hides those cards with zoomOut
-			// and shows the Windows/Mac/Linux cards instead
-
-			// Hover over start card
-			/*
-			element.addEventListener('mouseenter', () => {
-				element.classList.add('animated');
-				element.classList.add('zoomOut');
-			});
-
-			element.addEventListener('mouseleave', () => {
-				element.classList.remove('animated');
-				element.classList.remove('zoomOut');
-			});
-		});
-	}
-} */
+	getWalletBtn.addEventListener('click', () => {
+		getStartedDiv.classList.add('hidden');
+		getWalletDiv.classList.remove('hidden');
+	});
+}
 
 document.addEventListener('DOMContentLoaded', () => {
 	setupNavBar();
-	// getStarted();
+	getStarted();
 });

@@ -4,10 +4,10 @@
   "description": "Helper Website for Garlicoin",
   "main": "index.js",
   "scripts": {
-	  "dev": "node index.js",
-	  "build": "gulp build",
-	  "deploy": "gulp deploy",
-	  "fix": "eslint --fix "
+    "dev": "node index.js",
+    "build": "gulp build",
+    "deploy": "gulp deploy",
+    "fix": "eslint --fix "
   },
   "keywords": [
     "garlicoin",
