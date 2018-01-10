@@ -1,3 +1,5 @@
+# Prevent cached version of repo
+.publish
 
 # Created by https://www.gitignore.io/api/node,linux,macos,windows
 
