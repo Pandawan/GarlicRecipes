@@ -1,1 +1,50 @@
-console.log('Hello World!');
+function setupNavBar() {
+	// Get all "navbar-burger" elements
+	const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+	// Check if there are any navbar burgers
+	if ($navbarBurgers.length > 0) {
+		// Add a click event on each of them
+		$navbarBurgers.forEach(($el) => {
+			$el.addEventListener('click', () => {
+				// Get the target from the "data-target" attribute
+				const target = $el.dataset.target;
+				const $target = document.getElementById(target);
+
+				// Toggle the class on both the "navbar-burger" and the "navbar-menu"
+				$el.classList.toggle('is-active');
+				$target.classList.toggle('is-active');
+			});
+		});
+	}
+}
+
+/*
+function getStarted() {
+
+	const startCards = Array.prototype.slice.call(document.querySelectorAll('.start-box'), 0);
+
+	if (startCards.length > 0) {
+		startCards.forEach((element) => {
+			// TODO: Change those to click events so that on click, it hides those cards with zoomOut
+			// and shows the Windows/Mac/Linux cards instead
+
+			// Hover over start card
+			/*
+			element.addEventListener('mouseenter', () => {
+				element.classList.add('animated');
+				element.classList.add('zoomOut');
+			});
+
+			element.addEventListener('mouseleave', () => {
+				element.classList.remove('animated');
+				element.classList.remove('zoomOut');
+			});
+		});
+	}
+} */
+
+document.addEventListener('DOMContentLoaded', () => {
+	setupNavBar();
+	// getStarted();
+});
