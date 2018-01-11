@@ -8,70 +8,88 @@
 <body>
 	<%- include partials/navbar %>
 		<section class="hero is-info is-large">
-			<div class="hero-body">
+			<div class="hero-body smaller-hero-body">
 				<div class="container">
-				<h1 class="title is-1">
-					<%= page_title %>
-				</h1>
-				<div class="columns" id="get-started">
-					<div class="column is-one-third">
-						<div class="card start-box" id="wallet">
-							<div class="card-content">
-								<span class="icon is-info">
-									<i class="fas fa-credit-card fa-4x" id="wallet-icon"></i>
-								</span>
-								<h1 class="subtitle is-3">Wallet</h1>
-								<p>Setup a wallet in minutes on all platforms.</p>
+					<h1 class="title is-1">
+						<span class="icon btn-icon hidden" id="back-btn"><i class="fas fa-chevron-left"></i></span>
+						<span id="hero-title">
+							<%= page_title %>
+						</span>
+					</h1>
+					<div class="columns" id="get-started">
+						<div class="column is-one-third">
+							<div class="card start-box" id="wallet">
+								<div class="card-content">
+									<span class="icon is-info">
+										<i class="fas fa-credit-card fa-4x" id="wallet-icon"></i>
+									</span>
+									<h1 class="subtitle is-3">Wallet</h1>
+									<p>Setup a wallet in minutes on all platforms.</p>
+								</div>
+							</div>
+						</div>
+						<div class="column is-one-third">
+							<div class="card start-box" id="mining">
+								<div class="card-content">
+									<span class="icon  is-info">
+										<i class="fa fa-server fa-4x" id="mining-icon"></i>
+									</span>
+									<h1 class="subtitle is-3">Mining</h1>
+									<p>Learn to mine on the network using your CPU or GPU.</p>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="column is-one-third">
-						<div class="card start-box" id="mining">
-							<div class="card-content">
-								<span class="icon  is-info">
-									<i class="fa fa-server fa-4x" id="mining-icon"></i>
-								</span>
-								<h1 class="subtitle is-3">Mining</h1>
-								<p>Learn to mine on the network using your CPU or GPU.</p>
+					<div class="hidden" id="get-wallet">
+						<div class="columns">
+							<div class="column is-one-third">
+								<div class="card start-box" id="win-wallet" data-link="win-wallet.html">
+									<div class="card-content">
+										<span class="icon is-info">
+											<i class="fab fa-windows fa-4x" id="windows-icon"></i>
+										</span>
+										<h1 class="subtitle is-3">Windows</h1>
+										<p>Setup a wallet in minutes on Windows.</p>
+									</div>
+								</div>
+							</div>
+							<div class="column is-one-third">
+								<div class="card start-box" id="mac-wallet" data-link="mac-wallet.html">
+									<div class="card-content">
+										<span class="icon is-info">
+											<i class="fab fa-apple fa-4x" id="mac-icon"></i>
+										</span>
+										<h1 class="subtitle is-3">Mac</h1>
+										<p>Setup a wallet in minutes on Mac.</p>
+									</div>
+								</div>
+							</div>
+							<div class="column is-one-third">
+								<div class="card start-box" id="nix-wallet" data-link="nix-wallet.html">
+									<div class="card-content">
+										<span class="icon is-info">
+											<i class="fab fa-linux fa-4x" id="linux-icon"></i>
+										</span>
+										<h1 class="subtitle is-3">Linux</h1>
+										<p>Setup a wallet in minutes on Linux.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="columns">
+							<div class="column is-one-third">
+								<div class="card start-box" id="web-wallet" data-link="web-wallet.html">
+									<div class="card-content">
+										<span class="icon is-info">
+											<i class="fas fa-globe fa-4x" id="web-icon"></i>
+										</span>
+										<h1 class="subtitle is-3">Web</h1>
+										<p>Get your wallet through a web client.</p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-					<div class="columns hidden" id="get-wallet">
-					<div class="column is-one-third">
-						<div class="card start-box" id="win-wallet">
-							<div class="card-content">
-								<span class="icon is-info">
-									<i class="fab fa-windows fa-4x" id="windows-icon"></i>
-								</span>
-								<h1 class="subtitle is-3">Windows</h1>
-								<p>Setup a wallet in minutes on Windows.</p>
-							</div>
-						</div>
-					</div>
-					<div class="column is-one-third">
-						<div class="card start-box" id="mac-wallet">
-							<div class="card-content">
-								<span class="icon is-info">
-									<i class="fab fa-apple fa-4x" id="mac-icon"></i>
-								</span>
-								<h1 class="subtitle is-3">Mac</h1>
-								<p>Setup a wallet in minutes on Mac.</p>
-							</div>
-						</div>
-					</div>
-					<div class="column is-one-third">
-						<div class="card start-box" id="nix-wallet">
-							<div class="card-content">
-								<span class="icon is-info">
-									<i class="fab fa-linux fa-4x" id="linux-icon"></i>
-								</span>
-								<h1 class="subtitle is-3">Linux</h1>
-								<p>Setup a wallet in minutes on Linux.</p>
-							</div>
-						</div>
-					</div>
-				</div>
 				</div>
 			</div>
 		</section>

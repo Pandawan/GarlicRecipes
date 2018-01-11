@@ -20,17 +20,42 @@ function setupNavBar() {
 }
 
 function getStarted() {
+	const backBtn = document.getElementById('back-btn');
+	const heroTitle = document.getElementById('hero-title');
 	const getStartedDiv = document.getElementById('get-started');
 	const getWalletBtn = document.getElementById('wallet');
 	const getWalletDiv = document.getElementById('get-wallet');
 
+	// Click on GetWallet goes to "getWalletDiv page"
 	getWalletBtn.addEventListener('click', () => {
+		heroTitle.innerText = 'Wallet';
+		backBtn.classList.remove('hidden');
 		getStartedDiv.classList.add('hidden');
 		getWalletDiv.classList.remove('hidden');
+	});
+
+	// Click on back button goes to "getStartedDiv page"
+	backBtn.addEventListener('click', () => {
+		heroTitle.innerText = 'Getting Started';
+		backBtn.classList.add('hidden');
+		getStartedDiv.classList.remove('hidden');
+		getWalletDiv.classList.add('hidden');
+	});
+}
+
+function dataLinks() {
+	const dataLink = document.querySelectorAll('[data-link]');
+
+	// Clicking on any card with data-link redirects to link
+	dataLink.forEach((element) => {
+		element.addEventListener('click', () => {
+			document.location = element.dataset.link;
+		});
 	});
 }
 
 document.addEventListener('DOMContentLoaded', () => {
 	setupNavBar();
 	getStarted();
+	dataLinks();
 });

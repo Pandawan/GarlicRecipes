@@ -16,7 +16,13 @@
   ],
   "author": "Pandawan",
   "license": "MIT",
+  "repository": "git+https://github.com/PandawanFr/GarlicoinHelp.git",
+  "bugs": {
+    "url": "https://github.com/PandawanFr/GarlicoinHelp/issues"
+  },
+  "homepage": "https://github.com/PandawanFr/GarlicoinHelp#readme",
   "dependencies": {
+    "del": "^3.0.0",
     "express": "^4.16.2"
   },
   "devDependencies": {
@@ -32,10 +38,13 @@
     "gulp-ejs": "^3.1.1",
     "gulp-eslint": "^4.0.1",
     "gulp-htmlclean": "^2.7.16",
+    "gulp-inject-self": "^1.0.0",
     "gulp-less": "^3.4.0",
+    "gulp-marked": "^1.0.0",
     "gulp-minify": "^2.1.0",
     "gulp-postcss": "^7.0.1",
     "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
     "pump": "^2.0.0"
   }
 }
