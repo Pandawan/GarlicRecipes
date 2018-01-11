@@ -1,14 +1,14 @@
 {
-	"mac-wallet": {
+	"wallet-mac": {
 		"title": "Mac Wallet"
 	},
-	"win-wallet": {
+	"wallet-win": {
 		"title": "Windows Wallet"
 	},
-	"nix-wallet": {
+	"wallet-nix": {
 		"title": "Linux Wallet"
 	},
-	"web-wallet": {
+	"wallet-web": {
 		"title": "Web Wallet"
 	}
 }
