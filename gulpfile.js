@@ -137,7 +137,9 @@ gulp.task('deploy', function (cb) {
 	});
 });
 
-gulp.task('build', ['js', 'less', 'html', 'md', 'lib']);
+gulp.task('build', function(cb) {
+	runSequence(['js', 'less', 'html', 'md', 'lib'], 'clean-html', cb);
+});
 
 gulp.task('watch', ['build'], function () {
 	gulp.watch('src/js/**/*.js', ['js']);
