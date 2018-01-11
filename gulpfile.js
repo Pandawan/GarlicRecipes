@@ -18,6 +18,7 @@ const inject = require('gulp-inject-self');
 const replace = require('gulp-replace');
 const content = require('./src/content/content.json')
 const del = require('del');
+const runSequence = require('run-sequence');
 
 // Clean HTML
 gulp.task('html', function (cb) {
@@ -130,8 +131,10 @@ gulp.task('clean', function (cb) {
 	]);
 });
 
-gulp.task('deploy', ['clean', 'build', 'clean-html'], function (cb) {
-	ghpages.publish('dist', cb);
+gulp.task('deploy', function (cb) {
+	runSequence('clean', 'build', 'clean-html', function () {
+		ghpages.publish('dist', cb);
+	});
 });
 
 gulp.task('build', ['js', 'less', 'html', 'md', 'lib']);
