@@ -25,7 +25,8 @@ gulp.task('html', function (cb) {
 	pump([
 		gulp.src('src/*.ejs'),
 		ejs({
-			site_title: 'Garlic Helper'
+			site_title: 'Garlic Helper',
+			content: content['content']
 		}, {}, {
 			ext: '.html'
 		}),
@@ -41,7 +42,8 @@ gulp.task('md', ['html'], function (cb) {
 		marked(),
 		ejs({
 			site_title: 'Garlic Helper',
-			page_title: 'PAGE_TITLE'
+			page_title: 'PAGE_TITLE',
+			content: content['content']
 		}, {}, {
 			ext: '.html'
 		}),

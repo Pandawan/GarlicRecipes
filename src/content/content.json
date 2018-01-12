@@ -1,14 +1,45 @@
 {
-	"wallet-mac": {
-		"title": "Mac Wallet"
-	},
-	"wallet-win": {
-		"title": "Windows Wallet"
-	},
-	"wallet-nix": {
-		"title": "Linux Wallet"
-	},
-	"wallet-web": {
-		"title": "Web Wallet"
+	"content": {
+		"default": "get-started",
+		"get-started": {
+			"get-wallet": {
+				"type": "category",
+				"title": "Wallet",
+				"icon": "fas fa-credit-card",
+				"description": "Setup a wallet in minutes on all platforms."
+			},
+			"get-miner": {
+				"type": "category",
+				"title": "Mining",
+				"icon": "fa fa-server",
+				"description": "Learn to mine on the network using your CPU or GPU."
+			}
+		},
+		"get-wallet": {
+			"wallet-win": {
+				"type": "tutorial",
+				"title": "Windows Wallet",
+				"icon": "fab fa-windows",
+				"description": "Setup a wallet in minutes on Windows."
+			},
+			"wallet-mac": {
+				"type": "tutorial",
+				"title": "Mac Wallet",
+				"icon": "fab fa-apple",
+				"description": "Setup a wallet in minutes on Mac."
+			},
+			"wallet-nix": {
+				"type": "tutorial",
+				"title": "Linux Wallet",
+				"icon": "fab fa-linux",
+				"description": "Setup a wallet in minutes on Linux."
+			},
+			"wallet-web": {
+				"type": "tutorial",
+				"title": "Web Wallet",
+				"icon": "fas fa-globe",
+				"description": "Get your wallet through a web client."
+			}
+		}
 	}
 }
