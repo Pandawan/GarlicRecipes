@@ -1,6 +1,9 @@
 {
 	"content": {
-		"default": "get-started",
+		"default": {
+			"value": "get-started",
+			"title": "Getting Started"
+		},
 		"get-started": {
 			"get-wallet": {
 				"type": "category",
@@ -17,28 +20,28 @@
 		},
 		"get-wallet": {
 			"wallet-win": {
-				"type": "tutorial",
+				"type": "link",
 				"title": "Windows Wallet",
 				"icon": "fab fa-windows",
 				"description": "Setup a wallet in minutes on Windows."
 			},
 			"wallet-mac": {
-				"type": "tutorial",
+				"type": "link",
 				"title": "Mac Wallet",
 				"icon": "fab fa-apple",
 				"description": "Setup a wallet in minutes on Mac."
 			},
 			"wallet-nix": {
-				"type": "tutorial",
+				"type": "link",
 				"title": "Linux Wallet",
 				"icon": "fab fa-linux",
 				"description": "Setup a wallet in minutes on Linux."
 			},
 			"wallet-web": {
-				"type": "tutorial",
+				"type": "link",
 				"title": "Web Wallet",
 				"icon": "fas fa-globe",
-				"description": "Get your wallet through a web client."
+				"description": "Get a wallet using the web client breadbox."
 			}
 		}
 	}

@@ -16,9 +16,17 @@ const ghpages = require('gh-pages');
 const marked = require('gulp-marked');
 const inject = require('gulp-inject-self');
 const replace = require('gulp-replace');
-const content = require('./src/content/content.json')
+const content = require('./src/content/content.json');
 const del = require('del');
 const runSequence = require('run-sequence');
+
+// Helper function to find a key and its value in any object
+function searchKey(obj, key = 'key') {
+	var json = JSON.stringify(obj);
+	var reg = new RegExp(`(?!^)(?:"${key}":)([^\\\\]+?})`);
+	var group = reg.exec(json)[1];
+	return JSON.parse(group);
+}
 
 // Clean HTML
 gulp.task('html', function (cb) {
@@ -54,8 +62,8 @@ gulp.task('md', ['html'], function (cb) {
 		}),
 		replace('PAGE_TITLE', function () {
 			var name = this.file.relative.replace(/(.*)\.(.*?)$/, "$1");
-			var page_title = (content[name] ? content[name].title : "PAGE TITLE");
-			return page_title;
+			var data = searchKey(content['content'], name);
+			return data.title;
 		}),
 		htmlclean(),
 		gulp.dest('dist/')
@@ -137,6 +145,10 @@ gulp.task('deploy', function (cb) {
 	runSequence('clean', 'build', 'clean-html', function () {
 		ghpages.publish('dist', cb);
 	});
+});
+
+gulp.task('prod', function (cb) {
+	runSequence('clean', 'build', 'clean-html');
 });
 
 gulp.task('build', function(cb) {

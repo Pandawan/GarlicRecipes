@@ -18,89 +18,34 @@
 					</h1>
 
 					<% for (var key in content) { %>
-						<% if (!validation_messages.hasOwnProperty(key) || key == "default") continue; %>
-						<div class="<%- (content.default != key ? 'hidden' : '' ) %>"  id=<%= key %>>
+						<% if (!content.hasOwnProperty(key) || key == "default") continue; %>
+						<div class="content-page <%- (content.default.value != key ? 'hidden' : 'default' ) %>"  id="<%- key %>-page" <%- (content.default.value != key ? '' : 'data-title="' + content.default.title + '"' ) %> >
 							<div class="columns">
-								
+								<% var loopCounter = 0; %>
+								<% for (var cardKey in content[key] ) { %>
+									<% loopCounter += 1; %>
+									<% if (!content[key].hasOwnProperty(cardKey) || cardKey == "default") continue; %>
+									<% var card = content[key][cardKey]; %>
+									<% var cardId = cardKey.toLowerCase(); %>
+									<% if (loopCounter % 3 == 1 && loopCounter != 1) { %>
+										</div>
+										<div class="columns">
+									<% } %>
+									<div class="column is-one-third">
+										<div class="card start-box" id="<%- cardId %>" <%- (card.type == 'category' ? 'data-category="' + cardId + '"' : '') %> <%- (card.type == 'link' ? 'data-link="./' + cardId + '.html"' : '') %> <%- 'data-title="' + card.title + '"' %> >
+											<div class="card-content">
+												<span class="icon is-info">
+													<i class="<%- card.icon %> fa-4x" id="<%- cardId %>-icon" %> ></i>
+												</span>
+												<h1 class="subtitle is-3"><%- card.title %></h1>
+												<p><%- card.description %></p>
+											</div>
+										</div>
+									</div>
+								<% } %>
 							</div>
 						</div>
 					<% } %>
-					<!--
-					<div class="columns" id="get-started">
-						<div class="column is-one-third">
-							<div class="card start-box" id="wallet">
-								<div class="card-content">
-									<span class="icon is-info">
-										<i class="fas fa-credit-card fa-4x" id="wallet-icon"></i>
-									</span>
-									<h1 class="subtitle is-3">Wallet</h1>
-									<p>Setup a wallet in minutes on all platforms.</p>
-								</div>
-							</div>
-						</div>
-						<div class="column is-one-third">
-							<div class="card start-box" id="mining">
-								<div class="card-content">
-									<span class="icon  is-info">
-										<i class="fa fa-server fa-4x" id="mining-icon"></i>
-									</span>
-									<h1 class="subtitle is-3">Mining</h1>
-									<p>Learn to mine on the network using your CPU or GPU.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="hidden" id="get-wallet">
-						<div class="columns">
-							<div class="column is-one-third">
-								<div class="card start-box" id="win-wallet" data-link="./wallet-win.html">
-									<div class="card-content">
-										<span class="icon is-info">
-											<i class="fab fa-windows fa-4x" id="windows-icon"></i>
-										</span>
-										<h1 class="subtitle is-3">Windows</h1>
-										<p>Setup a wallet in minutes on Windows.</p>
-									</div>
-								</div>
-							</div>
-							<div class="column is-one-third">
-								<div class="card start-box" id="wallet-mac" data-link="./wallet-mac.html">
-									<div class="card-content">
-										<span class="icon is-info">
-											<i class="fab fa-apple fa-4x" id="mac-icon"></i>
-										</span>
-										<h1 class="subtitle is-3">Mac</h1>
-										<p>Setup a wallet in minutes on Mac.</p>
-									</div>
-								</div>
-							</div>
-							<div class="column is-one-third">
-								<div class="card start-box" id="nix-wallet" data-link="./wallet-nix.html">
-									<div class="card-content">
-										<span class="icon is-info">
-											<i class="fab fa-linux fa-4x" id="linux-icon"></i>
-										</span>
-										<h1 class="subtitle is-3">Linux</h1>
-										<p>Setup a wallet in minutes on Linux.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="columns">
-							<div class="column is-one-third">
-								<div class="card start-box" id="web-wallet" data-link="./wallet-web.html">
-									<div class="card-content">
-										<span class="icon is-info">
-											<i class="fas fa-globe fa-4x" id="web-icon"></i>
-										</span>
-										<h1 class="subtitle is-3">Web</h1>
-										<p>Get your wallet through a web client.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					-->
 				</div>
 			</div>
 		</section>
