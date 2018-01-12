@@ -16,4 +16,3 @@ Once you are done, don't forget to `gulp prod` to clean the dist folder and buil
 
 ## Links for future ref
 [bulma](https://bulma.io/)
-[animatecss](https://daneden.github.io/animate.css/)
