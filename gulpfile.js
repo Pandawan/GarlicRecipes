@@ -166,7 +166,7 @@ gulp.task('reload', function (cb) {
 });
 
 gulp.task('deploy', function (cb) {
-	runSequence('prod', function () {
+	runSequence('clean', 'build', 'clean-html', function () {
 		ghpages.publish('dist', cb);
 	});
 });
