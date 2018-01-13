@@ -37,7 +37,7 @@
 												<span class="icon is-info">
 													<i class="<%- card.icon %> fa-4x" id="<%- cardId %>-icon" %> ></i>
 												</span>
-												<h1 class="subtitle is-3"><%- card.title %></h1>
+												<h1 class="subtitle <%- (card.title && card.title.length > 20) ? 'is-4' : 'is-3' %>"><%- card.title %></h1>
 												<p><%- card.description %></p>
 											</div>
 										</div>

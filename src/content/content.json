@@ -94,9 +94,22 @@
 				"title": "Updates",
 				"icon": "fas fa-newspaper",
 				"description": "Get updates on Garlicoin and what you need to change in your setup"
+			},
+			"explorer": {
+				"type": "link",
+				"title": "Explorer",
+				"icon": "fas fa-globe",
+				"description": "Access the Garlicoin Block Explorer to see all the transactions.",
+				"goto": "http://explorer.garlicoin.io/"
 			}
 		},
 		"get-wallet": {
+			"wallet-electrum": {
+				"type": "link",
+				"title": "Electrum (Recommended)",
+				"icon": "custom-icon icon-electron",
+				"description": "Get an easy to use wallet app for all platforms."
+			},
 			"wallet-win": {
 				"type": "link",
 				"title": "Windows Wallet",
@@ -121,12 +134,6 @@
 				"icon": "fas fa-globe",
 				"description": "Get a wallet using the web client breadbox.",
 				"goto": "https://breadbox.xyz"
-			},
-			"wallet-electrum-win": {
-				"type": "link",
-				"title": "Electrum (Windows)",
-				"icon": "custom-icon icon-electron",
-				"description": "Get an easy to use wallet app for Windows."
 			}
 		},
 		"get-miner": {
