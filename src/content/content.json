@@ -38,6 +38,11 @@
 			"contains": [
 				{
 					"type": "link",
+					"title": "How To Mine",
+					"goto": "how-to-mine"
+				},
+				{
+					"type": "link",
 					"title": "CPU",
 					"goto": "mining-cpu"
 				},
