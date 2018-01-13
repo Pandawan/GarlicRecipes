@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'custom-icons';
-  src: url('../fonts/custom.eot?euaf7e');
-  src: url('../fonts/custom.eot?euaf7e#iefix') format('embedded-opentype'), url('../fonts/custom.ttf?euaf7e') format('truetype'), url('../fonts/custom.woff?euaf7e') format('woff'), url('../fonts/custom.svg?euaf7e#custom') format('svg');
+  src: url('../fonts/custom-icons.eot?yri8f');
+  src: url('../fonts/custom-icons.eot?yri8f#iefix') format('embedded-opentype'), url('../fonts/custom-icons.ttf?yri8f') format('truetype'), url('../fonts/custom-icons.woff?yri8f') format('woff'), url('../fonts/custom-icons.svg?yri8f#custom-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,11 +18,14 @@ i.custom-icon {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-amd:before {
+.icon-electron:before {
   content: "\e900";
 }
 .icon-nvidia:before {
   content: "\e901";
+}
+.icon-amd:before {
+  content: "\e902";
 }
 
 /* Helpers */
@@ -89,4 +92,11 @@ h3:not(.title):not(.subtitle) {
   font-size: 1.15rem;
   font-weight: 400;
   margin-top: 1.25rem;
+}
+/* Media Queries */
+@media (min-width: 1400px) {
+  .smaller-hero-body {
+    padding-top: 16rem !important;
+    padding-bottom: 16rem !important;
+  }
 }

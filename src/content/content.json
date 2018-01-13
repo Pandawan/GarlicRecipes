@@ -1,6 +1,5 @@
 {
-	"navbar": [
-		{
+	"navbar": [{
 			"type": "link",
 			"title": "Get Started",
 			"goto": ""
@@ -13,8 +12,7 @@
 		{
 			"type": "category",
 			"title": "Wallet",
-			"contains": [
-				{
+			"contains": [{
 					"title": "Windows",
 					"goto": "wallet-win"
 				},
@@ -29,14 +27,17 @@
 				{
 					"title": "Web",
 					"goto": "wallet-web"
+				},
+				{
+					"title": "Electrum (Win)",
+					"goto": "wallet-electrum-win"
 				}
 			]
 		},
 		{
 			"type": "category",
 			"title": "Mining",
-			"contains": [
-				{
+			"contains": [{
 					"type": "link",
 					"title": "How To Mine",
 					"goto": "how-to-mine"
@@ -108,6 +109,12 @@
 				"title": "Web Wallet",
 				"icon": "fas fa-globe",
 				"description": "Get a wallet using the web client breadbox."
+			},
+			"wallet-electrum-win": {
+				"type": "link",
+				"title": "Electrum (Windows)",
+				"icon": "custom-icon icon-electron",
+				"description": "Get an easy to use wallet app for Windows."
 			}
 		},
 		"get-miner": {
