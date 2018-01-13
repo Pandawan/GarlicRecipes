@@ -30,3 +30,7 @@ TEST-NET (test garlicoin) addresses start with m or n.
 <br>
 
 Do not ever pay for testnet GRLC.
+
+# Where to Start?
+First you will need to get a Wallet, many options are available so take your time and chose wisely.  
+If you want to mine, you will need to setup the Wallet and then setup a miner.

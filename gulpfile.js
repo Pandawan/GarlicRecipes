@@ -115,6 +115,14 @@ gulp.task('lib', function (cb) {
 	], cb);
 });
 
+// Copies any file in files
+gulp.task('files', function (cb) {
+	pump([
+		gulp.src(['src/files/**/*']),
+		gulp.dest('dist/files')
+	], cb);
+});
+
 // Do a bunch of stuff to CSS files
 gulp.task('less', function (cb) {
 	pump([
@@ -158,7 +166,7 @@ gulp.task('reload', function (cb) {
 });
 
 gulp.task('deploy', function (cb) {
-	runSequence('clean', 'build', 'clean-html', function () {
+	runSequence('prod', function () {
 		ghpages.publish('dist', cb);
 	});
 });
@@ -168,7 +176,7 @@ gulp.task('prod', function (cb) {
 });
 
 gulp.task('build', function(cb) {
-	runSequence(['js', 'less', 'html', 'md', 'lib', 'fonts'], 'clean-html', cb);
+	runSequence(['js', 'less', 'html', 'md', 'lib', 'fonts', 'files'], 'clean-html', cb);
 });
 
 gulp.task('watch', ['build'], function () {
@@ -178,6 +186,7 @@ gulp.task('watch', ['build'], function () {
 	gulp.watch('src/content/**/*.md', ['md']);
 	gulp.watch('src/content/content.json', ['reload'])
 	gulp.watch('src/lib/**/*', ['lib']);
-	gulp.watch('src/fonts/**/*', ['lib']);
+	gulp.watch('src/fonts/**/*', ['fonts']);
+	gulp.watch('src/files/**/*', ['files']);
 
 });
