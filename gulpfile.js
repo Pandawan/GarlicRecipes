@@ -16,9 +16,10 @@ const ghpages = require('gh-pages');
 const marked = require('gulp-marked');
 const inject = require('gulp-inject-self');
 const replace = require('gulp-replace');
-const content = require('./src/content/content.json');
 const del = require('del');
 const runSequence = require('run-sequence');
+const reload = require('require-reload')(require)
+let content = reload('./src/content/content.json');
 
 // Helper function to find a key and its value in any object
 function searchKey(obj, key = 'key') {
@@ -34,7 +35,8 @@ gulp.task('html', function (cb) {
 		gulp.src('src/*.ejs'),
 		ejs({
 			site_title: 'Garlic Helper',
-			content: content['content']
+			content: content['content'],
+			navbar: content['navbar']
 		}, {}, {
 			ext: '.html'
 		}),
@@ -51,7 +53,8 @@ gulp.task('md', ['html'], function (cb) {
 		ejs({
 			site_title: 'Garlic Helper',
 			page_title: 'PAGE_TITLE',
-			content: content['content']
+			content: content['content'],
+			navbar: content['navbar']
 		}, {}, {
 			ext: '.html'
 		}),
@@ -123,7 +126,7 @@ gulp.task('less', function (cb) {
 			}),
 			mqpacker
 		]),
-		rename('style.css'),
+		concat('style.css'),
 		gulp.dest('dist/css'),
 		postcss([
 			cssnano
@@ -133,12 +136,25 @@ gulp.task('less', function (cb) {
 	], cb);
 });
 
+gulp.task('fonts', function (cb) {
+	pump([
+		gulp.src('src/fonts/**/*'),
+		gulp.dest('dist/fonts')
+	], cb);
+});
+
 
 // Remove previous build
 gulp.task('clean', function (cb) {
 	return del([
 		'dist/**/*'
 	]);
+});
+
+// Reload config file
+gulp.task('reload', function (cb) {
+	content = reload('./src/content/content.json');
+	runSequence(['html', 'md'], cb);
 });
 
 gulp.task('deploy', function (cb) {
@@ -152,14 +168,16 @@ gulp.task('prod', function (cb) {
 });
 
 gulp.task('build', function(cb) {
-	runSequence(['js', 'less', 'html', 'md', 'lib'], 'clean-html', cb);
+	runSequence(['js', 'less', 'html', 'md', 'lib', 'fonts'], 'clean-html', cb);
 });
 
 gulp.task('watch', ['build'], function () {
 	gulp.watch('src/js/**/*.js', ['js']);
 	gulp.watch('src/less/**/*.less', ['less']);
 	gulp.watch('src/**/*.ejs', ['html']);
-	gulp.watch(['src/content/**/*.md', 'src/content/content.json'], ['md']);
+	gulp.watch('src/content/**/*.md', ['md']);
+	gulp.watch('src/content/content.json', ['reload'])
 	gulp.watch('src/lib/**/*', ['lib']);
+	gulp.watch('src/fonts/**/*', ['lib']);
 
 });

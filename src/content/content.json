@@ -1,10 +1,71 @@
 {
+	"navbar": [
+		{
+			"type": "link",
+			"title": "Get Started",
+			"goto": ""
+		},
+		{
+			"type": "link",
+			"title": "Basics",
+			"goto": "what-is-garlicoin"
+		},
+		{
+			"type": "category",
+			"title": "Wallet",
+			"contains": [
+				{
+					"title": "Windows",
+					"goto": "wallet-win"
+				},
+				{
+					"title": "Mac",
+					"goto": "wallet-mac"
+				},
+				{
+					"title": "Linux",
+					"goto": "wallet-nix"
+				},
+				{
+					"title": "Web",
+					"goto": "wallet-web"
+				}
+			]
+		},
+		{
+			"type": "category",
+			"title": "Mining",
+			"contains": [
+				{
+					"type": "link",
+					"title": "CPU",
+					"goto": "mining-cpu"
+				},
+				{
+					"type": "link",
+					"title": "Windows Nvidia",
+					"goto": "mining-win-nvidia"
+				},
+				{
+					"type": "link",
+					"title": "Windows AMD",
+					"goto": "mining-win-amd"
+				}
+			]
+		}
+	],
 	"content": {
 		"default": {
 			"value": "get-started",
 			"title": "Getting Started"
 		},
 		"get-started": {
+			"what-is-garlicoin": {
+				"type": "link",
+				"title": "What Is Garlicoin",
+				"icon": "fas fa-question",
+				"description": "Learn the basics of Garlicoin."
+			},
 			"get-wallet": {
 				"type": "category",
 				"title": "Wallet",
@@ -42,6 +103,32 @@
 				"title": "Web Wallet",
 				"icon": "fas fa-globe",
 				"description": "Get a wallet using the web client breadbox."
+			}
+		},
+		"get-miner": {
+			"how-to-mine": {
+				"type": "link",
+				"title": "How To Mine",
+				"icon": "fas fa-question",
+				"description": "Learn the basics of mining and the different choices you will have to make."
+			},
+			"mining-cpu": {
+				"type": "link",
+				"title": "CPU",
+				"icon": "fas fa-microchip",
+				"description": "Learn to mine using your processor (CPU) on all platforms."
+			},
+			"mining-win-nvidia": {
+				"type": "link",
+				"title": "Windows Nvidia",
+				"icon": "custom-icon icon-nvidia",
+				"description": "Learn to mine using your Nvidia GPU on Windows."
+			},
+			"mining-win-amd": {
+				"type": "link",
+				"title": "Windows AMD",
+				"icon": "custom-icon icon-amd",
+				"description": "Learn to mine using your AMD GPU on Windows."
 			}
 		}
 	}

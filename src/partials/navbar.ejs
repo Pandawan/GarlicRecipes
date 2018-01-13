@@ -12,6 +12,28 @@
 
 	<div id="navbarMenu" class="navbar-menu">
 		<div class="navbar-start">
+			<% for (var item in navbar) { %>
+				<% if (navbar[item].type == 'category') { %>
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link">
+							<%- navbar[item].title %>
+						</a>
+						<div class="navbar-dropdown is-boxed">
+							<% for (var containedIndex in navbar[item]['contains']) { %>
+								<% var containedItem = navbar[item]['contains'][containedIndex]; %>
+								<a class="navbar-item" href="./<%- (containedItem.goto ? containedItem.goto + '.html' : '') %>">
+									<%- containedItem.title %>
+								</a>
+							<% } %>
+						</div>
+					</div>
+				<% } else if (navbar[item].type == 'link') { %>
+					<a class="navbar-item" href="./<%- (navbar[item].goto ? navbar[item].goto + '.html' : '') %>">
+						<%- navbar[item].title %>
+					</a>
+				<% } %>
+			<% } %>
+			<!--
 			<a class="navbar-item" href="./">
 				Get Started
 			</a>
@@ -47,6 +69,7 @@
 					</a>
 				</div>
 			</div>
+			-->
 		</div>
 	</div>
 </nav>
