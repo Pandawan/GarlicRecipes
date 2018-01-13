@@ -144,6 +144,7 @@ gulp.task('less', function (cb) {
 	], cb);
 });
 
+// Copy fonts over to build
 gulp.task('fonts', function (cb) {
 	pump([
 		gulp.src('src/fonts/**/*'),
@@ -165,20 +166,24 @@ gulp.task('reload', function (cb) {
 	runSequence(['html', 'md'], cb);
 });
 
+// Upload to GitHub Pages
 gulp.task('deploy', function (cb) {
 	runSequence('clean', 'build', 'clean-html', function () {
 		ghpages.publish('dist', cb);
 	});
 });
 
+// Build everything as if you were deploying
 gulp.task('prod', function (cb) {
 	runSequence('clean', 'build', 'clean-html');
 });
 
+// Build everything
 gulp.task('build', function(cb) {
 	runSequence(['js', 'less', 'html', 'md', 'lib', 'fonts', 'files'], 'clean-html', cb);
 });
 
+// Watch for files and build
 gulp.task('watch', ['build'], function () {
 	gulp.watch('src/js/**/*.js', ['js']);
 	gulp.watch('src/less/**/*.less', ['less']);
