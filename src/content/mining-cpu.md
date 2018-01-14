@@ -1,3 +1,5 @@
+### Warning: CPU Mining isn't recommended as the likeliness of mining a block with it is very low. Try GPU mining instead.
+
 # Table of Contents
 - [Windows](#windows)
 - [Mac](#mac)
@@ -9,6 +11,8 @@ Make sure that you have already setup a wallet and that your network is running 
 ## Step 1: Downloading the Files
 First you will need to dowload the CPU miner files [here](./files/miner-cpu-win.zip).  
 Extract the files in your installation folder (if you have followed the wallet guides it should be `C:\Garlic\`).
+
+![Image of CPU Miner Files](https://i.imgur.com/6Nwy2dC.png)
 
 ## Step 2: Set Up
 This miner uses a different system for different types of CPUs. Follow the section for your own CPU.  
@@ -28,6 +32,8 @@ Edit the `Run-Miner-Solo-CPU.bat` file (Right Click > Edit), and change the star
 Also, change the address (`ADDRESS`) after `--coinbase-addr=` to whatever you Garlicoin address is.  
 *If mining does not work, consider following the regular Intel steps instead.*
 
+![Image of Bat File For Solo](https://i.imgur.com/n6CyWMp.png)
+
 ## Step 3: Starting the Network
 From the Wallet guide, make sure that you have your network running. (You can do so by running `Run-Network.bat` if you haven't already).  
 
@@ -38,6 +44,8 @@ If you wish to use a pool instead of solo mining (you can learn more about the d
 Edit the `Run-Miner-Pool-CPU.bat` file (Right Click > Edit), and follow the same steps as [Step 2](#step-2-set-up) (only this time, there won't be a `--coinbase-addr`).  
 Then, replace the `POOL` to the pool's address (you can find some available pools [here](pool-mining.html#test-net)).  
 Once that is done, replace the `ADDRESS` (which is right after `-u`) to your address.  
+
+![Image of Bat File For Pool](https://i.imgur.com/puFRTqU.png)
 <br>
 
 You can now mine using a pool. Simply run your `Run-Miner-Pool-CPU.bat` and you should be good to go.  

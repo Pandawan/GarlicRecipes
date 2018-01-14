@@ -8,8 +8,8 @@ Setting up the network is fast and very easy. It allows your computer to connect
 
 ## Step 1. Downloading the Files
 First, you will need to download the updated wallet files from [here](./files/wallet-win.zip).  
-Once that is done, open the file and extract all of its content into a folder (In this tutorial, we will use `C:\Garlic\`).
-![Image of Garlic Folder with all the Files]()
+Once that is done, open the file and extract all of its content into a folder (In this tutorial, we will use `C:\Garlic\`).  
+![Garlic Folder With Files](https://i.imgur.com/YYqtODB.png)
 
 ## Step 2. Connecting to the Network
 This can be done in two ways, the Graphical Way (Recommended) and the Command Line way.  
@@ -32,7 +32,7 @@ Windows might ask you for Firewall Access, Allow it.
 The program will not say anything, let it sit in the background. **Do not close it.**  
 *You will have to run this any time you wish to use your wallet (or when solo mining).*
 
-![Image of Command Prompt with Network Running]()
+![Image of Command Prompt with Network Running](https://i.imgur.com/giEoOqZ.png)
 
 ## Step 3. Moving .conf File to Roaming\Garlicoin
 Back to your Garlic folder, there should be a file called `garlicoin.conf`. This file needs to be moved to the `Garlicoin` folder found in `AppData\Roaming`.  
@@ -58,7 +58,7 @@ This should return a series of letters and numbers. This is your address. Make s
 
 *Whenever someone wants to pay you, you can send them this address*
 
-![Image of GetNewAddress]()
+![Image of GetNewAddress](https://i.imgur.com/pjSUslM.png)
 
 ## Step 3. Getting Wallet Info
 To make sure that you have done everything right (or to view your balance), you can type: `garlicoin-cli -testnet getwalletinfo` in that same Command Prompt.  
