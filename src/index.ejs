@@ -7,7 +7,7 @@
 
 <body>
 	<%- include partials/navbar %>
-		<section class="hero is-info is-medium">
+		<section class="hero is-info is-medium is-garlic">
 			<div class="hero-body smaller-hero-body">
 				<div class="container">
 					<h1 class="title is-1">
@@ -32,12 +32,12 @@
 										<div class="columns">
 									<% } %>
 									<div class="column is-one-third">
-										<div class="card start-box" id="<%- cardId %>" <%- (card.type == 'category' ? 'data-category="' + cardId + '"' : '') %> <%- (card.type == 'link' ? 'data-link="./' + cardId + '.html"' : '') %> <%- 'data-title="' + card.title + '"' %> >
+										<div class="card start-box" id="<%- cardId %>" <%- (card.type == 'category' ? 'data-category="' + cardId + '"' : '') %> <%- (card.type == 'link' ? 'data-link="' + (card.goto ? card.goto + '"' : './' + cardId + '.html"') : '') %> <%- 'data-title="' + card.title + '"' %> >
 											<div class="card-content">
 												<span class="icon is-info">
 													<i class="<%- card.icon %> fa-4x" id="<%- cardId %>-icon" %> ></i>
 												</span>
-												<h1 class="subtitle is-3"><%- card.title %></h1>
+												<h1 class="subtitle <%- (card.title && card.title.length > 20) ? 'is-4' : 'is-3' %>"><%- card.title %></h1>
 												<p><%- card.description %></p>
 											</div>
 										</div>

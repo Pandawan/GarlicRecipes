@@ -1,1 +1,84 @@
-WIN WALLET FILE
+# Table of Contents
+- [Setting Up The Network](#setting-up-the-network)
+- [Getting A Wallet](#getting-a-wallet)
+- [Troubleshooting](#troubleshooting)
+
+# Setting Up The Network
+Setting up the network is fast and very easy. It allows your computer to connect to the Garlicoin Network.
+
+## Step 1. Downloading the Files
+First, you will need to download the updated wallet files from [here](./files/wallet-win.zip).  
+Once that is done, open the file and extract all of its content into a folder (In this tutorial, we will use `C:\Garlic\`).
+![Image of Garlic Folder with all the Files]()
+
+## Step 2. Connecting to the Network
+This can be done in two ways, the Graphical Way (Recommended) and the Command Line way.  
+
+### Graphical Way
+In your installation folder, there should be a file called `Run-Network.bat`.  
+Open that file; a command prompt window should open. Make sure you Allow Access through your firewall (if it asks you).  
+<br>
+
+The program will not say anything, let it sit in the background. **Do not close it.**  
+*You will have to open this any time you wish to use your wallet (or when solo mining).*  
+
+### Command Line Way
+For the more experienced, open a Command Prompt.  
+Navigate to your Garlic folder using `cd`.  
+Once that is done, run the command: `garlicoind -testnet -connect=52.89.91.13`.
+Windows might ask you for Firewall Access, Allow it.  
+<br>
+
+The program will not say anything, let it sit in the background. **Do not close it.**  
+*You will have to run this any time you wish to use your wallet (or when solo mining).*
+
+![Image of Command Prompt with Network Running]()
+
+## Step 3. Moving .conf File to Roaming\Garlicoin
+Back to your Garlic folder, there should be a file called `garlicoin.conf`. This file needs to be moved to the `Garlicoin` folder found in `AppData\Roaming`.  
+<br>
+
+To access this folder, Open **RUN** (Windows + R), and type `%appdata%`. This should open a folder, locate the `Garlicoin` folder and move the `garlicoin.conf` file to it.
+
+## Step 4. Restart the Network
+Just to be sure that everything was done correctly. Close your Network window (the one `Run-Network.bat` one) by holding **Ctrl + C**.  
+Now repeat **Step 2**, you should be good to go.  
+<br>
+
+# Getting a Wallet
+Once you have gotten the Network up and running, you will need to get a wallet address.  
+
+## Step 1. Using the Command Prompt
+Open a **Command Prompt**. You will now need to navigate to your installation folder; you can do so like this:  
+Type `cd C:\Garlic\` and press Enter.  
+
+## Step 2. Getting a New Address
+In the Command Prompt, type this command: `garlicoin-cli -testnet getnewaddress`.  
+This should return a series of letters and numbers. This is your address. Make sure that you copy it and keep it somewhere.  
+
+*Whenever someone wants to pay you, you can send them this address*
+
+![Image of GetNewAddress]()
+
+## Step 3. Getting Wallet Info
+To make sure that you have done everything right (or to view your balance), you can type: `garlicoin-cli -testnet getwalletinfo` in that same Command Prompt.  
+This should give you information about your balance, wallet, when your last transaction was...  
+<br>
+
+That's it! You are done!
+
+# Troubleshooting
+
+## json\_rpc\_call failed, retry after 10 seconds
+If you are getting this error, let it keep retrying. It should correct itself soon.
+
+## garlicoind is not recognized
+If you are getting this eror, it means that your Command Prompt is not opened in your installation directory. 
+Make sure that you have used `cd C:\Path\To\Garlic\Folder` before running your command.
+
+## garlicoin-cli is not recognized
+If you are getting this eror, it means that your Command Prompt is not opened in your installation directory. 
+Make sure that you have used `cd C:\Path\To\Garlic\Folder` before running your command.
+
+## HELP!
+If the above troubleshooting steps do not work. You can ask in the Discord chat `#troubleshooting` or `#windows-mining` or contact me `@Pandawan#4158`.

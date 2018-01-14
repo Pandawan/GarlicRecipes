@@ -58,6 +58,11 @@
 					"goto": "mining-win-amd"
 				}
 			]
+		},
+		{
+			"type": "link",
+			"title": "Updates",
+			"goto": "updates"
 		}
 	],
 	"content": {
@@ -83,9 +88,28 @@
 				"title": "Mining",
 				"icon": "fa fa-server",
 				"description": "Learn to mine on the network using your CPU or GPU."
+			},
+			"updates": {
+				"type": "link",
+				"title": "Updates",
+				"icon": "fas fa-newspaper",
+				"description": "Get updates on Garlicoin and what you need to change in your setup"
+			},
+			"explorer": {
+				"type": "link",
+				"title": "Explorer",
+				"icon": "fas fa-globe",
+				"description": "Access the Garlicoin Block Explorer to see all the transactions.",
+				"goto": "http://explorer.garlicoin.io/"
 			}
 		},
 		"get-wallet": {
+			"wallet-electrum": {
+				"type": "link",
+				"title": "Electrum (Recommended)",
+				"icon": "custom-icon icon-electron",
+				"description": "Get an easy to use wallet app for all platforms."
+			},
 			"wallet-win": {
 				"type": "link",
 				"title": "Windows Wallet",
@@ -108,13 +132,8 @@
 				"type": "link",
 				"title": "Web Wallet",
 				"icon": "fas fa-globe",
-				"description": "Get a wallet using the web client breadbox."
-			},
-			"wallet-electrum-win": {
-				"type": "link",
-				"title": "Electrum (Windows)",
-				"icon": "custom-icon icon-electron",
-				"description": "Get an easy to use wallet app for Windows."
+				"description": "Get a wallet using the web client breadbox.",
+				"goto": "https://breadbox.xyz"
 			}
 		},
 		"get-miner": {
@@ -123,6 +142,12 @@
 				"title": "How To Mine",
 				"icon": "fas fa-question",
 				"description": "Learn the basics of mining and the different choices you will have to make."
+			},
+			"pool-mining": {
+				"type": "link",
+				"title": "Pool Mining",
+				"icon": "fas fa-server",
+				"description": "Learn more about pool mining, and the different pools that are available."
 			},
 			"mining-cpu": {
 				"type": "link",

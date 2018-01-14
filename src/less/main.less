@@ -7,6 +7,23 @@
 	margin-bottom: 5em;
 }
 
+.is-garlic {
+	//background: linear-gradient(to right, #ffda35 0%, #ffae59 100%) !important;
+	background: #FFCA42 !important;
+}
+
+.container img {
+	max-width: 75%;
+	//display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	//margin: 1em auto;
+}
+
+li {
+	padding-left: 1em;
+}
+
 /* Getting Started Page */
 .start-box {
 	padding: 1em;
@@ -65,13 +82,26 @@ h2:not(.title):not(.subtitle) {
 }
 
 h3:not(.title):not(.subtitle) {
+	color: #696969;
 	font-size: 1.15rem;
-	font-weight: 400;
+	font-weight: 600;
 	margin-top: 1.25rem;
+}
+
+h4:not(.title):not(.subtitle) {
+	color: #696969;
+	font-size: 1.1rem;
 }
 
 
 /* Media Queries */
+@media (min-width: 1216px) { 
+	.smaller-hero-body {
+		padding-top: 14rem !important;
+		padding-bottom: 14rem !important;
+	}
+}
+
 @media (min-width: 1400px) { 
 	.smaller-hero-body {
 		padding-top: 16rem !important;
