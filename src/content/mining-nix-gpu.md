@@ -1,0 +1,1 @@
+A guide is currently in the works. For now, you can follow [this guide](https://docs.google.com/document/d/1sm9ukRzXaT3fBbYx4hUsZmpQrd-RkNVQ2OD1W6r46ew/edit) by `@Daswf852#5539`.

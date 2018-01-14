@@ -13,6 +13,10 @@
 			"type": "category",
 			"title": "Wallet",
 			"contains": [{
+					"title": "Electrum (Recommended)",
+					"goto": "wallet-electrum"
+				},
+				{
 					"title": "Windows",
 					"goto": "wallet-win"
 				},
@@ -26,11 +30,8 @@
 				},
 				{
 					"title": "Web",
-					"goto": "wallet-web"
-				},
-				{
-					"title": "Electrum (Win)",
-					"goto": "wallet-electrum-win"
+					"external": true,
+					"goto": "https://breadbox.xyz"
 				}
 			]
 		},
@@ -41,6 +42,11 @@
 					"type": "link",
 					"title": "How To Mine",
 					"goto": "how-to-mine"
+				},
+				{
+					"type": "link",
+					"title": "Pool Mining",
+					"goto": "pool-mining"
 				},
 				{
 					"type": "link",
@@ -56,6 +62,11 @@
 					"type": "link",
 					"title": "Windows AMD",
 					"goto": "mining-win-amd"
+				},
+				{
+					"type": "link",
+					"title": "Linux GPU",
+					"goto": "mining-nix-gpu"
 				}
 			]
 		},
@@ -159,13 +170,19 @@
 				"type": "link",
 				"title": "Windows Nvidia",
 				"icon": "custom-icon icon-nvidia",
-				"description": "Learn to mine using your Nvidia GPU on Windows."
+				"description": "Learn to mine using your Nvidia GPU on Windows with CCMiner."
 			},
 			"mining-win-amd": {
 				"type": "link",
 				"title": "Windows AMD",
 				"icon": "custom-icon icon-amd",
-				"description": "Learn to mine using your AMD GPU on Windows."
+				"description": "Learn to mine using your AMD GPU on Windows with YACMiner."
+			},
+			"mining-nix-gpu": {
+				"type": "link",
+				"title": "Linux GPU",
+				"icon": "fab fa-linux",
+				"description": "Learn to mine using your Nvidia or AMD GPU on Linux."
 			}
 		}
 	}
