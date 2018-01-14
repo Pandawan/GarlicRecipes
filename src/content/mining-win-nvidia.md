@@ -11,7 +11,7 @@ First you will want to download this special [Solo Miner](https://cryptomining-b
 
 ## Step 2: Setting Up the Miner
 Now you will want to create a new text file and rename it to `Run-Miner-Solo-Nvidia.bat` (**Make sure the file ends with .bat**).  
-Edit the file (Right Click > Edit), and enter this `ccminer.exe --algo="scrypt:11" -o 127.0.0.1:42070 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS` (make sure that you replace `ADDRESS` to your address).
+Edit the file (Right Click > Edit), and enter this `ccminer.exe --algo=scrypt:11 -o 127.0.0.1:42070 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS` (make sure that you replace `ADDRESS` to your address).
 
 ## Step 3: Start Mining
 Make sure that your network is running, and you can open `Run-Miner-Solo-Nvidia.bat`!  
@@ -28,7 +28,7 @@ Download this special [Pool Miner](https://github.com/tpruvot/ccminer/releases) 
 Now you will want to create a new text file and rename it to `Run-Miner-Pool-Nvidia.bat` (**Make sure the file ends with .bat**).  
 Edit the file (Right Click > Edit), and enter this 
 ```
-ccminer-x64 --algo="scrypt:11" -o POOL -u ADDRESS -listen
+ccminer-x64 --algo=scrypt:11 -o POOL -u ADDRESS -listen
 pause
 ```  
 Then, replace the `POOL` to the pool's address (you can find some available pools [here](pool-mining.html#test-net)).  
@@ -41,7 +41,8 @@ The miner might take a while to calibrate, it can take between 1 to 10 minutes.
 # Troubleshooting
 
 ## get_work errors
-If you get any get_work errors, then your network or connection is not working. Make sure that your network is running.  
+If you get any get_work errors, then something is wrong with your network. Make sure that your network is running.  
+**You should also try waiting a couple of minutes before mining, the network might be downloading the blockchain.**
 If it still doesn't work, make sure that you are using the correct miner with the correct `bat` file, the Solor Miner is different from the Pool one.
 
 ## HELP!
