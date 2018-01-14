@@ -1,15 +1,5 @@
-# Garlicoin Help
+# Garlic Recipes
 Helper Website for Garlicoin
-
-## TODO
-- Change logo from Bulma to real one
-- Change website name
-
-Possible Names:
-- Garlic Guide
-- Garlic Book
-- Garlic Recipes
-- Garlic Chef
 
 ## Contribute
 If you want to contribute a tutorial, you can submit a Pull Request.  

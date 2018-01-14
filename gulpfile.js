@@ -34,7 +34,7 @@ gulp.task('html', function (cb) {
 	pump([
 		gulp.src('src/*.ejs'),
 		ejs({
-			site_title: 'Garlic Helper',
+			site_title: 'Garlic Recipes',
 			content: content['content'],
 			navbar: content['navbar']
 		}, {}, {
@@ -51,7 +51,7 @@ gulp.task('md', ['html'], function (cb) {
 		gulp.src('src/content/**/*.md'),
 		marked(),
 		ejs({
-			site_title: 'Garlic Helper',
+			site_title: 'Garlic Recipes',
 			page_title: 'PAGE_TITLE',
 			content: content['content'],
 			navbar: content['navbar']
@@ -152,6 +152,14 @@ gulp.task('fonts', function (cb) {
 	], cb);
 });
 
+// Copy images over to build
+gulp.task('images', function (cb) {
+	pump([
+		gulp.src('src/images/**/*'),
+		gulp.dest('dist/images')
+	], cb);
+});
+
 
 // Remove previous build
 gulp.task('clean', function (cb) {
@@ -180,7 +188,7 @@ gulp.task('prod', function (cb) {
 
 // Build everything
 gulp.task('build', function(cb) {
-	runSequence(['js', 'less', 'html', 'md', 'lib', 'fonts', 'files'], 'clean-html', cb);
+	runSequence(['js', 'less', 'html', 'md', 'lib', 'fonts', 'files', 'images'], 'clean-html', cb);
 });
 
 // Watch for files and build
@@ -193,5 +201,6 @@ gulp.task('watch', ['build'], function () {
 	gulp.watch('src/lib/**/*', ['lib']);
 	gulp.watch('src/fonts/**/*', ['fonts']);
 	gulp.watch('src/files/**/*', ['files']);
+	gulp.watch('src/images/**/*', ['images']);
 
 });
