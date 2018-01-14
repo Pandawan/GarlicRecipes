@@ -74,9 +74,18 @@ function dataCategories() {
 	});
 }
 
+function setupTables() {
+	const tables = document.querySelectorAll('table');
+
+	tables.forEach((table) => {
+		table.classList.add('table');
+	});
+}
+
 document.addEventListener('DOMContentLoaded', () => {
 	setupNavBar();
 	// getStarted();
 	dataLinks();
 	dataCategories();
+	setupTables();
 });
