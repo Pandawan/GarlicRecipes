@@ -16,7 +16,7 @@ Here is a list of most available pools
 | GarlicMine       |              | http://garlicmine.com       | stratum+tcp://garlicmine.com:3333         |
 | Bakery           | @Vilsol#2060 | http://grlc-bakery.fun/     | stratum+tcp://pool.grlc-bakery.fun:3333   |
 | Plexbox          |              | https://garlic.plexbox.one  | stratum+tcp://garlic.plexbox.one:3032     |
-| Rich Garlic Boye | @Reap#3306   | http://rich.garlicboye.com/ |  stratum+tcp://rich.garlicboye.com:3333   |
+| Rich Garlic Boye | @Reap#3306   | http://rich.garlicboye.com/ | stratum+tcp://rich.garlicboye.com:3333    |
 
 <br>
 

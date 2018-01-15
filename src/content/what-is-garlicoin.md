@@ -5,7 +5,6 @@ This is the coin you never thought you needed, and you probably don't.
 
 # What is it?
 Okay, for real, Garlicoin is a new cryptocurrency created by the Garlicoin Team.  
-It first started as as Reddit bot which could give out fake coins as a tip, but quickly turned into a real project after the creator [announced](https://redd.it/7m31xh) that they would create a real coin.  
 It is a fork (modified version) of litecoin and therefore works very similarly to it.
 
 # Wallet
