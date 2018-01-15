@@ -3,8 +3,8 @@ First, you might want to learn more about Garlicoin, which you can do [here](./w
 
 ## Step 2: Wallet
 Once you have done that, you will want to get a Wallet (so you can have your own GRLC).  
-It is **recommended** that you get the [Electrum wallet](./wallet-electrum.html), a user-friendly app that you can download.  
-**If you plan on mining**, you should get one of the official wallets.  
+It is **recommended** that you get the [Electrum wallet](./wallet-electrum.html), a user-friendly GUI app that you can download.  
+**If you plan on solo mining**, you should get one of the official wallets (Command Only).  
 - [Windows](./wallet-win.html)
 - [Mac](./wallet-mac.html)
 - [Linux](./wallet-nix.html)
@@ -14,6 +14,7 @@ There is also an [online wallet](https://breadbox.xyz), which is easier to use, 
 ## Step 3: Mining
 If you want to mine, you need to learn more about the different choices you will have to make when mining, you can do so [here](./how-to-mine.html).  
 Once you know what you want to do (CPU vs GPU, Solo vs Pool), then you can choose its corresponding guide.  
+**GPU Pool Mining is recommended** as it has the highest success rate.
 - [CPU (all)](./mining-cpu.html)
 - [Windows Nvidia](./mining-win-nvidia.html)
 - [Windows AMD](./mining-win-amd.html)
