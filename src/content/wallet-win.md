@@ -73,6 +73,9 @@ To make sure that you have done everything right (or to view your balance), you 
 This should give you information about your balance, wallet, when your last transaction was...  
 <br>
 
+## Step 4. Sending To Someone Else
+If you ever wish to send Garlicoin to someone. You can use this command `garlicoin-cli sendtoaddress <bitcoinaddress> <amount>`.
+
 That's it! You are done!
 
 # Troubleshooting
