@@ -21,14 +21,14 @@
 						<div class="navbar-dropdown is-boxed">
 							<% for (var containedIndex in navbar[item]['contains']) { %>
 								<% var containedItem = navbar[item]['contains'][containedIndex]; %>
-								<a class="navbar-item" href="<%- ( containedItem.external ? containedItem.goto : (containedItem.goto ? './' + containedItem.goto + '.html' : '')) %>">
+								<a class="navbar-item" href="<%- ( containedItem.external ? containedItem.goto : (containedItem.goto ? './' + containedItem.goto + '.html' : './')) %>">
 									<%- containedItem.title %>
 								</a>
 							<% } %>
 						</div>
 					</div>
 				<% } else if (navbar[item].type == 'link') { %>
-					<a class="navbar-item" href="<%- (navbar[item].external ? navbar[item].goto : (navbar[item].goto ? './' + navbar[item].goto + '.html' : '')) %>">
+					<a class="navbar-item" href="<%- (navbar[item].external ? navbar[item].goto : (navbar[item].goto ? './' + navbar[item].goto + '.html' : './')) %>">
 						<%- navbar[item].title %>
 					</a>
 				<% } %>

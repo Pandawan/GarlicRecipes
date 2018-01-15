@@ -6,6 +6,11 @@
 		},
 		{
 			"type": "link",
+			"title": "Where To Start",
+			"goto": "where-to-start"
+		},
+		{
+			"type": "link",
 			"title": "Basics",
 			"goto": "what-is-garlicoin"
 		},
@@ -82,6 +87,12 @@
 			"title": "Getting Started"
 		},
 		"get-started": {
+			"where-to-start": {
+				"type": "link",
+				"title": "Where To Start",
+				"icon": "fas fa-play-circle",
+				"description": "Get Started with Garlicoin"
+			},
 			"what-is-garlicoin": {
 				"type": "link",
 				"title": "What Is Garlicoin",

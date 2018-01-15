@@ -50,11 +50,13 @@ Once you have gotten the Network up and running, you will need to get a wallet a
 
 ## Step 1. Using the Command Prompt
 Open a **Command Prompt**. You will now need to navigate to your installation folder; you can do so like this:  
-Type `cd C:\Garlic\` and press Enter.  
+If you have installed on a different drive, you need to type the letter of your drive followed by a collon. For example, drive F would be `F:`. Then press enter.
+Type `cd C:\Garlic\` (or whatever your installation folder is) and press Enter . 
 
 ## Step 2. Getting a New Address
 In the Command Prompt, type this command: `garlicoin-cli -testnet getnewaddress`.  
 This should return a series of letters and numbers. This is your address. Make sure that you copy it and keep it somewhere.  
+(To copy from the Command Prompt, select the address with your mouse and then right click).  
 
 *Whenever someone wants to pay you, you can send them this address*
 

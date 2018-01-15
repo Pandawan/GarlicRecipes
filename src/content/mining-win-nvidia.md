@@ -42,7 +42,7 @@ The miner might take a while to calibrate, it can take between 1 to 10 minutes.
 
 ## get_work errors
 If you get any get_work errors, then something is wrong with your network. Make sure that your network is running.  
-**You should also try waiting a couple of minutes before mining, the network might be downloading the blockchain.**
+**You should also try waiting a couple of minutes before mining, the network might be downloading the blockchain.**  
 If it still doesn't work, make sure that you are using the correct miner with the correct `bat` file, the Solor Miner is different from the Pool one.
 
 ## HELP!
