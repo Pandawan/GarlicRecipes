@@ -45,5 +45,11 @@ If you get any get_work errors, then something is wrong with your network. Make 
 **You should also try waiting a couple of minutes before mining, the network might be downloading the blockchain.**  
 If it still doesn't work, make sure that you are using the correct miner with the correct `bat` file, the Solor Miner is different from the Pool one.
 
+## all cuda capable devices are busy or unavailable
+Disabling DSR factors in nvidia control panel should fix the error.
+
+## Spamming 0 kH/s
+Disabling DSR factors in nvidia control panel should fix the error.
+
 ## HELP!
 If the above troubleshooting steps do not work. You can ask in the Discord chat `#troubleshooting` or `#windows-mining` or contact me `@Pandawan#4158`. 
