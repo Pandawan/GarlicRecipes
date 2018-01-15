@@ -45,6 +45,12 @@ Just to be sure that everything was done correctly. Close your Network window (t
 Now repeat **Step 2**, you should be good to go.  
 <br>
 
+## Step 5. Download the Blockchain
+While keeping your network window open, Open a new Command Prompt.  
+Navigate to your Garlicoin folder (use `cd C:\Garlic\`), and type `garlicoin-cli -testnet getinfo`.  
+Keep using that command until the number of blocks stops changing.  
+If it stops changing (after you run the command a bunch of times), it means that you have downloaded all of the blockchain and can now move to the next step.
+
 # Getting a Wallet
 Once you have gotten the Network up and running, you will need to get a wallet address.  
 
