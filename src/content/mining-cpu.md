@@ -52,9 +52,23 @@ You can now mine using a pool. Simply run your `Run-Miner-Pool-CPU.bat` and you 
 If the console returns something like *[2018-01-06 23:00:23] accepted: 4/4 (diff 0.000), 82.67 kH/s yes!* then you have mined a block! 
 
 # Mac
-Mac and Linux guides are currently not available. If you wish to contribute to this site, please create a pull request [here](https://github.com/PandawanFr/GarlicoinHelp/pulls).  
+Mac guides are currently not available. If you wish to contribute to this site, please create a pull request [here](https://github.com/PandawanFr/GarlicoinHelp/pulls).  
 For now, you can follow [this guide](https://pastebin.com/p1RksRwb) by `@Vilsol#2060`, which should get you going (although it is not as detailed as a normal guide). 
 
 # Linux
-Mac and Linux guides are currently not available. If you wish to contribute to this site, please create a pull request [here](https://github.com/PandawanFr/GarlicoinHelp/pulls).  
-For now, you can follow [this guide](https://pastebin.com/p1RksRwb) by `@Vilsol#2060`, which should get you going (although it is not as detailed as a normal guide). 
+
+## Step 1: Download and build cpuminer-multi
+Clone from the [project Github repo](https://github.com/tpruvot/cpuminer-multi) into a directory of your choice. Following the instructions in the project's README, run `./build.sh` in the new directory, and install any prerequisites as specified by your environment. 
+
+## Step 2: Run the miner
+
+### Step 2a: Run the miner on a pool
+You'll need to specify the pool address, your wallet, and the algorithm:
+`./cpuminer --algo=scrypt:4096 -o stratum+tcp://5.196.13.45:3333 -u  <your wallet address here>`
+This uses the following pool: `grlc-bakery.fun:3333`
+
+### Step 2b: Run the miner solo
+While running a node locally, you'll specify your node's address, your wallet, and the algorithm:
+`./cpuminer --algo=scrypt:4096 -o 127.0.0.1:42070 -u  <your wallet address here>`
+
+You're should now see your hashrate and, eventually, confirmed blocks. 
