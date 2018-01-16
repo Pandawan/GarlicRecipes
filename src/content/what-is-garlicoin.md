@@ -22,7 +22,7 @@ You can learn more about how blockchain works [here](https://www.youtube.com/wat
 Miners can only use their CPU (Processor) and GPU (Graphics Card) to mine Garlicoin as it is ASIC resistant; meaning that it will try to block mining on mining-specific hardware.
 
 # Test-Net vs Main-Net
-We are currently on the test-net. These garlicoins are worth nothing. You are simply testing the network, testing mining etc. However this will function just like main-net. If you are mining thousands of testnet GRLC chances are you will do the same on main-net.  
+We are currently on the test-net. These garlicoins are worth nothing. You are simply testing the network, testing mining etc. However this will function just like main-net. If you are mining thousands of testnet GRLC, chances are you will do the same on main-net. The main-net is expected to release on 1/21/18 (at 2PM EST).
 <br>
 
 MAIN-NET (real garlicoin) addresses will start with G.  

@@ -4,6 +4,7 @@
 - [Windows](#windows)
 - [Mac](#mac)
 - [Linux](#linux)
+- [Troubleshooting](#troubleshooting)
 
 # Windows
 Make sure that you have already setup a wallet and that your network is running correctly! You can check out the [Windows Wallet Guide](wallet-win.html) to learn more.
@@ -58,3 +59,11 @@ For now, you can follow [this guide](https://pastebin.com/p1RksRwb) by `@Vilsol#
 # Linux
 Mac and Linux guides are currently not available. If you wish to contribute to this site, please create a pull request [here](https://github.com/PandawanFr/GarlicoinHelp/pulls).  
 For now, you can follow [this guide](https://pastebin.com/p1RksRwb) by `@Vilsol#2060`, which should get you going (although it is not as detailed as a normal guide). 
+
+# Troubleshooting
+
+## HTTP request failed: Failed to connect to 127.0.0.1 port 42070: Connection refused
+If you are trying to Solo mine, make sure that your network is running! You can check out how to set it up on the wallet guides:
+- [Windows](./wallet-win.html)
+- [Mac](./wallet-mac.html)
+- [Linux](./wallet-nix.html)

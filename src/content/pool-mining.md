@@ -10,13 +10,14 @@ Check out the [Solo vs Pool](how-to-mine.html#solo-vs-pool) article to learn mor
 Here is a list of most available pools
 
 ## Test-Net
-| Name             | Owner        | Website                     | Address                                   |
-|------------------|--------------|-----------------------------|-------------------------------------------|
-| GarlicSoup       | @Martin#6614 | https://pool.garlicsoup.xyz | stratum+tcp://us.pool.garlicsoup.xyz:3333 |
-| GarlicMine       |              | http://garlicmine.com       | stratum+tcp://garlicmine.com:3333         |
-| Bakery           | @Vilsol#2060 | http://grlc-bakery.fun/     | stratum+tcp://pool.grlc-bakery.fun:3333   |
-| Plexbox          |              | https://garlic.plexbox.one  | stratum+tcp://garlic.plexbox.one:3032     |
-| Rich Garlic Boye | @Reap#3306   | http://rich.garlicboye.com/ | stratum+tcp://rich.garlicboye.com:3333    |
+| Name             | Owner                  | Website                     | Address                                   |
+|------------------|------------------------|-----------------------------|-------------------------------------------|
+| GarlicSoup       | @Martin#6614           | https://pool.garlicsoup.xyz | stratum+tcp://us.pool.garlicsoup.xyz:3333 |
+| GarlicMine       |                        | http://garlicmine.com       | stratum+tcp://garlicmine.com:3333         |
+| Bakery           | @Vilsol#2060           | http://grlc-bakery.fun/     | stratum+tcp://pool.grlc-bakery.fun:3333   |
+| Plexbox          |                        | https://garlic.plexbox.one  | stratum+tcp://garlic.plexbox.one:3032     |
+| Rich Garlic Boye | @Reap#3306             | http://rich.garlicboye.com/ | stratum+tcp://rich.garlicboye.com:3333    |
+| Garlic Lol       | @caffeinatedpizza#9601 | https://garlic.lol/         | stratum+tcp://pool.garlic.lol:3333        | 
 
 <br>
 

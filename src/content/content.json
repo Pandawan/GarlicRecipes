@@ -77,8 +77,13 @@
 		},
 		{
 			"type": "link",
-			"title": "Updates",
-			"goto": "updates"
+			"title": "Changes",
+			"goto": "changes"
+		},
+		{
+			"type": "link",
+			"title": "Download",
+			"goto": "download"
 		}
 	],
 	"content": {
@@ -111,11 +116,11 @@
 				"icon": "fa fa-server",
 				"description": "Learn to mine on the network using your CPU or GPU."
 			},
-			"updates": {
+			"changes": {
 				"type": "link",
-				"title": "Updates",
+				"title": "Changes",
 				"icon": "fas fa-newspaper",
-				"description": "Get updates on Garlicoin and what you need to change in your setup"
+				"description": "Get updates on Garlicoin and learn what you need to change in your setup"
 			},
 			"explorer": {
 				"type": "link",
@@ -196,5 +201,42 @@
 				"description": "Learn to mine using your Nvidia or AMD GPU on Linux."
 			}
 		}
-	}
+	},
+	"downloads": [
+		{
+			"id": "win-32",
+			"icon": "fab fa-windows",
+			"title": "Windows 32bit",
+			"description": "Download the latest pre-built patch for Windows 32bit",
+			"goto": "https://artifactory.grlc-bakery.fun/artifactory/list/garlicoin/i686-w64-mingw32/i686-w64-mingw32.zip"
+		},
+		{
+			"id": "win-64",
+			"icon": "fab fa-windows",
+			"title": "Windows 64bit",
+			"description": "Download the latest pre-built patch for Windows 64bit",
+			"goto": "https://artifactory.grlc-bakery.fun/artifactory/list/garlicoin/x86_64-w64-mingw32/x86_64-w64-mingw32.zip"
+		},
+		{
+			"id": "mac",
+			"icon": "fab fa-apple",
+			"title": "Mac",
+			"description": "Download the latest pre-built patch for macOS",
+			"goto": "https://artifactory.grlc-bakery.fun/artifactory/list/garlicoin/x86_64-apple-darwin11/x86_64-apple-darwin11.zip"
+		},
+		{
+			"id": "nix",
+			"icon": "fab fa-linux",
+			"title": "Linux",
+			"description": "Download the latest pre-built patch for Linux",
+			"goto": "https://artifactory.grlc-bakery.fun/artifactory/list/garlicoin/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu.zip"
+		},
+		{
+			"id": "arm",
+			"icon": "fas fa-microchip",
+			"title": "ARM",
+			"description": "Download the latest pre-built patch for ARM",
+			"goto": "https://artifactory.grlc-bakery.fun/artifactory/list/garlicoin/arm-linux-gnueabihf/arm-linux-gnueabihf.zip"
+		}
+	]
 }

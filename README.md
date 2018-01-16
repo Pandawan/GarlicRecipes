@@ -1,6 +1,11 @@
 # Garlic Recipes
 Helper Website for Garlicoin
 
+## TODO
+- Add pictures to most/all guides
+- Make Linux/Mac Guides
+- Make Windows AMD guide
+
 ## Contribute
 If you want to contribute a tutorial, you can submit a Pull Request.  
 

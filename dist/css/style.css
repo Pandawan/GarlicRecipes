@@ -38,6 +38,10 @@ i.custom-icon {
 .is-garlic {
   background: #FFCA42 !important;
 }
+.garlic-subtitle {
+  color: white;
+  font-weight: 600;
+}
 .container img {
   max-width: 75%;
   margin-top: 1em;
