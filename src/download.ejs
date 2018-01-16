@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" class="has-navbar-fixed-top">
+
+<% page_title = "Downloads" %>
+<% title = site_title + " - " + page_title; %>
+<%- include partials/head %>
+
+<body>
+	<%- include partials/navbar %>
+	<section class="hero is-info is-large is-garlic">
+		<div class="hero-body smaller-hero-body">
+			<div class="container">
+				<h1 class="title is-1">
+					<span class="icon btn-icon hidden" id="back-btn"><i class="fas fa-chevron-left"></i></span>
+					<span id="hero-title">
+						<%= page_title %>
+					</span>
+				</h1>
+				<h2 class="subtitle garlic-subtitle">
+					Download updated binaries here. These do not contain any of the extra files which are required in the guides.
+				</h2>
+				<div class="download-page default"  id="<%- key %>-page" >
+					<div class="columns">
+						<% var loopCounter = 0; %>
+						<% for (var key in download) { %>
+							<% if (!download.hasOwnProperty(key)) continue; %>
+							<% loopCounter += 1; %>
+							<% var card = download[key]; %>
+							<% if (loopCounter % 3 == 1 && loopCounter != 1) { %>
+								</div>
+								<div class="columns">
+							<% } %>
+							<div class="column is-one-third">
+								<div class="card start-box" id="<%- card.id %>" <%- 'data-link="' + (card.goto ? card.goto + '"' : '') %> <%- 'data-title="' + card.title + '"' %> >
+									<div class="card-content">
+										<span class="icon is-info">
+											<i class="<%- card.icon %> fa-4x" id="<%- card.id %>-icon" %> ></i>
+										</span>
+										<h1 class="subtitle <%- (card.title && card.title.length > 20) ? 'is-4' : 'is-3' %>"><%- card.title %></h1>
+										<p><%- card.description %></p>
+									</div>
+								</div>
+							</div>
+						<% } %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<%- include partials/footer %>
+  <script src="js/script.min.js"></script>
+</body>
+
+</html>

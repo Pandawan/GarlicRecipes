@@ -4,6 +4,7 @@
 - [Windows](#windows)
 - [Mac](#mac)
 - [Linux](#linux)
+- [Troubleshooting](#troubleshooting)
 
 # Windows
 Make sure that you have already setup a wallet and that your network is running correctly! You can check out the [Windows Wallet Guide](wallet-win.html) to learn more.
@@ -60,15 +61,23 @@ For now, you can follow [this guide](https://pastebin.com/p1RksRwb) by `@Vilsol#
 ## Step 1: Download and build cpuminer-multi
 Clone from the [project Github repo](https://github.com/tpruvot/cpuminer-multi) into a directory of your choice. Following the instructions in the project's README, run `./build.sh` in the new directory, and install any prerequisites as specified by your environment. 
 
-## Step 2: Run the miner
+## Step 2: Run the Miner
 
-### Step 2a: Run the miner on a pool
+### Step 2a: Run the Miner on a Pool
 You'll need to specify the pool address, your wallet, and the algorithm:
 `./cpuminer --algo=scrypt:4096 -o stratum+tcp://5.196.13.45:3333 -u  <your wallet address here>`
 This uses the following pool: `grlc-bakery.fun:3333`
 
-### Step 2b: Run the miner solo
+### Step 2b: Run the Miner Solo
 While running a node locally, you'll specify your node's address, your wallet, and the algorithm:
 `./cpuminer --algo=scrypt:4096 -o 127.0.0.1:42070 -u  <your wallet address here>`
 
 You're should now see your hashrate and, eventually, confirmed blocks. 
+
+# Troubleshooting
+
+## HTTP request failed: Failed to connect to 127.0.0.1 port 42070: Connection refused
+If you are trying to Solo mine, make sure that your network is running! You can check out how to set it up on the wallet guides:
+- [Windows](./wallet-win.html)
+- [Mac](./wallet-mac.html)
+- [Linux](./wallet-nix.html)
