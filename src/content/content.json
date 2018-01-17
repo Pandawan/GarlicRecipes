@@ -207,35 +207,35 @@
 			"id": "win-32",
 			"icon": "fab fa-windows",
 			"title": "Windows 32bit",
-			"description": "Download the latest pre-built patch for Windows 32bit",
+			"description": "Download the latest pre-built version for Windows 32bit",
 			"goto": "https://artifactory.grlc-bakery.fun/artifactory/list/garlicoin/i686-w64-mingw32/i686-w64-mingw32.zip"
 		},
 		{
 			"id": "win-64",
 			"icon": "fab fa-windows",
 			"title": "Windows 64bit",
-			"description": "Download the latest pre-built patch for Windows 64bit",
+			"description": "Download the latest pre-built version for Windows 64bit",
 			"goto": "https://artifactory.grlc-bakery.fun/artifactory/list/garlicoin/x86_64-w64-mingw32/x86_64-w64-mingw32.zip"
 		},
 		{
 			"id": "mac",
 			"icon": "fab fa-apple",
 			"title": "Mac",
-			"description": "Download the latest pre-built patch for macOS",
+			"description": "Download the latest pre-built version for macOS",
 			"goto": "https://artifactory.grlc-bakery.fun/artifactory/list/garlicoin/x86_64-apple-darwin11/x86_64-apple-darwin11.zip"
 		},
 		{
 			"id": "nix",
 			"icon": "fab fa-linux",
 			"title": "Linux",
-			"description": "Download the latest pre-built patch for Linux",
+			"description": "Download the latest pre-built version for Linux",
 			"goto": "https://artifactory.grlc-bakery.fun/artifactory/list/garlicoin/x86_64-unknown-linux-gnu/x86_64-unknown-linux-gnu.zip"
 		},
 		{
 			"id": "arm",
 			"icon": "fas fa-microchip",
 			"title": "ARM",
-			"description": "Download the latest pre-built patch for ARM",
+			"description": "Download the latest pre-built version for ARM",
 			"goto": "https://artifactory.grlc-bakery.fun/artifactory/list/garlicoin/arm-linux-gnueabihf/arm-linux-gnueabihf.zip"
 		}
 	]
