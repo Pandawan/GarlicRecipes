@@ -28,7 +28,7 @@ Download this special [Pool Miner](https://github.com/tpruvot/ccminer/releases) 
 Now you will want to create a new text file and rename it to `Run-Miner-Pool-Nvidia.bat` (**Make sure the file ends with .bat**).  
 Edit the file (Right Click > Edit), and enter this 
 ```
-ccminer-x64 --algo=scrypt:11 -o POOL -u ADDRESS -listen
+ccminer-x64 --algo=scrypt:11 -o POOL -u ADDRESS
 pause
 ```  
 Then, replace the `POOL` to the pool's address (you can find some available pools [here](pool-mining.html#test-net)).  
