@@ -6,11 +6,12 @@ Download this [installer](http://f.ske.wtf/garlium/garlium-3.0.3.1-126-gff7ba31-
 Thanks to `@Ske#6201` for the Windows Port!
 
 ## Mac
-Try the Linux installation steps, they should be similar (if not the same).
+Mac and Linux builds are not yet available, you should try one of the other wallets instead (for now).  
+If you wish to build it yourself, you can try the Linux installation steps, they should be similar (if not the same).
 
 ## Linux
-Follow the steps from this [GitHub repo](https://github.com/Joe0/electrumx-installer).  
-Thanks to `@Joe0#8522` for the Linux Port!
+Mac and Linux builds are not yet available, you should try one of the other wallets instead (for now).  
+If you wish to build it yourself, you can follow the steps from this [GitHub Repo](https://github.com/xSke/garlium) by `@Ske#6201`.  
 
 ## Note
 If these don't work or you prefer to use the official wallet (which is a bit harder to use), then follow the other Wallet guides.
