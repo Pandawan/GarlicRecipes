@@ -34,4 +34,9 @@ Pool mining is when multiple miners get together and mine as a group (called a p
 **Not everybody should use the same pool**. If a pool dominates (controls at least 51% of all the mining power), it means that they have full control over the blockchain and can therefore cheat the system by modifying some of the values (essentially creating, stealing, or removing money). As a result, pool diversity is very important and people should try to find the best pool or independent ones, to solidify the network.
 
 # Start Mining
-If you wish to start mining, you can go back to the Mining menu and select whichever option you wish.
+If you wish to start mining, you can check out these options:
+**GPU Pool Mining is recommended** as it has the highest success rate.
+- [CPU (all)](./mining-cpu.html)
+- [Windows Nvidia](./mining-win-nvidia.html)
+- [Windows AMD](./mining-win-amd.html)
+- [Linux GPU](./mining-nix-gpu.html)
