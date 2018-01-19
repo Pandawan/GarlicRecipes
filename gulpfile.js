@@ -22,6 +22,12 @@ const reload = require('require-reload')(require)
 let argv = require('yargs').argv;
 let content = reload('./src/content/content.json');
 
+// Language List to build (for languages other than default, add a / at the end)
+let langList = ['', 'ru/'];
+if (argv.lang) {
+	langList = [argv.lang] + '/';
+}
+let lang = '';
 
 // Helper function to find a key and its value in any object
 function searchKey(obj, key = 'key') {
@@ -33,14 +39,8 @@ function searchKey(obj, key = 'key') {
 
 // Clean HTML
 gulp.task('html', function (cb) {
-	// Get Language Option
-	let lang = '';
-	if (argv.lang) {
-		lang = argv.lang + '/';
-	}
-
 	pump([
-		gulp.src(`src/${lang}*.ejs`),
+		gulp.src(`src/*.ejs`),
 		ejs({
 			site_title: 'Garlic Recipes',
 			content: content['content'],
@@ -49,22 +49,19 @@ gulp.task('html', function (cb) {
 		}, {}, {
 			ext: '.html'
 		}),
+		replace('LANGUAGE_REPLACE', function () {
+			let language = ((lang && lang != '') ? lang.substring(0, lang.length - 1) : 'en');
+			return language;
+		}),
 		htmlclean(),
 		gulp.dest(`dist/${lang}`)
 	], cb);
-
 });
 
 // Markdown Content Files
 gulp.task('md', ['html'], function (cb) {
-	// Get language option
-	let lang = '';
-	if (argv.lang) {
-		lang = argv.lang + '/';
-	}
-
 	pump([
-		gulp.src('src/content/**/*.md'),
+		gulp.src(`src/content/${lang}*.md`),
 		marked(),
 		ejs({
 			site_title: 'Garlic Recipes',
@@ -74,7 +71,7 @@ gulp.task('md', ['html'], function (cb) {
 		}, {}, {
 			ext: '.html'
 		}),
-		inject('dist/template.html', /<INJECT>/, {
+		inject(`dist/${lang}template.html`, /<INJECT>/, {
 			replaceWith: function (fileContent) {
 				return '\n' + fileContent;
 			}
@@ -83,6 +80,10 @@ gulp.task('md', ['html'], function (cb) {
 			var name = this.file.relative.replace(/(.*)\.(.*?)$/, "$1");
 			var data = searchKey(content['content'], name);
 			return data.title;
+		}),
+		replace('LANGUAGE_REPLACE', function () {
+			let language = ((lang && lang != '') ? lang.substring(0, lang.length - 1) : 'en');
+			return language;
 		}),
 		htmlclean(),
 		gulp.dest(`dist/${lang}`)
@@ -184,24 +185,23 @@ gulp.task('clean', function (cb) {
 	]);
 });
 
-// Reload config file
-gulp.task('reload', function (cb) {
-	let lang = '';
-	if (argv.lang) {
-		lang = argv.lang + '/';
-	}
+function buildLanguage(index, cb) {
+	lang = langList[index];
 	content = reload(`./src/content/${lang}content.json`);
-	cb();
-});
+	runSequence('md', function () {
+		if (index == langList.length - 1) {
+			// If it's the last item in langlist call cb
+			cb();
+		}else {
+			buildLanguage(index + 1, cb);
+		}
+	});
+}
 
 // Reload config file & build html
-gulp.task('reload-html', function (cb) {
-	let lang = '';
-	if (argv.lang) {
-		lang = argv.lang + '/';
-	}
-	content = reload(`./src/content/${lang}content.json`);
-	runSequence(['html', 'md'], cb);
+gulp.task('reload', function (cb) {
+	// Start a reflexive build + reload
+	buildLanguage(0, cb);
 });
 
 // Upload to GitHub Pages
@@ -218,7 +218,7 @@ gulp.task('prod', function (cb) {
 
 // Build everything
 gulp.task('build', function (cb) {
-	runSequence('reload', ['js', 'less', 'html', 'md', 'lib', 'fonts', 'files', 'images'], 'clean-html', cb);
+	runSequence(['js', 'less', 'reload', 'lib', 'fonts', 'files', 'images'], 'clean-html', cb);
 });
 
 // Watch for files and build
@@ -227,7 +227,7 @@ gulp.task('watch', ['build'], function () {
 	gulp.watch('src/less/**/*.less', ['less']);
 	gulp.watch('src/**/*.ejs', ['html']);
 	gulp.watch('src/content/**/*.md', ['md']);
-	gulp.watch('src/content/content.json', ['reload-html'])
+	gulp.watch('src/content/content.json', ['reload'])
 	gulp.watch('src/lib/**/*', ['lib']);
 	gulp.watch('src/fonts/**/*', ['fonts']);
 	gulp.watch('src/files/**/*', ['files']);

@@ -1,7 +1,7 @@
 <nav class="navbar is-fixed-top">
 	<div class="navbar-brand">
 		<a class="navbar-item" href="./">
-			<img src="./images/full-logo.png" alt="<%- site_title %>" width="112" height="28">
+			<img src="/images/full-logo.png" alt="<%- site_title %>" width="112" height="28">
 		</a>
 		<div class="navbar-burger burger" data-target="navbarMenu">
 			<span></span>
@@ -9,7 +9,6 @@
 			<span></span>
 		</div>
 	</div>
-
 	<div id="navbarMenu" class="navbar-menu">
 		<div class="navbar-start">
 			<% for (var item in navbar) { %>
@@ -33,43 +32,21 @@
 					</a>
 				<% } %>
 			<% } %>
-			<!--
-			<a class="navbar-item" href="./">
-				Get Started
-			</a>
+		</div>
+		<div class="navbar-end">
 			<div class="navbar-item has-dropdown is-hoverable">
 				<a class="navbar-link">
-					Wallet
+				Language
 				</a>
-				<div class="navbar-dropdown is-boxed">
-					<a class="navbar-item" href="./wallet-win.html">
-						Windows
+				<div class="navbar-dropdown">
+					<a class="navbar-item" href="/">
+						English
 					</a>
-					<a class="navbar-item" href="./wallet-mac.html">
-						Mac
-					</a>
-					<a class="navbar-item" href="./wallet-nix.html">
-						Linux
+					<a class="navbar-item" href="/ru/">
+						Russian
 					</a>
 				</div>
 			</div>
-			<div class="navbar-item has-dropdown is-hoverable">
-				<a class="navbar-link">
-					Mining
-				</a>
-				<div class="navbar-dropdown is-boxed">
-					<a class="navbar-item" href="./mining-cpu.html">
-						CPU (All)
-					</a>
-					<a class="navbar-item" href="./mining-nvidia.html">
-						Windows Nvidia
-					</a>
-					<a class="navbar-item" href="./mining-amd.html">
-						Windows AMD
-					</a>
-				</div>
-			</div>
-			-->
 		</div>
 	</div>
 </nav>
