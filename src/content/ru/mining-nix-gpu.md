@@ -1,0 +1,1 @@
+Подборная нструкция еще в процессе написания. Пока момент можете использовать [этот гайд (англ.)](https://docs.google.com/document/d/1sm9ukRzXaT3fBbYx4hUsZmpQrd-RkNVQ2OD1W6r46ew/edit) от `@Daswf852#5539`.

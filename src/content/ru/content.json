@@ -1,0 +1,200 @@
+{
+	"navbar": [{
+			"type": "link",
+			"title": "Приступить к работе",
+			"goto": ""
+		},
+		{
+			"type": "link",
+			"title": "С чего начать",
+			"goto": "where-to-start"
+		},
+		{
+			"type": "link",
+			"title": "Основы",
+			"goto": "what-is-garlicoin"
+		},
+		{
+			"type": "category",
+			"title": "Кошелек (Wallet)",
+			"contains": [{
+					"title": "Electrum (рекомендуется)",
+					"goto": "wallet-electrum"
+				},
+				{
+					"title": "Windows",
+					"goto": "wallet-win"
+				},
+				{
+					"title": "Mac",
+					"goto": "wallet-mac"
+				},
+				{
+					"title": "Linux",
+					"goto": "wallet-nix"
+				},
+				{
+					"title": "Web",
+					"external": true,
+					"goto": "https://breadbox.xyz"
+				}
+			]
+		},
+		{
+			"type": "category",
+			"title": "Майнинг",
+			"contains": [{
+					"type": "link",
+					"title": "Как майнить",
+					"goto": "how-to-mine"
+				},
+				{
+					"type": "link",
+					"title": "Майнинг в пуле",
+					"goto": "pool-mining"
+				},
+				{
+					"type": "link",
+					"title": "Майнинг на процессоре (CPU)",
+					"goto": "mining-cpu"
+				},
+				{
+					"type": "link",
+					"title": "Windows Nvidia",
+					"goto": "mining-win-nvidia"
+				},
+				{
+					"type": "link",
+					"title": "Windows AMD",
+					"goto": "mining-win-amd"
+				},
+				{
+					"type": "link",
+					"title": "Linux GPU",
+					"goto": "mining-nix-gpu"
+				}
+			]
+		},
+		{
+			"type": "link",
+			"title": "Обновления",
+			"goto": "updates"
+		}
+	],
+	"content": {
+		"default": {
+			"value": "get-started",
+			"title": "Приступить к работе"
+		},
+		"get-started": {
+			"where-to-start": {
+				"type": "link",
+				"title": "С чего начать",
+				"icon": "fas fa-play-circle",
+				"description": "Начните работать с Garlicoin"
+			},
+			"what-is-garlicoin": {
+				"type": "link",
+				"title": "Что такое Garlicoin",
+				"icon": "fas fa-question",
+				"description": "Изучите основы Garlicoin."
+			},
+			"get-wallet": {
+				"type": "category",
+				"title": "Кошелек",
+				"icon": "fas fa-credit-card",
+				"description": "Настройте кошелек за пару минут на любой платформе."
+			},
+			"get-miner": {
+				"type": "category",
+				"title": "Майнинг",
+				"icon": "fa fa-server",
+				"description": "Научитесь майнить на своем процессоре или видеокарте"
+			},
+			"updates": {
+				"type": "link",
+				"title": "Обновления",
+				"icon": "fas fa-newspaper",
+				"description": "Получайте свежую информацию о Garlicoin"
+			},
+			"explorer": {
+				"type": "link",
+				"title": "Просмотр блоков",
+				"icon": "fas fa-globe",
+				"description": "Используйте Garlicoin Block Explorer для просмотра всех транзакций.",
+				"goto": "http://explorer.garlicoin.io/"
+			}
+		},
+		"get-wallet": {
+			"wallet-electrum": {
+				"type": "link",
+				"title": "Electrum (рекомендуется))",
+				"icon": "custom-icon icon-electron",
+				"description": "Получите простой кошелек под любую платформу."
+			},
+			"wallet-win": {
+				"type": "link",
+				"title": "Windows кошелек",
+				"icon": "fab fa-windows",
+				"description": "Настройте кошелек под Windows."
+			},
+			"wallet-mac": {
+				"type": "link",
+				"title": "Mac кошелек",
+				"icon": "fab fa-apple",
+				"description": "Настройте кошелек на Mac."
+			},
+			"wallet-nix": {
+				"type": "link",
+				"title": "Linux кошелек",
+				"icon": "fab fa-linux",
+				"description": "Настройте кошелек под Linux."
+			},
+			"wallet-web": {
+				"type": "link",
+				"title": "Веб-кошелек",
+				"icon": "fas fa-globe",
+				"description": "Создайте онлайн-кошелек, используя breadbox.",
+				"goto": "https://breadbox.xyz"
+			}
+		},
+		"get-miner": {
+			"how-to-mine": {
+				"type": "link",
+				"title": "Как майнить?",
+				"icon": "fas fa-question",
+				"description": "Изучите основы майнинга и выберите подходящий Вам способ."
+			},
+			"pool-mining": {
+				"type": "link",
+				"title": "Майнинг в пуле",
+				"icon": "fas fa-server",
+				"description": "Научитесь майнить в пуле и ознакомьтесь с доступными пулами."
+			},
+			"mining-cpu": {
+				"type": "link",
+				"title": "Майнинг на CPU",
+				"icon": "fas fa-microchip",
+				"description": "Научитесь майнить на процессоре на любой платформе."
+			},
+			"mining-win-nvidia": {
+				"type": "link",
+				"title": "Windows Nvidia",
+				"icon": "custom-icon icon-nvidia",
+				"description": "Майнинг на видеокарте Nvidia под Windows с помощью CCMiner."
+			},
+			"mining-win-amd": {
+				"type": "link",
+				"title": "Windows AMD",
+				"icon": "custom-icon icon-amd",
+				"description": "Майнинг на видеокарте от AMD под Windows с помощью YACMiner."
+			},
+			"mining-nix-gpu": {
+				"type": "link",
+				"title": "Linux GPU",
+				"icon": "fab fa-linux",
+				"description": "Майнинг на видеокартах от Nvidia или AMD на Linux."
+			}
+		}
+	}
+}
