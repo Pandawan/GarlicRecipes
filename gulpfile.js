@@ -29,6 +29,8 @@ if (argv.lang) {
 }
 let lang = '';
 
+let root = '';
+
 // Helper function to find a key and its value in any object
 function searchKey(obj, key = 'key') {
 	var json = JSON.stringify(obj);
@@ -48,6 +50,9 @@ gulp.task('html', function (cb) {
 			download: content['downloads']
 		}, {}, {
 			ext: '.html'
+		}),
+		replace('ROOT', function () {
+			return root;
 		}),
 		replace('LANGUAGE_REPLACE', function () {
 			let language = ((lang && lang != '') ? lang.substring(0, lang.length - 1) : 'en');
@@ -75,6 +80,9 @@ gulp.task('md', ['html'], function (cb) {
 			replaceWith: function (fileContent) {
 				return '\n' + fileContent;
 			}
+		}),
+		replace('ROOT', function () {
+			return root;
 		}),
 		replace('PAGE_TITLE', function () {
 			var name = this.file.relative.replace(/(.*)\.(.*?)$/, "$1");
@@ -206,6 +214,7 @@ gulp.task('reload', function (cb) {
 
 // Upload to GitHub Pages
 gulp.task('deploy', function (cb) {
+	root = 'https://pandawanfr.github.io/GarlicRecipes'
 	runSequence('clean', 'build', 'clean-html', function () {
 		ghpages.publish('dist', cb);
 	});
