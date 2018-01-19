@@ -10,14 +10,14 @@ Check out the [Solo vs Pool](how-to-mine.html#solo-vs-pool) article to learn mor
 Here is a list of most available pools
 
 ## Test-Net
-| Name             | Owner                  | Website                     | Pool Fee | Address                                   |
-|------------------|------------------------|-----------------------------|----------|-------------------------------------------|
-| GarlicSoup       | @Martin#6614           | https://pool.garlicsoup.xyz | 2%       | stratum+tcp://us.pool.garlicsoup.xyz:3333 |
-| GarlicMine       | @fstrmn#8930           | http://garlicmine.com       | 1.5%     | stratum+tcp://garlicmine.com:3333         |
-| Bakery           | @Vilsol#2060           | http://grlc-bakery.fun/     | 1%       | stratum+tcp://pool.grlc-bakery.fun:3333   |
-| Rich Garlic Boye | @Reap#3306             | http://rich.garlicboye.com/ | 1%       | stratum+tcp://rich.garlicboye.com:3333    |
-| Garlic Lol       | @caffeinatedpizza#9601 | https://garlic.lol/         |          | stratum+tcp://pool.garlic.lol:3333        |
-| GarlicPool       | @Jacob#0069            | https://garlicpool.com      | 1%       | stratum+tcp://grow.garlicpool.com:3333    |  
+| Name             | Owner                  | Website                     | Pool Fee | Address                                   | Tested |
+|------------------|------------------------|-----------------------------|----------|-------------------------------------------|--------|
+| GarlicSoup       | @Martin#6614           | https://pool.garlicsoup.xyz | 2%       | stratum+tcp://us.pool.garlicsoup.xyz:3333 | Yes    |
+| Bakery           | @Vilsol#2060           | http://grlc-bakery.fun/     | 1%       | stratum+tcp://pool.grlc-bakery.fun:3333   | Yes    |
+| GarlicPool       | @Jacob#0069            | https://garlicpool.com      | 1%       | stratum+tcp://grow.garlicpool.com:3333    | Yes    |
+| GarlicMine       | @fstrmn#8930           | http://garlicmine.com       | 1.5%     | stratum+tcp://garlicmine.com:3333         | No     |
+| Rich Garlic Boye | @Reap#3306             | http://rich.garlicboye.com/ | 1%       | stratum+tcp://rich.garlicboye.com:3333    | No     |
+| Garlic Lol       | @caffeinatedpizza#9601 | https://garlic.lol/         |          | stratum+tcp://pool.garlic.lol:3333        | No     |  
 
 <br>
 

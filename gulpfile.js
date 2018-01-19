@@ -216,12 +216,17 @@ gulp.task('reload', function (cb) {
 gulp.task('deploy', function (cb) {
 	root = 'https://pandawanfr.github.io/GarlicRecipes'
 	runSequence('clean', 'build', 'clean-html', function () {
-		ghpages.publish('dist', cb);
+		ghpages.publish('dist', function () {
+			// Run Prod to rebuild the dist folder with the correct root 
+			// So that the GitHub repo always keeps the same ROOT value
+			runSequence('prod', cb);
+		});
 	});
 });
 
 // Build everything as if you were deploying
 gulp.task('prod', function (cb) {
+	root = '';
 	runSequence('clean', 'build', 'clean-html');
 });
 
