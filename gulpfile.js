@@ -19,7 +19,9 @@ const replace = require('gulp-replace');
 const del = require('del');
 const runSequence = require('run-sequence');
 const reload = require('require-reload')(require)
+let argv = require('yargs').argv;
 let content = reload('./src/content/content.json');
+
 
 // Helper function to find a key and its value in any object
 function searchKey(obj, key = 'key') {
@@ -31,8 +33,14 @@ function searchKey(obj, key = 'key') {
 
 // Clean HTML
 gulp.task('html', function (cb) {
+	// Get Language Option
+	let lang = '';
+	if (argv.lang) {
+		lang = argv.lang + '/';
+	}
+
 	pump([
-		gulp.src('src/*.ejs'),
+		gulp.src(`src/${lang}*.ejs`),
 		ejs({
 			site_title: 'Garlic Recipes',
 			content: content['content'],
@@ -42,12 +50,19 @@ gulp.task('html', function (cb) {
 			ext: '.html'
 		}),
 		htmlclean(),
-		gulp.dest('dist/')
+		gulp.dest(`dist/${lang}`)
 	], cb);
+
 });
 
 // Markdown Content Files
 gulp.task('md', ['html'], function (cb) {
+	// Get language option
+	let lang = '';
+	if (argv.lang) {
+		lang = argv.lang + '/';
+	}
+
 	pump([
 		gulp.src('src/content/**/*.md'),
 		marked(),
@@ -70,15 +85,15 @@ gulp.task('md', ['html'], function (cb) {
 			return data.title;
 		}),
 		htmlclean(),
-		gulp.dest('dist/')
+		gulp.dest(`dist/${lang}`)
 	], cb);
 });
 
 // Remove useless html files
 gulp.task('clean-html', function (cb) {
 	return del([
-		'dist/template.html',
-		'dist/blank.html'
+		'dist/**/template.html',
+		'dist/**/blank.html'
 	])
 });
 
@@ -171,7 +186,21 @@ gulp.task('clean', function (cb) {
 
 // Reload config file
 gulp.task('reload', function (cb) {
-	content = reload('./src/content/content.json');
+	let lang = '';
+	if (argv.lang) {
+		lang = argv.lang + '/';
+	}
+	content = reload(`./src/content/${lang}content.json`);
+	cb();
+});
+
+// Reload config file & build html
+gulp.task('reload-html', function (cb) {
+	let lang = '';
+	if (argv.lang) {
+		lang = argv.lang + '/';
+	}
+	content = reload(`./src/content/${lang}content.json`);
 	runSequence(['html', 'md'], cb);
 });
 
@@ -188,8 +217,8 @@ gulp.task('prod', function (cb) {
 });
 
 // Build everything
-gulp.task('build', function(cb) {
-	runSequence(['js', 'less', 'html', 'md', 'lib', 'fonts', 'files', 'images'], 'clean-html', cb);
+gulp.task('build', function (cb) {
+	runSequence('reload', ['js', 'less', 'html', 'md', 'lib', 'fonts', 'files', 'images'], 'clean-html', cb);
 });
 
 // Watch for files and build
@@ -198,7 +227,7 @@ gulp.task('watch', ['build'], function () {
 	gulp.watch('src/less/**/*.less', ['less']);
 	gulp.watch('src/**/*.ejs', ['html']);
 	gulp.watch('src/content/**/*.md', ['md']);
-	gulp.watch('src/content/content.json', ['reload'])
+	gulp.watch('src/content/content.json', ['reload-html'])
 	gulp.watch('src/lib/**/*', ['lib']);
 	gulp.watch('src/fonts/**/*', ['fonts']);
 	gulp.watch('src/files/**/*', ['files']);

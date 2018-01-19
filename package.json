@@ -47,6 +47,7 @@
     "gulp-replace": "^0.6.1",
     "pump": "^2.0.0",
     "require-reload": "^0.2.2",
-    "run-sequence": "^2.2.1"
+    "run-sequence": "^2.2.1",
+    "yargs": "^10.1.1"
   }
 }
