@@ -31,7 +31,7 @@ Edit the file (Right Click > Edit), and enter this
 ccminer-x64 --algo=scrypt:11 -o POOL -u ADDRESS -listen
 pause
 ```  
-Then, replace the `POOL` to the pool's address (you can find some available pools [here](pool-mining.html#test-net)).  
+Then, replace the `POOL` to the pool's address (you can find some available pools [here](pool-mining.html#main-net)).  
 Once that is done, replace the `ADDRESS` (which is right after `-u`) to your address.  
 
 ## Step 3: Start Mining

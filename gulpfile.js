@@ -25,7 +25,7 @@ let content = reload('./src/content/content.json');
 // Language List to build (for languages other than default, add a / at the end)
 let langList = ['', 'ru/'];
 if (argv.lang) {
-	langList = [argv.lang] + '/';
+	langList = [(argv.lang == 'en' ? '' : argv.lang + '/')];
 }
 let lang = '';
 

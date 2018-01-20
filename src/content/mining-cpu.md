@@ -43,7 +43,7 @@ If you wish to use a pool instead of solo mining (you can learn more about the d
 <br>
 
 Edit the `Run-Miner-Pool-CPU.bat` file (Right Click > Edit), and follow the same steps as [Step 2](#step-2-set-up) (only this time, there won't be a `--coinbase-addr`).  
-Then, replace the `POOL` to the pool's address (you can find some available pools [here](pool-mining.html#test-net)).  
+Then, replace the `POOL` to the pool's address (you can find some available pools [here](pool-mining.html#main-net)).  
 Once that is done, replace the `ADDRESS` (which is right after `-u`) to your address.  
 
 ![Image of Bat File For Pool](https://i.imgur.com/puFRTqU.png)
@@ -65,8 +65,8 @@ Clone from the [project Github repo](https://github.com/tpruvot/cpuminer-multi) 
 
 ### Step 2a: Run the Miner on a Pool
 You'll need to specify the pool address, your wallet, and the algorithm:
-`./cpuminer --algo=scrypt:4096 -o stratum+tcp://5.196.13.45:3333 -u  <your wallet address here>`
-This uses the following pool: `grlc-bakery.fun:3333`
+`./cpuminer --algo=scrypt:4096 -o stratum+tcp://pool.grlc-bakery.fun:3333 -u  <your wallet address here>`
+This uses the following pool: `grlc-bakery.fun`, you can check out a list of pools [here](pool-mining.html#main-net)
 
 ### Step 2b: Run the Miner Solo
 While running a node locally, you'll specify your node's address, your wallet, and the algorithm:

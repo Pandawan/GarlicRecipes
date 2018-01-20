@@ -1,15 +1,20 @@
 # Table of Contents
 - [Solo vs Pool](#solo-vs-pool)
+- [Pool Diversity](#pool-diversity)
 - [List of Pools](#list-of-pools)
 - [When Do I Get Paid](#when-do-i-get-paid)
 
 # Solo vs Pool
 Check out the [Solo vs Pool](how-to-mine.html#solo-vs-pool) article to learn more about the difference between Solo and Pool mining.
 
-# List of Pools
-Here is a list of most available pools
+# Pool Diversity
+**Not everybody should use the same pool**.  
+If a pool dominates (controls at least 51% of all the mining power), it means that they have full control over the blockchain and can therefore cheat the system by modifying some of the values (essentially creating, stealing, or removing money). As a result, pool diversity is very important and people should try to find the best pool or independent ones, to solidify the network.
 
-## Test-Net
+# List of Pools
+Here is a list of most available pools  
+
+## Main-Net
 | Name             | Owner                  | Website                     | Pool Fee | Address                                   | Tested |
 |------------------|------------------------|-----------------------------|----------|-------------------------------------------|--------|
 | GarlicSoup       | @Martin#6614           | https://pool.garlicsoup.xyz | 2%       | stratum+tcp://us.pool.garlicsoup.xyz:3333 | Yes    |
