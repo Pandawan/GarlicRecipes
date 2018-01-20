@@ -11,7 +11,8 @@ First you will want to download this special [Solo Miner](https://cryptomining-b
 
 ## Step 2: Setting Up the Miner
 Now you will want to create a new text file and rename it to `Run-Miner-Solo-Nvidia.bat` (**Make sure the file ends with .bat**).  
-Edit the file (Right Click > Edit), and enter this `ccminer.exe --algo=scrypt:11 -o 127.0.0.1:42070 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS` (make sure that you replace `ADDRESS` to your address).
+Edit the file (Right Click > Edit), and enter this `ccminer.exe --algo=scrypt:11 -o 127.0.0.1:42070 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85` (make sure that you replace `ADDRESS` to your address).  
+A safety measure has been added which prevents your graphics card from overheating (`--max-temp=85`). Only remove this option if you know what you are doing.  
 
 ## Step 3: Start Mining
 Make sure that your network is running, and you can open `Run-Miner-Solo-Nvidia.bat`!  
@@ -28,11 +29,12 @@ Download this special [Pool Miner](https://github.com/tpruvot/ccminer/releases) 
 Now you will want to create a new text file and rename it to `Run-Miner-Pool-Nvidia.bat` (**Make sure the file ends with .bat**).  
 Edit the file (Right Click > Edit), and enter this 
 ```
-ccminer-x64 --algo=scrypt:11 -o POOL -u ADDRESS -listen
+ccminer-x64 --algo=scrypt:11 -o POOL -u ADDRESS -listen --max-temp=85
 pause
 ```  
 Then, replace the `POOL` to the pool's address (you can find some available pools [here](pool-mining.html#main-net)).  
 Once that is done, replace the `ADDRESS` (which is right after `-u`) to your address.  
+A safety measure has been added which prevents your graphics card from overheating (`--max-temp=85`). Only remove this option if you know what you are doing.  
 
 ## Step 3: Start Mining
 You can open `Run-Miner-Pool-Nvidia.bat`!  
