@@ -127,7 +127,7 @@
 				"title": "Explorer",
 				"icon": "fas fa-globe",
 				"description": "Access the Garlicoin Block Explorer to see all the transactions.",
-				"goto": "http://explorer.garlicoin.io/"
+				"goto": "https://explorer.grlc-bakery.fun/"
 			}
 		},
 		"get-wallet": {
