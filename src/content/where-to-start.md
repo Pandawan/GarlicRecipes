@@ -26,4 +26,4 @@ If I helped you, you should consider donating to me (@Pandawan#4158):
 - BTC: 13xqEPwdfkYFVdQvF596k91mWeUHRJTRjk
 - LTC: LhrWcYnXxnA3TcznRRvkfuZ8TVYNJ2nisU
 - BCH: 1PidoMufaqTyFMgdn37Gf4fCHf1GAKZT8w
-- GRLC: Not Yet
+- GRLC: Gam19a3ts6cbWYp5vP5p661wjnMZbH9Hco

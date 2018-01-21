@@ -25,7 +25,7 @@ The program will not say anything, let it sit in the background. **Do not close 
 ### Command Line Way
 For the more experienced, open a Command Prompt.  
 Navigate to your Garlic folder using `cd`.  
-Once that is done, run the command: `garlicoind -testnet -connect=52.89.91.13`.
+Once that is done, run the command: `garlicoind`.
 Windows might ask you for Firewall Access, Allow it.  
 <br>
 
@@ -47,7 +47,7 @@ Now repeat **Step 2**, you should be good to go.
 
 ## Step 5. Download the Blockchain
 While keeping your network window open, Open a new Command Prompt.  
-Navigate to your Garlicoin folder (use `cd C:\Garlic\`), and type `garlicoin-cli -testnet getinfo`.  
+Navigate to your Garlicoin folder (use `cd C:\Garlic\`), and type `garlicoin-cli getinfo`.  
 Keep using that command until the number of blocks stops changing.  
 If it stops changing (after you run the command a bunch of times), it means that you have downloaded all of the blockchain and can now move to the next step.
 
@@ -60,7 +60,7 @@ If you have installed on a different drive, you need to type the letter of your 
 Type `cd C:\Garlic\` (or whatever your installation folder is) and press Enter . 
 
 ## Step 2. Getting a New Address
-In the Command Prompt, type this command: `garlicoin-cli -testnet getnewaddress`.  
+In the Command Prompt, type this command: `garlicoin-cli getnewaddress`.  
 This should return a series of letters and numbers. This is your address. Make sure that you copy it and keep it somewhere.  
 (To copy from the Command Prompt, select the address with your mouse and then right click).  
 
@@ -69,11 +69,21 @@ This should return a series of letters and numbers. This is your address. Make s
 ![Image of GetNewAddress](https://i.imgur.com/pjSUslM.png)
 
 ## Step 3. Getting Wallet Info
-To make sure that you have done everything right (or to view your balance), you can type: `garlicoin-cli -testnet getwalletinfo` in that same Command Prompt.  
+To make sure that you have done everything right (or to view your balance), you can type: `garlicoin-cli getwalletinfo` in that same Command Prompt.  
 This should give you information about your balance, wallet, when your last transaction was...  
 <br>
 
-## Step 4. Sending To Someone Else
+## Step 4. Backing Up the Wallet
+Sometimes, the wallet app can fail and corrupt the wallet. If you wish to back it up before that happens (in order to recover it in case it does break), follow these steps:  
+In a Command Prompt window (while the network is running), type the command: `garlicoin-cli backupwallet <path>`.  
+This will save a `wallet.dat` file in at the given path. If your wallet ever gets corrupted, navigate to this folder:
+- Windows: `%APPDATA%\Bitcoin`
+- Linux: `~/.bitcoin/`
+- MacOS: `~/Library/Application Support/Bitcoin/`
+
+and overwrite the `wallet.dat` file inside the folder by the backup one.
+
+## Step 5. Sending to Someone Else
 If you ever wish to send Garlicoin to someone. You can use this command `garlicoin-cli sendtoaddress <bitcoinaddress> <amount>`.
 
 That's it! You are done!
