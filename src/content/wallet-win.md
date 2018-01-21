@@ -7,7 +7,7 @@
 Setting up the network is fast and very easy. It allows your computer to connect to the Garlicoin Network.
 
 ## Step 1. Downloading the Files
-Fire, you will need to download the windows binaries [here](./download.html) as well as the [Quick Start Files](ROOT/files/wallet-win.zip).
+Fire, you will need to download the windows binaries [here](https://garlicoin.io/downloads) as well as the [Quick Start Files](ROOT/files/wallet-win.zip).
 Once that is done, open the file and extract all of their content into a folder (In this tutorial, we will use `C:\Garlic\`).  
 ![Garlic Folder With Files](https://i.imgur.com/YYqtODB.png)
 

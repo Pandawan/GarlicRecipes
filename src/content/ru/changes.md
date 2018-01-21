@@ -4,7 +4,7 @@ The algorithm has been changed back to `scrypt:10` for release.
 
 ## 1/18/18
 Changed scrypt from 11 to 12. If you are mining on the Test-Net, make sure that you have changed the algorithm from `scrypt:11` to `scrypt:12`.
-New binaries are also available on the [download page](./download.html).
+New binaries are also available on the [download page](https://garlicoin.io/downloads).
 
 ## 1/12/18
 New Fork changed scrypt from 10 to 11. If you are mining, make sure that you have changed your algorithm from `scrypt:10` to `scrypt:11`.  
