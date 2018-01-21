@@ -46,8 +46,7 @@ gulp.task('html', function (cb) {
 		ejs({
 			site_title: 'Garlic Recipes',
 			content: content['content'],
-			navbar: content['navbar'],
-			download: content['downloads']
+			navbar: content['navbar']
 		}, {}, {
 			ext: '.html'
 		}),
