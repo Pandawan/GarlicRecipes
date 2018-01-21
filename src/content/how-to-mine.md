@@ -1,6 +1,5 @@
 # Table of Contents
 - [What Is Mining](#what-is-mining)
-- [Mining on the Test-Net](#mining-on-the-test-net)
 - [CPU vs GPU](#cpu-vs-gpu)
 - [Solo vs Pool](#solo-vs-pool)
 - [Start Mining](#start-mining)
@@ -11,10 +10,6 @@ You can learn more about how blockchain works [here](https://www.youtube.com/wat
 <br>
 
 Miners can only use their CPU (Processor) and GPU (Graphics Card) to mine Garlicoin as it is ASIC resistant; meaning that it will try to block mining on mining-specific hardware.
-
-# Mining on the Test-Net
-Because Garlicoin is still in development, only the Test-Net is available. This Network is intended for testing purposes only and any and all transactions which happen on it will be reset when the Main-Net is released.  
-Mining on the Test-Net is not recommended because it has no value (since everything will be reset); therefore, you should follow the Mining guide to get setup and stop mining as soon as you get it working. 
 
 # CPU vs GPU
 Miners can use either their CPU (processor) or GPU (graphics card) to mine Garlicoin (since Garlicoin is ASIC resistant, those are the only two options).  
