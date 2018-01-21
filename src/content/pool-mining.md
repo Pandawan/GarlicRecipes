@@ -20,7 +20,7 @@ Here is a list of most available pools
 | Garlic Lol        | @caffeinatedpizza#9601 | https://garlic.lol          | 0.95%    | stratum+tcp://pool.garlic.lol:3333        | No     |
 | ButterPool        | @GameFuzion#0282       | http://butterpool.com/      | 0.75%    | stratum+tcp://butterpool.com:3032         | No     |
 | Happy Garlic Pool | @eins#0361             | http://happy.garlicoin.fun  | 0.7%     | stratum+tcp://happy.garlicoin.fun:3210    | No     |  
-
+| GRLC.Sexy | @Pretsell#4364             | https://grlc.sexy  | 0.5%     | stratum+tcp://grlc.sexy:3333   | No     |  
 <br>
 
 If you are a pool owner and wish to add your pool, just create a [Pull Request](https://github.com/PandawanFr/GarlicoinHelp/pulls) (or message me `@Pandawan#4158`).
