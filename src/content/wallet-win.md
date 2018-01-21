@@ -35,7 +35,8 @@ The program will not say anything, let it sit in the background. **Do not close 
 ![Image of Command Prompt with Network Running](https://i.imgur.com/giEoOqZ.png)
 
 ## Step 3. Moving .conf File to Roaming\Garlicoin
-Back to your Garlic folder, there should be a file called `garlicoin.conf`. This file needs to be moved to the `Garlicoin` folder found in `AppData\Roaming`.  
+Back to your Garlic folder, there should be a file called `garlicoin.conf`. Windows users should right click this file and open with notepad. 
+Either remove the line that says daemon=1 or set it to 0 and save the file. This file needs to be moved to the `Garlicoin` folder found in `AppData\Roaming`.  
 <br>
 
 To access this folder, Open **RUN** (Windows + R), and type `%appdata%`. This should open a folder, locate the `Garlicoin` folder and move the `garlicoin.conf` file to it.
