@@ -26,7 +26,7 @@ Here is a list of most available pools
 | Rich Garlic Boye | @Reap#3306             | http://rich.garlicboye.com/ | 1%       | stratum+tcp://rich.garlicboye.com:3333    | No       |
 | ButterPool       | @GameFuzion#0282       | http://butterpool.com/      | 0.75%    | stratum+tcp://butterpool.com:3032         | No       |
 | Happy Garlic Pool| @eins#0361             | http://happy.garlicoin.fun  | 0.7%     | stratum+tcp://happy.garlicoin.fun:3210    | No       |
-| H36              | @Cotix#4250            | https://h36.nl/             | 2%       | stratum+tcp://h36.nl3333                  | No       |
+| H36              | @Cotix#4250            | https://h36.nl/             | 2%       | stratum+tcp://h36.nl:3333                  | No       |
 
 <br>
 \* Gives the extra 1% fees to Charity (check their website to learn more).  
