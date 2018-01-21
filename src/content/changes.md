@@ -8,7 +8,6 @@ rpcport=42070
 
 upnp=1
 server=1
-testnet=1
 listen=1
 addnode=174.119.90.59
 addnode=52.39.1.167
