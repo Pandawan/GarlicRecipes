@@ -1,6 +1,22 @@
 ## 1/21/18 
 The Main-Net has been released. If you wish to use that instead of the Test-Net, remove any occurences of `testnet` from your commands and config files (or start the tutorials over).  
 The algorithm has been changed back to `scrypt:10` for release.  
+Here is the new conf file if you need it:
+```
+rpcuser=test
+rpcpassword=test
+rpcallowip=0.0.0.0/0
+rpcport=42070
+
+upnp=1
+server=1
+listen=1
+daemon=1
+addnode=174.119.90.59
+addnode=128.82.17.231
+addnode=172.31.29.127
+addnode=67.181.72.208
+```
 
 ## 1/18/18
 Changed scrypt from 11 to 12. If you are mining on the Test-Net, make sure that you have changed the algorithm from `scrypt:11` to `scrypt:12`.
