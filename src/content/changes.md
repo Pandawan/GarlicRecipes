@@ -3,7 +3,7 @@ To anyone getting problems with nodes or your network not connecting. Please try
 ```
 rpcuser=test
 rpcpassword=test
-rpcallowip=0.0.0.0/0
+rpcallowip=192.168.1.0/24
 rpcport=42070
 
 upnp=1
@@ -30,7 +30,6 @@ addnode=68.54.119.120
 addnode=35.225.227.111
 addnode=80.211.208.43
 addnode=70.106.228.160
-addnode=192.168.1.12
 ```
 
 ## 1/21/18 
