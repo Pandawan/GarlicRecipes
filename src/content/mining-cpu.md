@@ -10,7 +10,7 @@
 Make sure that you have already setup a wallet and that your network is running correctly! You can check out the [Windows Wallet Guide](wallet-win.html) to learn more.
 
 ## Step 1: Downloading the Files
-First you will need to dowload the CPU miner files [here](ROOT/files/miner-cpu-win.zip).  
+First you will need to download the CPU miner files [here](ROOT/files/miner-cpu-win.zip).  
 Extract the files in your installation folder (if you have followed the wallet guides it should be `C:\Garlic\`).
 
 ![Image of CPU Miner Files](https://i.imgur.com/6Nwy2dC.png)
