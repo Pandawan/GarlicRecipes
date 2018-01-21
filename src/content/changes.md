@@ -11,7 +11,6 @@ rpcport=42070
 upnp=1
 server=1
 listen=1
-daemon=1
 addnode=174.119.90.59
 addnode=52.39.1.167
 addnode=128.82.17.231
