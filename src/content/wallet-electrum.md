@@ -1,11 +1,8 @@
 # Garlium (Electrum) Wallet
 The Electrum wallet is cross-platform, you can install it on Windows, Mac and Linux.
 
-## NOT YET AVAILABLE FOR MAIN-NET!
-
 ## Windows
-**NOT YET AVAILABLE FOR MAIN-NET!**
-Download this [installer]() and install it. You should be good to go.  
+Download this [installer](http://f.ske.wtf/garlium/garlium-3.0.3.1-132-g22d736b-setup.exe) and install it. You should be good to go.  
 Thanks to `@Ske#6201` for the Windows Port!
 
 ## Mac
