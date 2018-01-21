@@ -17,7 +17,7 @@ Here is a list of most available pools
 ## Main-Net
 | Name             | Owner                  | Website                     | Pool Fee | Address                                   | Verified |
 |------------------|------------------------|-----------------------------|----------|-------------------------------------------|----------|
-| GarlicSoup       | @Martin#6614           | https://pool.garlicsoup.xyz | 1%**\*** | stratum+tcp://us.pool.garlicsoup.xyz:3333 | No       |
+| GarlicSoup       | @Martin#6614           | https://pool.garlicsoup.xyz | 1%**\*** | stratum+tcp://us.pool.garlicsoup.xyz:3333 | Yes      |
 | Bakery           | @Vilsol#2060           | http://grlc-bakery.fun/     | 1%       | stratum+tcp://pool.grlc-bakery.fun:3333   | Yes      |
 | GarlicPool       | @Jacob#0069            | https://garlicpool.com      | 1%       | stratum+tcp://grow.garlicpool.com:3333    | No       |
 | GarlicMine       | @fstrmn#8930           | http://garlicmine.com       | 1.5%     | stratum+tcp://garlicmine.com:3333         | No       |
