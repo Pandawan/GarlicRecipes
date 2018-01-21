@@ -15,18 +15,20 @@ If a pool dominates (controls at least 51% of all the mining power), it means th
 Here is a list of most available pools  
 
 ## Main-Net
-| Name             | Owner                  | Website                     | Pool Fee | Address                                   | Tested |
-|------------------|------------------------|-----------------------------|----------|-------------------------------------------|--------|
-| GarlicSoup       | @Martin#6614           | https://pool.garlicsoup.xyz | 2%       | stratum+tcp://us.pool.garlicsoup.xyz:3333 | Yes    |
-| Bakery           | @Vilsol#2060           | http://grlc-bakery.fun/     | 1%       | stratum+tcp://pool.grlc-bakery.fun:3333   | Yes    |
-| GarlicPool       | @Jacob#0069            | https://garlicpool.com      | 1%       | stratum+tcp://grow.garlicpool.com:3333    | Yes    |
-| GarlicMine       | @fstrmn#8930           | http://garlicmine.com       | 1.5%     | stratum+tcp://garlicmine.com:3333         | No     |
-| Rich Garlic Boye | @Reap#3306             | http://rich.garlicboye.com/ | 1%       | stratum+tcp://rich.garlicboye.com:3333    | No     |
-| Garlic Lol       | @caffeinatedpizza#9601 | https://garlic.lol/         | 0.95%    | stratum+tcp://pool.garlic.lol:3333        | No     |
-| ButterPool       | @GameFuzion#0282       | http://butterpool.com/      | 0.75%    | stratum+tcp://butterpool.com:3032         | No     |  
+| Name             | Owner                  | Website                     | Pool Fee | Address                                   | Verified |
+|------------------|------------------------|-----------------------------|----------|-------------------------------------------|----------|
+| GarlicSoup       | @Martin#6614           | https://pool.garlicsoup.xyz | 1%**\***       | stratum+tcp://us.pool.garlicsoup.xyz:3333 | Yes      |
+| Bakery           | @Vilsol#2060           | http://grlc-bakery.fun/     | 1%       | stratum+tcp://pool.grlc-bakery.fun:3333   | Yes      |
+| GarlicPool       | @Jacob#0069            | https://garlicpool.com      | 1%       | stratum+tcp://grow.garlicpool.com:3333    | Yes      |
+| GarlicMine       | @fstrmn#8930           | http://garlicmine.com       | 1.5%     | stratum+tcp://garlicmine.com:3333         | No       |
+| Rich Garlic Boye | @Reap#3306             | http://rich.garlicboye.com/ | 1%       | stratum+tcp://rich.garlicboye.com:3333    | No       |
+| Garlic Lol       | @caffeinatedpizza#9601 | https://garlic.lol/         | 0.95%    | stratum+tcp://pool.garlic.lol:3333        | No       |
+| ButterPool       | @GameFuzion#0282       | http://butterpool.com/      | 0.75%    | stratum+tcp://butterpool.com:3032         | No       |
+| H36              | @Cotix#4250            | https://h36.nl/             | 2%       | stratum+tcp://h36.nl3333                  | No       |  
 
 <br>
-
+\* Gives the extra 1% fees to Charity (check their website to learn more).  
+<br>
 If you are a pool owner and wish to add your pool, just create a [Pull Request](https://github.com/PandawanFr/GarlicoinHelp/pulls) (or message me `@Pandawan#4158`).
 
 ## When Do I Get Paid

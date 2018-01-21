@@ -12,7 +12,12 @@
 
 ## Шаг 2: Настройка майнера
 Создайте текстовый документ и переименуйте его в `Run-Miner-Solo-Nvidia.bat` (**файл должен иметь расширение .bat**)
-Редактируйте документ (Правый клик > изменить) и скопируйте туда эту строчку: `ccminer.exe --algo=scrypt:11 -o 127.0.0.1:42070 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS` (вместо слова `ADDRESS` впишите туда свой адрес Garlicoin).  
+Редактируйте документ (Правый клик > изменить) и скопируйте туда эту строчку: 
+```
+ccminer.exe --algo=scrypt:10 -o 127.0.0.1:42070 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS
+pause
+```
+(вместо слова `ADDRESS` впишите туда свой адрес Garlicoin).  
 
 ## Шаг 3: Начните майнить
 Удостоверьтесь, что вы подключены к сети Garlicoin и запустите `Run-Miner-Solo-Nvidia.bat`
@@ -31,7 +36,7 @@
 
 Редактируйте документ (Правый клик > изменить) и скопируйте туда эту строчку:
 ```
-ccminer-x64 --algo=scrypt:11 -o POOL -u ADDRESS -listen
+ccminer-x64 --algo=scrypt:10 -o POOL -u ADDRESS -listen
 pause
 ```  
 Замените слово `POOL` на адрес вашего пула (список пулов можно найти [здесь](pool-mining.html#test-net)).  

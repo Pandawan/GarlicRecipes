@@ -4,6 +4,7 @@ The Electrum wallet is cross-platform, you can install it on Windows, Mac and Li
 ## NOT YET AVAILABLE FOR MAIN-NET!
 
 ## Windows
+**NOT YET AVAILABLE FOR MAIN-NET!**
 Download this [installer]() and install it. You should be good to go.  
 Thanks to `@Ske#6201` for the Windows Port!
 
