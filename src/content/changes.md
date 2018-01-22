@@ -4,7 +4,7 @@ To anyone getting problems with nodes or your network not connecting. Please try
 rpcuser=test
 rpcpassword=test
 rpcallowip=192.168.1.0/24
-rpcport=42070
+rpcport=42068
 
 upnp=1
 server=1

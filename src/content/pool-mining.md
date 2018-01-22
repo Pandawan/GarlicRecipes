@@ -26,11 +26,11 @@ Here is a list of most available pools
 | ButterPool        | @GameFuzion#0282         | http://butterpool.com/      | 0.75%    | stratum+tcp://butterpool.com:3032         | Yes      |
 | GarlicMine        | @fstrmn#8930             | http://garlicmine.com       | 0.05%    | stratum+tcp://garlicmine.com:3333         | Yes      |
 | Rich Garlic Boye  | @Reap#3306               | http://rich.garlicboye.com/ | 1%       | stratum+tcp://rich.garlicboye.com:3333    | Yes      |
-| Happy Garlic Pool | @eins#0361               | http://happy.garlicoin.fun  | 0.7%     | stratum+tcp://happy.garlicoin.fun:3210    | No       |
-| H36               | @Cotix#4250              | https://h36.nl/             | 2%       | stratum+tcp://h36.nl:3333                 | No       |
+| Happy Garlic Pool | @eins#0361               | http://happy.garlicoin.fun  | 0.7%     | stratum+tcp://happy.garlicoin.fun:3210    | Yes      |
+| H36               | @Cotix#4250              | https://h36.nl/             | 0%       | stratum+tcp://h36.nl:3333                 | No       |
 
 <br>
-\* Gives the extra 1% fees to Charity (check their website to learn more).  
+\* Gives the 1% fees to Charity (check their website to learn more).  
 <br>
 If you are a pool owner and wish to add your pool, just create a [Pull Request](https://github.com/PandawanFr/GarlicoinHelp/pulls) (or message me `@Pandawan#4158`).
 
