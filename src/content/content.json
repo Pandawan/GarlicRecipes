@@ -18,8 +18,9 @@
 			"type": "category",
 			"title": "Wallet",
 			"contains": [{
-					"title": "Electrum (Recommended)",
-					"goto": "wallet-electrum"
+					"title": "Garlium (Recommended)",
+					"external": true,
+					"goto": "https://xske.github.io/garlium/"
 				},
 				{
 					"title": "Windows",
@@ -132,12 +133,6 @@
 			}
 		},
 		"get-wallet": {
-			"wallet-electrum": {
-				"type": "link",
-				"title": "Electrum (Recommended)",
-				"icon": "custom-icon icon-electron",
-				"description": "Get an easy to use wallet app for all platforms."
-			},
 			"wallet-win": {
 				"type": "link",
 				"title": "Windows Wallet",
