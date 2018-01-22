@@ -12,7 +12,8 @@ Check out the [Solo vs Pool](how-to-mine.html#solo-vs-pool) article to learn mor
 If a pool dominates (controls at least 51% of all the mining power), it means that they have full control over the blockchain and can therefore cheat the system by modifying some of the values (essentially creating, stealing, or removing money). As a result, pool diversity is very important and people should try to find the best pool or independent ones, to solidify the network.
 
 # List of Pools
-Here is a list of most available pools  
+Here is a list of most available pools.  
+**NOTE: These are community pools, we are not responsible for any incident that could happen when mining or using them.**
 
 ## Main-Net
 | Name              | Owner(s)                 | Website                     | Pool Fee | Address                                   | Verified |

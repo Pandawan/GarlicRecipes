@@ -1,11 +1,6 @@
 # Garlic Recipes
 Helper Website for Garlicoin
 
-## TODO
-- Update the binaries in the zip files with the MainNet binaries.
-- Add new link to Ske's Garlium (Main-Net version)
-- Post message in #devupdates "I have just released the updated guide for MainNet on Garlic Recipes. **To all Pool Owners**, please PM me when you have updated your pool so I can verify it!"
-
 ## Contribute
 If you want to contribute to this site, you can submit a Pull Request.  
 
