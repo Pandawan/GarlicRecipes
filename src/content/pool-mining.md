@@ -24,7 +24,7 @@ Here is a list of most available pools
 | GarlicPool.com    | @Jacob#0069, @Crath#0600 | https://garlicpool.com      | 1%       | stratum+tcp://grow.garlicpool.com:3333    | Yes      |
 | GarlicPool.org    | @Smiba#3781              | https://garlicpool.org      | 1%       | stratum+tcp://stratum.garlicpool.org:3333 | Yes      |
 | ButterPool        | @GameFuzion#0282         | http://butterpool.com/      | 0.75%    | stratum+tcp://butterpool.com:3032         | Yes      |
-| GarlicMine        | @fstrmn#8930             | http://garlicmine.com       | 1.5%     | stratum+tcp://garlicmine.com:3333         | No       |
+| GarlicMine        | @fstrmn#8930             | http://garlicmine.com       | 0.05%    | stratum+tcp://garlicmine.com:3333         | Yes      |
 | Rich Garlic Boye  | @Reap#3306               | http://rich.garlicboye.com/ | 1%       | stratum+tcp://rich.garlicboye.com:3333    | No       |
 | Happy Garlic Pool | @eins#0361               | http://happy.garlicoin.fun  | 0.7%     | stratum+tcp://happy.garlicoin.fun:3210    | No       |
 | H36               | @Cotix#4250              | https://h36.nl/             | 2%       | stratum+tcp://h36.nl:3333                 | No       |
