@@ -8,7 +8,7 @@ Thanks to `@Ske#6201` for the Windows Port!
 
 ## Mac
 Mac and Linux builds are not yet available, you should try one of the other wallets instead (for now).  
-If you wish to build it yourself, you can try the Linux installation steps, they should be similar (if not the same).
+If you wish to build it yourself, you can try this [Mac building guide](https://pastebin.com/U5dmBJEN) by `@Zee3658`.
 
 ## Linux
 Mac and Linux builds are not yet available, you should try one of the other wallets instead (for now).  

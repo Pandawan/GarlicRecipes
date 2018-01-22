@@ -101,7 +101,7 @@ If you are getting this eror, it means that your Command Prompt is not opened in
 Make sure that you have used `cd C:\Path\To\Garlic\Folder` before running your command.
 
 ## 0 blocks
-I do not yet know the cause of this issue. If you know how to fix this, please message me. If you are getting this error, check out `#troubleshooting` and ask around to see if people found how to fix it.
+Try changing your `.conf` file to have the content found on the [Changes page](./changes.html).
 
 ## HELP!
 If the above troubleshooting steps do not work. You can ask in the Discord chat `#troubleshooting` or `#windows-mining` or contact me `@Pandawan#4158`.
