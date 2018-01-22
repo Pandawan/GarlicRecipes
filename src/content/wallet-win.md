@@ -32,7 +32,6 @@ Windows might ask you for Firewall Access, Allow it.
 The program will not say anything, let it sit in the background. **Do not close it.**  
 *You will have to run this any time you wish to use your wallet (or when solo mining).*
 
-![Image of Command Prompt with Network Running](https://i.imgur.com/giEoOqZ.png)
 
 ## Step 3. Moving .conf File to Roaming\Garlicoin
 Back to your Garlic folder, there should be a file called `garlicoin.conf`. This file needs to be moved to the `Garlicoin` folder found in `AppData\Roaming`.  
