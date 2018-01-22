@@ -21,7 +21,7 @@ Here is a list of most available pools
 | Garlic Lol        | @caffeinatedpizza#9601   | https://garlic.lol/         | 0.69%    | stratum+tcp://pool.garlic.lol:3333        | Yes      |
 | GRLC.Sexy         | @Pretsell#4364           | https://grlc.sexy           | 0.5%     | stratum+tcp://grlc.sexy:3333              | Yes      |
 | GarlicSoup        | @Martin#6614             | https://pool.garlicsoup.xyz | 1%**\*** | stratum+tcp://us.pool.garlicsoup.xyz:3333 | Yes      |
-| GarlicPool.com    | @Jacob#0069, @Crath#0600 | https://garlicpool.com      | 1%       | stratum+tcp://grow.garlicpool.com:3333    | Yes      |
+| GarlicPool.com    | @Jacob#0069, @Crath#0600 | https://garlicpool.com      | 1%       | stratum+tcp://grow.garlicpool.com:3333    | No       |
 | GarlicPool.org    | @Smiba#3781              | https://garlicpool.org      | 1%       | stratum+tcp://stratum.garlicpool.org:3333 | Yes      |
 | ButterPool        | @GameFuzion#0282         | http://butterpool.com/      | 0.75%    | stratum+tcp://butterpool.com:3032         | Yes      |
 | GarlicMine        | @fstrmn#8930             | http://garlicmine.com       | 0.05%    | stratum+tcp://garlicmine.com:3333         | Yes      |
