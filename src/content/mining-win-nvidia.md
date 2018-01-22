@@ -61,5 +61,8 @@ Disabling DSR factors in nvidia control panel should fix the error.
 ## no CUDA-capable device detected
 Make sure that you have updated your Nvidia Drivers and that your Graphics Card can be found in [this list](https://developer.nvidia.com/cuda-gpus) (minimum required is `Compute 5.0`).
 
+## Access is denied
+Check your antivirus, it might be preventing the network from functioning
+
 ## HELP!
 If the above troubleshooting steps do not work. You can ask in the Discord chat `#troubleshooting` or `#windows-mining` or contact me `@Pandawan#4158`. 
