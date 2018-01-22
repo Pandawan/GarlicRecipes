@@ -10,18 +10,12 @@
 		<section class="hero is-info is-medium is-garlic">
 			<div class="hero-body smaller-hero-body">
 				<div class="container">
-					<article class="message is-danger">
-						<div class="message-header">
-							<p>Info</p>
-						</div>
-					</article>
 					<h1 class="title is-1">
 						<span class="icon btn-icon hidden" id="back-btn"><i class="fas fa-chevron-left"></i></span>
 						<span id="hero-title">
 							<%= page_title %>
 						</span>
 					</h1>
-
 					<% for (var key in content) { %>
 						<% if (!content.hasOwnProperty(key) || key == "default") continue; %>
 						<div class="content-page <%- (content.default.value != key ? 'hidden' : 'default' ) %>"  id="<%- key %>-page" <%- (content.default.value != key ? '' : 'data-title="' + content.default.title + '"' ) %> >
