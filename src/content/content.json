@@ -36,8 +36,7 @@
 				},
 				{
 					"title": "Web",
-					"external": true,
-					"goto": "https://breadbox.xyz"
+					"goto": "wallet-web"
 				}
 			]
 		},
@@ -162,8 +161,7 @@
 				"type": "link",
 				"title": "Web Wallet",
 				"icon": "fas fa-globe",
-				"description": "Get a wallet using the web client breadbox.",
-				"goto": "https://breadbox.xyz"
+				"description": "Get access to your wallet on the web with multiple Web Clients."
 			}
 		},
 		"get-miner": {
