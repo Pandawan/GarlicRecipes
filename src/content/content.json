@@ -133,6 +133,13 @@
 			}
 		},
 		"get-wallet": {
+			"wallet-garlium": {
+				"type": "link",
+				"title": "Garlium (Recommended)",
+				"icon": "custom-icon icon-electron",
+				"description": "Get an easy to use GUI wallet app for all platforms.",
+				"goto": "https://xske.github.io/garlium/"
+			},
 			"wallet-win": {
 				"type": "link",
 				"title": "Windows Wallet",

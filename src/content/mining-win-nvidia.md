@@ -1,6 +1,7 @@
 # Table of Contents
 - [Solo Mining](#solo-mining)
 - [Pool Mining](#pool-mining)
+- [Improving Performances](#improving-performances)
 - [Troubleshooting](#troubleshooting)
 
 # Solo Mining
@@ -10,7 +11,7 @@ Make sure that you have already setup a wallet and that your network is running 
 First you will want to download this special [Solo Miner](https://cryptomining-blog.com/wp-content/download/ccminer-1.7.6-r10-neoscrypt.zip) (this one only works for Solo Mining) and extract it to its own folder (perhaps *Solo Nvidia Miner*).  
 
 ## Step 2: Setting Up the Miner
-Now you will want to create a new text file and rename it to `Run-Miner-Solo-Nvidia.bat` (**Make sure the file ends with .bat**).  
+Now you will want to create a new text file inside that *Miner* folder and rename it to `Run-Miner-Solo-Nvidia.bat` (**Make sure the file ends with .bat**).  
 Edit the file (Right Click > Edit), and enter this:
 ```
 ccminer.exe --algo=scrypt:10 -o 127.0.0.1:42070 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
@@ -45,12 +46,21 @@ A safety measure has been added which prevents your graphics card from overheati
 You can open `Run-Miner-Pool-Nvidia.bat`!  
 The miner might take a while to calibrate, it can take between 1 to 10 minutes. 
 
+# Improving Performances
+Here are a few steps you can take to improve your performances. These might not work for everyone, so feel free to play around with it.  
+
+## Lookup-Gap
+In your bat file, you can try adding `--lookup-gap=2` and running it again This might improve your performances on some Nvidia GPUs, but not all.
+
 # Troubleshooting
 
 ## get_work errors
-If you get any get_work errors, then something is wrong with your network. **Make sure that your network is running** (and that you have added your .conf file to your /Roaming/Garlicoin folder).  
-**You should also try waiting a couple of minutes before mining (stop your miner), the network might be downloading the blockchain.**  
-If it still doesn't work, make sure that you are using the correct miner with the correct `bat` file, the Solor Miner is different from the Pool one.
+If you get any get_work errors, then something is wrong with your network.  
+Here are some steps to troubleshoot: 
+- Make sure that your network (`garlicoind`) is running
+- Make sure that you have added a .conf file in your /Roaming/Garlicoin.  
+- Check that your network has downloaded all the blockchain (Check out [Step 5 of the Wallet Guide](./wallet-win.html#step-5-download-the-blockchain)) 
+- If it still doesn't work, make sure that you are using the correct miner with the correct `bat` file, the Solor Miner is different from the Pool one.
 
 ## all cuda capable devices are busy or unavailable
 Disabling DSR factors in nvidia control panel should fix the error.
