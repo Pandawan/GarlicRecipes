@@ -11,7 +11,7 @@ Los mineros sólo pueden usar su CPU (Procesador) y GPU (tarjeta de gráfica) pa
 
 # CPU vs GPU
 Los mineros pueden usar su CPU (Procesador) o GPU (tarjeta de gráfica) para minar Garlicoin (ya que Garlicoin es resistante a ASIC, estas son las opciones unicas)
-La minería en el CPU es más accesible y más fácil configurar, pero la minería  en el GPU es más rápido y dará resultados mejores; Por La minería solalo tanto se recomienda minar en el GPU (sí está disponible).
+La minería en el CPU es más accesible y más fácil configurar, pero la minería  en el GPU es más rápido y dará resultados mejores; Por La minería solalo tanto se recomienda minar en el GPU (si está disponible).
 No se recomienda minar en un laptop (aunque factible) porque los laptops son muchos menos poderosos and podría resultar dañado más fácilmente.
 
 # Solo vs Pool
@@ -25,12 +25,13 @@ Pool mining significa que varios mineros se juntan and minar como un grupo (lama
 Porque los pools son un grupo de mineros,cuando recibe una recompensa, se distribuye a todos basado en cuanto ha contrbuido (significando un premio más bajo que con solo mining). Algunos pools también podrían tener una tarifa pooling, que usa el dueño generalmente para pagar el costo de hospedaje del pool.
 <br>
 
-**No todos deben usar el pool mismo**. Sí un pool domina (controla al menos 51% del el poder minería total), significa que tiene control total del blockchain y por eso engaña el sistemo por modificando algunos de los valores (fundamentalmente creando, robando, o quitando dinero). Como consecuencia, la diversidad del pool es muy importante y la gente debería intentar encontrar el pool mejor or independiente, para solidificar el red.
+**No todos deben usar el pool mismo**. Si un pool domina (controla al menos 51% del el poder minería total), significa que tiene control total del blockchain y por eso engaña el sistemo por modificando algunos de los valores (fundamentalmente creando, robando, o quitando dinero). Como consecuencia, la diversidad del pool es muy importante y la gente debería intentar encontrar el pool mejor or independiente, para solidificar el red.
 
 # Start Mining
-Sí desea iniciar minar, puede comprobar estss opciones
+Si desea iniciar minar, puede comprobar estss opciones
 **Se recomienda GPU Pool Mining** porque tiene una tasa con más éxito.
 - [CPU (all)](./mining-cpu.html)
 - [Windows Nvidia](./mining-win-nvidia.html)
 - [Windows AMD](./mining-win-amd.html)
 - [Linux GPU](./mining-nix-gpu.html)
+ 

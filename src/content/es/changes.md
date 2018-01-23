@@ -1,5 +1,5 @@
 ## 1/21/18 - Part 2
-Sí el red o los nodos no contecta, por favor reemplace tu `.conf` archivo con esto:
+Si el red o los nodos no contecta, por favor reemplace tu `.conf` archivo con esto:
 ```
 rpcuser=test
 rpcpassword=test
@@ -34,15 +34,15 @@ addnode=70.106.228.160
 ```
 
 ## 1/21/18
-Main-Net (red prinicipal) ha lanzado. Sí desea user eso en vez de Test-Net, quita cualquier ocurrencia de 'testnet' de sus comandos y sus archivos de configuración (o empeza de nuevo los tutoriales). 
+Main-Net (red prinicipal) ha lanzado. Si desea user eso en vez de Test-Net, quita cualquier ocurrencia de 'testnet' de sus comandos y sus archivos de configuración (o empeza de nuevo los tutoriales). 
 El algoritmo ha vuelto a 'scrypt:10' para el lanzamiento. 
 
 ## 1/18/18
-Ha cambiado 'scrypt' de 11 a 12. Sí mine con Test-Net, se asegura que ha cambiado el algoritmo de `scrypt:11` a `scrypt:12`.
+Ha cambiado 'scrypt' de 11 a 12. Si mine con Test-Net, se asegura que ha cambiado el algoritmo de `scrypt:11` a `scrypt:12`.
 Además, están disponible binarios nuevos en el [página de descarga](https://garlicoin.io/downloads).
 
 ## 1/12/18
-Fork Nuevo ha cambiado 'scrypt' de 11 a 12. Sí mine con Test-Net, se asegura que ha cambiado el algoritmo de `scrypt:11` a `scrypt:12`.
+Fork Nuevo ha cambiado 'scrypt' de 11 a 12. Si mine con Test-Net, se asegura que ha cambiado el algoritmo de `scrypt:11` a `scrypt:12`.
 Además, están disponible binarios nuevos, puede descargarlos [aquí](https://drive.google.com/file/d/10NDfrLjVJ3K9A6xzPWCCwhrwRf6NZSk7/view).
 
 ## 1/8/18
