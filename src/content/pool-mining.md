@@ -27,6 +27,7 @@ Here is a list of most available pools.
 | Happy Garlic Pool | @eins#0361               | http://happy.garlicoin.fun  | 0.7%     | stratum+tcp://happy.garlicoin.fun:3210    | No       |
 | H36               | @Cotix#4250              | https://h36.nl/             | 0%       | stratum+tcp://h36.nl:3333                 | No       |
 | HRY Mining Co.    | @Tyler#9270              | http://hry-mining.co/       | 0.5%     | stratum+tcp://hry-mining.co:3032          | No       |
+| Cagecoinpool    | @swordfish#5125             | http://cagecoinpool.com    | 1%     | stratum+tcp://cagecoinpool.com:3334          | No       |
 
 <br>
 \* Gives the 1% fees to Charity (check their website to learn more).  
