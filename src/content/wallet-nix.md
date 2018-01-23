@@ -6,9 +6,9 @@
 Setting up the network is fast and very easy. It allows your computer to connect to the Garlicoin Network.
 
 ## Step 1. Downloading the Files
-Fire, you will need to download the latest release for linux [here](https://github.com/GarlicoinOrg/Garlicoin/releases). 
+Fire, you will need to download the latest release for linux [here](https://github.com/GarlicoinOrg/Garlicoin/releases) as well as the quick start files [here](ROOT/files/wallet-nix.zip). 
 Use the latest Garlicoin-x86_64-unknown-linux-gnu.tar.gz for any 64 bit system.
-Once that is done, open the file and extract all of their content into a folder.  
+Once that is done, open the files and extract all of their content into a folder.  
 
 ## Step 2. Connecting to the Network
 Navigate to your Garlic folder using `cd`.  
@@ -18,7 +18,15 @@ Once that is done, run the command: `./garlicoind` in a terminal.
 The program will not say anything, let it sit in the background. **Do not close it.**  
 *You will have to run this any time you wish to use your wallet (or when solo mining).*
 
-## Step 3. Download the Blockchain
+## Step 3. Moving .conf File to Roaming\Garlicoin
+Back to your Garlic folder, there should be a file called `garlicoin.conf`. This file needs to be moved to the `.garlicoin` folder found in your home directory.
+
+## Step 4. Restart the Network
+Just to be sure that everything was done correctly. Close your Network connection by holding **Ctrl + C**.   in the terminal where you started it, or by closing that terminal.
+Now repeat **Step 2**, you should be good to go.  
+<br>
+
+## Step 5. Download the Blockchain
 While keeping your network terminal open, open a new terminal.  
 Navigate to your Garlicoin folder and type `./garlicoin-cli getinfo`.  
 Keep using that command until the number of blocks stops changing.  
@@ -30,7 +38,7 @@ Open a Terminal and navigate to the garlic folder again.
 
 ## Getting a New Address
 In the terminal, type this command: `./garlicoin-cli getnewaddress`.  
-This should return a series of letters and numbers. This is your address. Make sure that you copy it and keep it somewhere. You can also access the wallet info later through the wallet info command explained in the next section.
+This should return a series of letters and numbers. This is your address. Make sure that you copy it and keep it somewhere.
 
 *Whenever someone wants to pay you, you can send them this address*
 
