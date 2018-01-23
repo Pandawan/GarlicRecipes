@@ -23,7 +23,7 @@ Here is a list of most available pools.
 | GarlicPool.org    | @Smiba#3781      | https://garlicpool.org      | 1%       | stratum+tcp://stratum.garlicpool.org:3333 | Yes      |
 | Happy Garlic Pool | @eins#0361       | http://happy.garlicoin.fun  | 0.5%     | stratum+tcp://happy.garlicoin.fun:3210    | Yes      |
 | HRY Mining Co.    | @Tyler#9270      | http://hry-mining.co/       | 0.5%     | stratum+tcp://hry-mining.co:3032          | Yes      |
-| GarlicMine        | @fstrmn#8930     | http://garlicmine.com       | 1.5%     | stratum+tcp://garlicmine.com:3333         | No       |
+| GarlicMine        | @fstrmn#8930     | http://garlicmine.com       | 0.42%    | stratum+tcp://garlicmine.com:3333         | No       |
 | Rich Garlic Boye  | @Reap#3306       | http://rich.garlicboye.com/ | 1%       | stratum+tcp://rich.garlicboye.com:3333    | No       |
 | ButterPool        | @GameFuzion#0282 | http://butterpool.com/      | 0.75%    | stratum+tcp://butterpool.com:3032         | No       |
 | H36               | @Cotix#4250      | https://h36.nl/             | 2%       | stratum+tcp://h36.nl3333                  | No       |
