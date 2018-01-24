@@ -80,7 +80,6 @@ Ahora debe ver el 'hashrate' y, eventualmente, bloques confirmado.
 
 ## HTTP request failed: Failed to connect to 127.0.0.1 port 42070: Connection refused (Conexión rechazada)
 Si intenta minar Solo, se asesgura que tu red se ejecuta! Puede averiguar cómo configurarlo en los guías de la cartera.
-If you are trying to Solo mine, make sure that your network is running! You can check out how to set it up on the wallet guides:
 - [Windows](./wallet-win.html)
 - [Mac](./wallet-mac.html)
 - [Linux](./wallet-nix.html)
