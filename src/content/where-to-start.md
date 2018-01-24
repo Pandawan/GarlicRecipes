@@ -21,7 +21,7 @@ Once you know what you want to do (CPU vs GPU, Solo vs Pool), then you can choos
 - [Linux GPU](./mining-nix-gpu.html)
 
 ## Step 4: Donate!
-If I helped you, you should consider donating to me (@Pandawan#4158):
+If I helped you, please consider donating to me (@Pandawan#4158):
 
 - BTC: 13xqEPwdfkYFVdQvF596k91mWeUHRJTRjk
 - LTC: LhrWcYnXxnA3TcznRRvkfuZ8TVYNJ2nisU
