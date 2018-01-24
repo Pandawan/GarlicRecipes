@@ -28,7 +28,8 @@ Here is a list of most available pools.
 | ButterPool        | @GameFuzion#0282 | http://butterpool.com/      | 0.75%    | stratum+tcp://butterpool.com:3032         | No       |
 | H36               | @Cotix#4250      | https://h36.nl/             | 0%       | stratum+tcp://h36.nl:3333                 | No       |
 | MineGarlic        | @dmalf#6723      | https://minegarlic.com/     | 1%       | stratum+tcp://pool.minegarlic.com:3032    | No       |
-| GRLC Breath       | @revtex#5981     | http://pool.grlcbreath.com/ | 1%       | stratum+tcp://pool.grlcbreath.com:3032    | No       |  
+| GRLC Breath       | @revtex#5981     | http://pool.grlcbreath.com/ | 1%       | stratum+tcp://pool.grlcbreath.com:3032    | No       |
+| CageCoin Pool     | @swordfish#5125  | http://cagecoinpool.com     | 1%       | stratum+tcp://cagecoinpool.com:3334       | No       |  
 
 <br>
 \* Gives the 1% fees to Charity (check their website to learn more).  
