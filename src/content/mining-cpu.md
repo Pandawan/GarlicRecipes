@@ -77,12 +77,12 @@ Clone from the [project Github repo](https://github.com/tpruvot/cpuminer-multi) 
 
 ### Step 2a: (Recommended) Run the Miner on a Pool
 You'll need to specify the pool address, your wallet, and the algorithm:
-`./cpuminer --algo=scrypt:4096 -o stratum+tcp://pool.grlc-bakery.fun:3333 -u  <your wallet address here>`
+`./cpuminer --algo=scrypt:2048 -o stratum+tcp://pool.grlc-bakery.fun:3333 -u  <your wallet address here>`
 This uses the following pool: `grlc-bakery.fun`, you can check out a list of pools [here](pool-mining.html#main-net)
 
 ### Step 2b: Run the Miner Solo
 While running a node locally, you'll specify your node's address, your wallet, and the algorithm:
-`./cpuminer --algo=scrypt:4096 -o 127.0.0.1:42070 -u  <your wallet address here>`
+`./cpuminer --algo=scrypt:2048 -o 127.0.0.1:42070 -u  <your wallet address here>`
 
 You're should now see your hashrate and, eventually, confirmed blocks. 
 
