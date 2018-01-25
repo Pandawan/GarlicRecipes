@@ -5,7 +5,8 @@ This is the coin you never thought you needed, and you probably don't.
 
 # What is it?
 Okay, for real, Garlicoin is a new cryptocurrency created by the Garlicoin Team.  
-It is a fork (modified version) of litecoin and therefore works very similarly to it.
+It is a fork (modified version) of litecoin and therefore works very similarly to it.  
+You can find the official source code for it on [Github](https://github.com/GarlicoinOrg/Garlicoin)  
 
 # Wallet
 Wallets are where people keep their Garlicoin addresses in. They are usually composed of two keys (long strings of data), one private and one public. The public key is used to receive Garlicoin; give that address to anyone who wishes to send them Garlicoin. The private key is used for people to send Garlicoin; keep that address secret because it gives access to all your Garlicoins. Usually, the private key will be hidden and is stored in a secret place (which only the owner should have access).  
