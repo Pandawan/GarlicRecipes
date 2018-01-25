@@ -29,7 +29,10 @@ Here is a list of most available pools.
 | H36               | @Cotix#4250      | https://h36.nl/             | 0%       | stratum+tcp://h36.nl:3333                 | No       |
 | MineGarlic        | @dmalf#6723      | https://minegarlic.com/     | 1%       | stratum+tcp://pool.minegarlic.com:3032    | No       |
 | GRLC Breath       | @revtex#5981     | http://pool.grlcbreath.com/ | 1%       | stratum+tcp://pool.grlcbreath.com:3032    | No       |
-| CageCoin Pool     | @swordfish#5125  | http://cagecoinpool.com     | 1%       | stratum+tcp://cagecoinpool.com:3334       | No       |  
+| CageCoin Pool     | @swordfish#5125  | http://cagecoinpool.com     | 1%       | stratum+tcp://cagecoinpool.com:3334       | No       |
+| Golden Loaves     | @Woodsman#5494   | http://goldenloaves.xyz/    | 0.5%     | stratum+tcp://159.89.152.215:3333         | No       |
+| Clove Mines       | @Bonobo#8875     | http://clovemines.fun/      | 0.05%    | stratum+tcp://clovemines.fun:3333         | No       |
+| Aioli Pool        | @JeroenDG#8991   | http://aiolipool.eu/        | 0.5%     | stratum+tcp://mine.aiolipool.eu:3333      | No       |  
 
 <br>
 \* Gives the 1% fees to Charity (check their website to learn more).  

@@ -15,41 +15,53 @@ Extract the files in your installation folder (if you have followed the wallet g
 
 ![Image of CPU Miner Files](https://i.imgur.com/6Nwy2dC.png)
 
-## Step 2: Set Up
+## Step 2: (Recommended) Set Up For Pool Mining
 This miner uses a different system for different types of CPUs. Follow the section for your own CPU.  
 If you own an Intel i7, the instructions are different than for other Intel CPUs.
 
+**Because Pool Mining is strongly recommended, we will go with that.**  
+**You can learn more about the difference between Solo And Pool Mining [here](how-to-mine.html#solo-vs-pool).**  
+**If you prefer to Solo Mine, you can skip to that section [here](#step-4-optional-solo-mining).**
+
 ### Intel (regular) CPU
-Edit the `Run-Miner-Solo-CPU.bat` file (Right Click > Edit), make sure that at the start of the file it says `.\Miner\cpuminer-gw64-core2`.  
-Also, change the address (`ADDRESS`) after `--coinbase-addr=` to whatever you Garlicoin address is.
+Edit the `Run-Miner-Pool-CPU.bat` file (Right Click > Edit), make sure that at the start of the file it says `.\Miner\cpuminer-gw64-core2`.  
+Change the pool (`POOL`) to whichever pool, change the address (`ADDRESS`) to whatever you Garlicoin address is.
 
 ### Intel i7 CPU
-Edit the `Run-Miner-Solo-CPU.bat` file (Right Click > Edit), and change the start of the file to `.\Miner\cpuminer-gw64-corei7` (**make sure it says corei7**).  
-Also, change the address (`ADDRESS`) after `--coinbase-addr=` to whatever you Garlicoin address is.  
-*If mining does not work, consider following the regular Intel steps instead.*
+Edit the `Run-Miner-Pool-CPU.bat` file (Right Click > Edit), make sure that at the start of the file it says `.\Miner\cpuminer-gw64-corei7` (**make sure it says corei7**).  
+Change the pool (`POOL`) to whichever pool, change the address (`ADDRESS`) to whatever you Garlicoin address is.
+*If this does not work, consider following the regular Intel steps instead.*
 
 ### AMD CPU
-Edit the `Run-Miner-Solo-CPU.bat` file (Right Click > Edit), and change the start of the file to `.\Miner\cpuminer-gw64-avx2` (**make sure it says avx2**).  
-Also, change the address (`ADDRESS`) after `--coinbase-addr=` to whatever you Garlicoin address is.  
-*If mining does not work, consider following the regular Intel steps instead.*
-
-![Image of Bat File For Solo](https://i.imgur.com/n6CyWMp.png)
-
-## Step 3: Starting the Network
-From the Wallet guide, make sure that you have your network running. (You can do so by running `Run-Network.bat` if you haven't already).  
-
-## Step 4: (Optional) Using a Pool
-If you wish to use a pool instead of solo mining (you can learn more about the difference [here](how-to-mine.html#solo-vs-pool)), then follow these steps.  
-<br>
-
-Edit the `Run-Miner-Pool-CPU.bat` file (Right Click > Edit), and follow the same steps as [Step 2](#step-2-set-up) (only this time, there won't be a `--coinbase-addr`).  
-Then, replace the `POOL` to the pool's address (you can find some available pools [here](pool-mining.html#main-net)).  
-Once that is done, replace the `ADDRESS` (which is right after `-u`) to your address.  
+Edit the `Run-Miner-Pool-CPU.bat` file (Right Click > Edit), make sure that at the start of the file it says `.\Miner\cpuminer-gw64-avx2` (**make sure it says avx2**).  
+Change the pool (`POOL`) to whichever pool, change the address (`ADDRESS`) to whatever you Garlicoin address is.
+*If this does not work, consider following the regular Intel steps instead.*
 
 ![Image of Bat File For Pool](https://i.imgur.com/puFRTqU.png)
+*This image might be outdated, do not try to copy its content. Use the files given instead.*
+<br />
+
+## Step 3: Start the Miner
+You can now start mining with a Pool. Simply run your `Run-Miner-Pool-CPU.bat` and you should be good to go.  
+If the console returns something like *[2018-01-06 23:00:23] accepted: 4/4 (diff 0.000), 82.67 kH/s yes!* then you have gotten an accepted share!
+
+## Step 4: (Optional) Set Up for Solo Mining
+If you wish to Solo Mine instead of with a Pool (you can learn more about the difference [here](how-to-mine.html#solo-vs-pool)), then follow these steps.  
 <br>
 
-You can now mine using a pool. Simply run your `Run-Miner-Pool-CPU.bat` and you should be good to go.  
+### Solo Mining Network
+**As setup in the wallet guide, make sure that you have your network running. (You can do so by running `Run-Network.bat` if you haven't already).**
+
+### Set Up
+Edit the `Run-Miner-Solo-CPU.bat` file (Right Click > Edit), and this time, only change the address (`ADDRESS`, the one after `--coinbase-addr=`) to your address.  
+Since there is no pool, you do not need to change anything else in the file.
+
+![Image of Bat File For Solo](https://i.imgur.com/n6CyWMp.png)
+*This image might be outdated, do not try to copy its content. Use the files given instead.*
+<br>
+
+### Start Mining
+You can now solo mine. Simply run your `Run-Miner-Solo-CPU.bat` and you should be good to go.  
 If the console returns something like *[2018-01-06 23:00:23] accepted: 4/4 (diff 0.000), 82.67 kH/s yes!* then you have mined a block! 
 
 # Mac
@@ -63,7 +75,7 @@ Clone from the [project Github repo](https://github.com/tpruvot/cpuminer-multi) 
 
 ## Step 2: Run the Miner
 
-### Step 2a: Run the Miner on a Pool
+### Step 2a: (Recommended) Run the Miner on a Pool
 You'll need to specify the pool address, your wallet, and the algorithm:
 `./cpuminer --algo=scrypt:4096 -o stratum+tcp://pool.grlc-bakery.fun:3333 -u  <your wallet address here>`
 This uses the following pool: `grlc-bakery.fun`, you can check out a list of pools [here](pool-mining.html#main-net)

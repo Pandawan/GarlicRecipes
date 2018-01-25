@@ -6,7 +6,7 @@
 Setting up the network is fast and very easy. It allows your computer to connect to the Garlicoin Network.
 
 ## Step 1. Downloading the Files
-Fire, you will need to download the latest release for linux [here](https://github.com/GarlicoinOrg/Garlicoin/releases) as well as the quick start files [here](ROOT/files/wallet-nix.zip). 
+First, you will need to download the latest release for linux [here](https://github.com/GarlicoinOrg/Garlicoin/releases) as well as the quick start files [here](ROOT/files/wallet-nix.zip). 
 Use the latest Garlicoin-x86_64-unknown-linux-gnu.tar.gz for any 64 bit system.
 Once that is done, open the files and extract all of their content into a folder.  
 
