@@ -26,7 +26,7 @@
 - BTC: 13xqEPwdfkYFVdQvF596k91mWeUHRJTRjk
 - LTC: LhrWcYnXxnA3TcznRRvkfuZ8TVYNJ2nisU
 - BCH: 1PidoMufaqTyFMgdn37Gf4fCHf1GAKZT8w
-- GRLC: Not Yet
+- GRLC: GJi7QmcjkJzkuzLLxZ1vCa24GZPcxd59d3
 
 ## Шаг 5: Перевод
 По всем вопросам, предложениям и помощью с переводом пишите мне в discord (@drane#6134)
