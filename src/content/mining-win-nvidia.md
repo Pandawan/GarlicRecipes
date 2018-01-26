@@ -20,7 +20,7 @@ pause
 ```
 Then, replace the `POOL` to the pool's address (you can find some available pools [here](pool-mining.html#main-net)).  
 Once that is done, replace the `ADDRESS` (which is right after `-u`) to your address.  
-A safety measure has been added which prevents your graphics card from overheating (`--max-temp=85`). Only remove this option if you know what you are doing.  
+A safety measure has been added which prevents your graphics card from overheating (`--max-temp=85`). Only remove this option if you know what you are doing. You can check out a specific max temperature for your GPU [here](#max-temperature).  
 
 ## Step 3: Start Mining
 You can open `Run-Miner-Pool-Nvidia.bat`!  
@@ -41,7 +41,7 @@ ccminer.exe --algo=scrypt:10 -o 127.0.0.1:42070 -u test -p test --no-longpoll --
 pause  
 ```
 (make sure that you replace `ADDRESS` to your address).
-A safety measure has been added which prevents your graphics card from overheating (`--max-temp=85`). Only remove this option if you know what you are doing.  
+A safety measure has been added which prevents your graphics card from overheating (`--max-temp=85`). Only remove this option if you know what you are doing. You can check out a specific max temperature for your GPU [here](#max-temperature).  
 
 ## Step 3: Start Mining
 Make sure that your network is running, and you can open `Run-Miner-Solo-Nvidia.bat`!  
@@ -52,6 +52,16 @@ Here are a few steps you can take to improve your performances. These might not 
 
 ## Lookup-Gap
 In your bat file, you can try adding `--lookup-gap=2` and running it again This might improve your performances on some Nvidia GPUs, but not all.
+
+## Max Temperature
+**The 85C temperature is recommended for most GPUs, but some GPUs can support more.**
+
+If you are unable to mine because your GPU temp goes above 85C, you can check the max recommended temperature for your GPU (Nvidia) here: https://www.geforce.com/hardware/desktop-gpus
+(Search for your GPU, click More Info, then on the left, click Specifications, there should be an entry called `Maximum GPU Temperature (in C)`).  
+
+You can then edit the `--max-temp` to whatever temperature you desire.
+
+*We are not responsible for any damage which might happen when mining. Use at your own risk.*
 
 # Troubleshooting
 
