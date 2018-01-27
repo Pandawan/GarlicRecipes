@@ -16,23 +16,32 @@ Aquí una lista de las Pools más disponibles.
 **IMPORTANTE: Estas son pools de la comunidad, no nos hacemos responsables por cualquier incidente que pudiera ocurrir al minar o usarlas.**
 
 ## Main-Net
-| Nombre              | Propietario(s)         | Sitio                     | Cuota | Dirección                                   | Verificada |
-|-------------------|------------------|-----------------------------|----------|-------------------------------------------|----------|
-| Bakery            | @Vilsol#2060     | http://grlc-bakery.fun/     | 1%       | stratum+tcp://pool.grlc-bakery.fun:3333   | Yes      |
-| GarlicSoup        | @Martin#6614     | https://pool.garlicsoup.xyz | 1%**\*** | stratum+tcp://us.pool.garlicsoup.xyz:3333 | Yes      |
-| GarlicPool.org    | @Smiba#3781      | https://garlicpool.org      | 1%       | stratum+tcp://stratum.garlicpool.org:3333 | Yes      |
-| Happy Garlic Pool | @eins#0361       | http://happy.garlicoin.fun  | 0.5%     | stratum+tcp://happy.garlicoin.fun:3210    | Yes      |
-| HRY Mining Co.    | @Tyler#9270      | http://hry-mining.co/       | 0.5%     | stratum+tcp://hry-mining.co:3032          | Yes      |
-| GarlicMine        | @fstrmn#8930     | http://garlicmine.com       | 0.42%    | stratum+tcp://garlicmine.com:3333         | No       |
-| Rich Garlic Boye  | @Reap#3306       | http://rich.garlicboye.com/ | 1%       | stratum+tcp://rich.garlicboye.com:3333    | No       |
-| ButterPool        | @GameFuzion#0282 | http://butterpool.com/      | 0.75%    | stratum+tcp://butterpool.com:3032         | No       |
-| H36               | @Cotix#4250      | https://h36.nl/             | 0%       | stratum+tcp://h36.nl:3333                 | No       |
-| MineGarlic        | @dmalf#6723      | https://minegarlic.com/     | 1%       | stratum+tcp://pool.minegarlic.com:3032    | No       |
-| GRLC Breath       | @revtex#5981     | http://pool.grlcbreath.com/ | 1%       | stratum+tcp://pool.grlcbreath.com:3032    | No       |
-| CageCoin Pool     | @swordfish#5125  | http://cagecoinpool.com     | 1%       | stratum+tcp://cagecoinpool.com:3334       | No       |
-| Golden Loaves     | @Woodsman#5494   | http://goldenloaves.xyz/    | 0.5%     | stratum+tcp://159.89.152.215:3333         | No       |
-| Clove Mines       | @Bonobo#8875     | http://clovemines.fun/      | 0.05%    | stratum+tcp://clovemines.fun:3333         | No       |
-| Aioli Pool        | @JeroenDG#8991   | http://aiolipool.eu/        | 0.5%     | stratum+tcp://mine.aiolipool.eu:3333      | No       |  
+| Nombre            | Propietario(s)       | Sitio                                  | Cuota    | Dirección                                       | Verificada |
+|-------------------|----------------------|----------------------------------------|----------|-------------------------------------------------|------------|
+| Bakery            | @Vilsol#2060         | http://grlc-bakery.fun/                | 1%       | stratum+tcp://pool.grlc-bakery.fun:3333         | Yes        |
+| GarlicSoup        | @Martin#6614         | https://pool.garlicsoup.xyz            | 1%**\*** | stratum+tcp://us.pool.garlicsoup.xyz:3333       | Yes        |
+| GarlicPool.org    | @Smiba#3781          | https://garlicpool.org                 | 1%       | stratum+tcp://stratum.garlicpool.org:3333       | Yes        |
+| Happy Garlic Pool | @eins#0361           | http://happy.garlicoin.fun             | 0.5%     | stratum+tcp://happy.garlicoin.fun:3210          | Yes        |
+| HRY Mining Co.    | @Tyler#9270          | http://hry-mining.co/                  | 0.5%     | stratum+tcp://hry-mining.co:3032                | Yes        |
+| Rich Garlic Boye  | @Reap#3306           | http://rich.garlicboye.com/            | 1%       | stratum+tcp://rich.garlicboye.com:3333          | Yes        |
+| ButterPool        | @GameFuzion#0282     | http://butterpool.com/                 | 0.75%    | stratum+tcp://butterpool.com:3032               | Yes        |
+| GarlicMine        | @fstrmn#8930         | http://garlicmine.com                  | 0.42%    | stratum+tcp://garlicmine.com:3333               | No         |
+| H36               | @Cotix#4250          | https://h36.nl/                        | 0%       | stratum+tcp://h36.nl:3333                       | No         |
+| MineGarlic        | @dmalf#6723          | https://minegarlic.com/                | 1%       | stratum+tcp://pool.minegarlic.com:3032          | No         |
+| FreshGRLC         | @nuc1e4r5n4k3#5815   | https://www.freshgarlicblocks.net/     | 0%       | stratum+tcp://freshgarlicblocks.net:3032        | No         |
+| GRLC Breath       | @revtex#5981         | http://pool.grlcbreath.com/            | 1%       | stratum+tcp://pool.grlcbreath.com:3032          | No         |
+| CageCoin Pool     | @swordfish#5125      | http://cagecoinpool.com                | 1%       | stratum+tcp://cagecoinpool.com:3334             | No         |
+| Golden Loaves     | @Woodsman#5494       | http://goldenloaves.xyz/               | 0.5%     | stratum+tcp://159.89.152.215:3333               | No         |
+| Clove Mines       | @Bonobo#8875         | http://clovemines.fun/                 | 0.05%    | stratum+tcp://clovemines.fun:3333               | No         |
+| Aioli Pool        | @JeroenDG#8991       | http://aiolipool.eu/                   | 0.5%     | stratum+tcp://mine.aiolipool.eu:3333            | No         |
+| GarlicPress       | @Snorkel#1338        | http://www.garlicpress.eu              | 1%       | stratum+tcp://garlicpress.eu:3333               | No         |
+| Garlic Machine    | @xkronusx#3840       | http://holyfskingshtareyouserious.com/ | 0.5%     | stratum+tcp://garlicmachine.redirectme.net:3032 | No         |
+| V2 Pool           | @mario.chamuty#8840  | http://pool.v2.sk/                     | 0.5%     | stratum+tcp://pool.v2.sk:3433                   | No         |
+| Badass Pool       | @MF#3048             | http://garlicoin.iambadass.com/        | 0.69%    | stratum+tcp://garlicoin.iambadass.com:3333      | No         |
+| Bread Pool        | @Spydy#8322          | http://breadpool.org/                  | 0%       | stratum+tcp://breadpool.org:3333                | No         |
+| Garlic Bois       | @Danoded#6272        | http://garlicbois.com/                 | 0.25%    | stratum+tcp://garlicbois.com:3333               | No         |
+| GRLC Pool         | @MrSolo#7742         | http://grlc.co/                        | 0.69%    | stratum+tcp://grlc.co:3032                      | No         |
+| Garlic Sauce Pool | @UnnamedProdigy#0130 | http://www.grlcsauce.fun/              | 1%       | stratum+tcp://pool.grlcsauce.fun:3333           | No         |  
 
 <br>
 \* Da la cuota del 1% a beneficiencia (visita su sitio para saber más).  

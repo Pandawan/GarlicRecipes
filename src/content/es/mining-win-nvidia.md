@@ -15,7 +15,7 @@ Descarga este especial [Minero Pool](https://github.com/tpruvot/ccminer/releases
 Ahora deberás crear un nuevo archivo de texto y renombrarlo a `Run-Miner-Pool-Nvidia.bat` (**verifica que termine con/tenga la extensión .bat**).  
 Edita el archivo (Clic derecho > Editar), y agrega lo siguiente: 
 ```
-ccminer-x64 --algo=scrypt:10 -o POOL -u ADDRESS -listen --max-temp=85
+ccminer-x64 --algo=scrypt:10 -o POOL -u ADDRESS --max-temp=85
 pause
 ```
 Después, reemplaza la `POOL` a la dirección de la pool (puede ver algunas disponibles [aquí](pool-mining.html#main-net)).  
@@ -37,7 +37,7 @@ Primero deberás descargar este especial [Minero Solo](https://cryptomining-blog
 Ahora deberás crear un nuevo archvo de texto dentro de la carpeta *Miner* y renombrarlo como `Run-Miner-Solo-Nvidia.bat` (**Verifica que termine con/tenga la extensión .bat**).  
 Edita el archivo (Clic derecho > Editar), y agrega lo siguiente:
 ```
-ccminer.exe --algo=scrypt:10 -o 127.0.0.1:42070 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
+ccminer.exe --algo=scrypt:10 -o 127.0.0.1:42068 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
 pause  
 ```
 (cerciórate de reemplazar `ADDRESS` con tu dirección).

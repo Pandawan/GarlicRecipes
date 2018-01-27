@@ -14,7 +14,7 @@
 Создайте текстовый документ и переименуйте его в `Run-Miner-Solo-Nvidia.bat` (**файл должен иметь расширение .bat**)
 Редактируйте документ (Правый клик > изменить) и скопируйте туда эту строчку: 
 ```
-ccminer.exe --algo=scrypt:10 -o 127.0.0.1:42070 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
+ccminer.exe --algo=scrypt:10 -o 127.0.0.1:42068 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
 pause
 ```
 (вместо слова `ADDRESS` впишите туда свой адрес Garlicoin).  
@@ -37,7 +37,7 @@ pause
 
 Редактируйте документ (Правый клик > изменить) и скопируйте туда эту строчку:
 ```
-ccminer-x64 --algo=scrypt:10 -o POOL -u ADDRESS -listen --max-temp=85
+ccminer-x64 --algo=scrypt:10 -o POOL -u ADDRESS --max-temp=85
 
 pause
 ```  
