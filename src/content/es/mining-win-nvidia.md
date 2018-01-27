@@ -10,6 +10,7 @@ Puede mirar la [Guía cartera Windows](wallet-win.html) para aprender más.
 ## Paso 1: Descargando los archivos
 Primero, tiene que descargar esto especial [Solo Miner](https://cryptomining-blog.com/wp-content/download/ccminer-1.7.6-r10-neoscrypt.zip)(esto sólo funciona para Solo Mining) y extraerlo a su propia carpeta(llamado quizas *Solo Nvidia Miner*)
 to your address
+
 ## Paso 2: Configurar el minero
 Ahora tiene que crear un nuevo archivo de texto y llamarlo `Run-Miner-Solo-Nvidia.bat`. (**Asegúrase de que el archivo tiene el final .bat**)
 Edita el archivo (Haga clic derecho > Edita), esribe esto:

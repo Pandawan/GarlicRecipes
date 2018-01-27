@@ -28,16 +28,29 @@ No decirá nada el programa, deja que se siente en el fondo. **No cierralo.**
 The program will not say anything, let it sit in the background. **Do not close it.**  
 *You will have to open this any time you wish to use your wallet (or when solo mining).*  
 
-### Command Line Way
+### La manera Command Line
+Para lo más experimentado, abre el Command Prompt. 
+Navigar a la carpeta Garlicoin usando `cd`. 
+Luego, ejecuta el mando: `garlicoind`.
+Quizás le pide Windows para el accesso cortafuegos, Permitalo
+
 For the more experienced, open a Command Prompt.  
 Navigate to your Garlic folder using `cd`.  
 Once that is done, run the command: `garlicoind`.
 Windows might ask you for Firewall Access, Allow it.  
 <br>
 
+No decirá nada el programa, deja que se siente en el fondo. **No cierralo.**
+*Tendrá que abrir esto cada vez que desea usar la cartera (o cuando hace la minería Solo).*
+
 The program will not say anything, let it sit in the background. **Do not close it.**  
 *You will have to run this any time you wish to use your wallet (or when solo mining).*
 
+## Paso 3. Mover .conf archivo a Roaming\Garlicoin
+Regrese a la carpeta Garlic, Debe de haber un archivo llamado `garlicoin.conf`. Mueve esto archivo a la carpeta `Garlicoin` encontrado en `AppData\Roaming`. 
+<br>
+
+Para acceder a esta carpeta, Abre **RUN** (Windows tecla + R), y escribe `%appdata%`. Esto debería abrir una carpeta, ubicar la carpeta `Garlicoin` y mueva el archivo `garlicoin.conf` allí (a ello)?
 
 ## Step 3. Moving .conf File to Roaming\Garlicoin
 Back to your Garlic folder, there should be a file called `garlicoin.conf`. This file needs to be moved to the `Garlicoin` folder found in `AppData\Roaming`.  
