@@ -1,5 +1,6 @@
 # Prevent cached version of repo
 .publish
+dist
 
 # Created by https://www.gitignore.io/api/node,linux,macos,windows
 
