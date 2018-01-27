@@ -215,11 +215,8 @@ gulp.task('reload', function (cb) {
 gulp.task('deploy', function (cb) {
 	root = 'https://pandawanfr.github.io/GarlicRecipes'
 	runSequence('clean', 'build', 'clean-html', function () {
-		ghpages.publish('dist', function () {
-			// Run Prod to rebuild the dist folder with the correct root 
-			// So that the GitHub repo always keeps the same ROOT value
-			runSequence('prod', cb);
-		});
+		// No need to call gulp prod anymore, dist folder is ignored by gitignore
+		ghpages.publish('dist', cb);
 	});
 });
 

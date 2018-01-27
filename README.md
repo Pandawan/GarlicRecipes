@@ -16,7 +16,7 @@ To create a new translation, create a new folder in `src/content` with your coun
 Once that is done, copy all the `.md` files and the `content.json` files that are inside `src/content`, and put them into your new folder. You can now translate all of those files.  
 
 ### Build and Submit
-Once you are done, don't forget to `gulp prod` (to clean the dist folder and build everything) and submit as a Pull Request.
+Once you are done, you can submit your changes as a pull request
 
 ## Links for future ref
 [bulma](https://bulma.io/)
