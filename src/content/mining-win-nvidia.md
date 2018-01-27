@@ -77,7 +77,8 @@ Here are some steps to troubleshoot:
 Disabling DSR factors in nvidia control panel should fix the error.
 
 ## Spamming 0 kH/s
-Disabling DSR factors in nvidia control panel should fix the error.
+- Disabling DSR factors in nvidia control panel should fix the error.
+- If that doesn't work and you have an **old GPU** (under 900 series), try using [this miner](https://github.com/KBomba/ccminer-KBomba/releases/tag/V1.0.02) instead. 
 
 ## no CUDA-capable device detected
 Make sure that you have updated your Nvidia Drivers and that your Graphics Card can be found in [this list](https://developer.nvidia.com/cuda-gpus) (minimum required is `Compute 5.0`).

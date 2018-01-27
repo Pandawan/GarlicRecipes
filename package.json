@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node index.js",
-    "build": "gulp build",
+    "build": "gulp prod",
     "deploy": "gulp deploy",
     "fix": "eslint --fix "
   },
