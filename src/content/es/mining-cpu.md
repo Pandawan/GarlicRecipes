@@ -1,4 +1,4 @@
-### Aviso: La minería CPU no se recomienda como no es muy probable que va a minar un bloqueo. Recomendamos la minería GPU.
+### Aviso: La minería CPU no se recomienda como no es muy probable que va a minar un bloque. Recomendamos la minería GPU.
 
 # El índice de contenidos
 - [Windows](#windows)
@@ -52,7 +52,7 @@ También, cambia la dirección (`ADDRESS`) (que viene después `-u`) a tu direcc
 <br>
 
 Ahora, puede minar con un Pool. Simplemente ejecuta el `Run-Miner-Pool-CPU.bat` and debería funcionar.
-Si la consola dice algo como *[2018-01-06 23:00:23] accepted: 4/4 (diff 0.000), 82.67 kH/s yes!* entonces ha minado un bloqueo! 
+Si la consola dice algo como *[2018-01-06 23:00:23] accepted: 4/4 (diff 0.000), 82.67 kH/s yes!* entonces ha minado un bloque! 
 
 # Mac
 Las guías de Mac no están disponile acutalmente. Si desea contribuir a esto sitio, por favor crea un pull request [aquí](https://github.com/PandawanFr/GarlicoinHelp/pulls).  

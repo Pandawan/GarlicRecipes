@@ -1,23 +1,29 @@
-# Table of Contents
+# El índice de contenidos
 - [Setting Up The Network](#setting-up-the-network)
 - [Getting A Wallet](#getting-a-wallet)
 - [Troubleshooting](#troubleshooting)
 
-# Setting Up The Network
-Setting up the network is fast and very easy. It allows your computer to connect to the Garlicoin Network.
+# Configurar la Red
+Configurar la red es rápido y muy fácil. Se permite tu ordenador conectar al red Garlicoin.
 
-## Step 1. Downloading the Files
-Fire, you will need to download the windows binaries [here](https://garlicoin.io/downloads) as well as the [Quick Start Files](ROOT/files/wallet-win.zip).
-Once that is done, open the file and extract all of their content into a folder (In this tutorial, we will use `C:\Garlic\`).  
-![Garlic Folder With Files](https://i.imgur.com/YYqtODB.png)
+## Paso 1. Descargando los archivos
+Primero, tiene que descargar el windows binaries [aquí](https://garlicoin.io/downloads) además de el [Quick Start Files](ROOT/files/wallet-win.zip).
+Después, abre el archivo y extraerlo a una carpeta (En esto tutorial, vamos a usar `C:\Garlic\`).
 
-## Step 2. Connecting to the Network
-This can be done in two ways, the Graphical Way (Recommended) and the Command Line way.  
+![Garlic Carpeta Con Archivos](https://i.imgur.com/YYqtODB.png)
 
-### Graphical Way
-In your installation folder, there should be a file called `Run-Network.bat`.  
+## Paso 2. Contectar a la Red
+Esto se puede hacer en dos maneras, La manera gráfica (recomendado) y la manera Command Line
+
+### La manera gráfica
+En la carpeta de installación, Debe de haber un archivo llamado `Run-Network.bat`.  
+Abre esto archivo, se abre (command prompt window). Asegurase que permitirlo acceso por el cortafuego (si pidelo).
+
 Open that file; a command prompt window should open. Make sure you Allow Access through your firewall (if it asks you).  
 <br>
+
+No decirá nada el programa, deja que se siente en el fondo. **No cierralo.**
+*Tendrá que abrir esto cada vez que desea usar la cartera (o cuando hace la minería Solo).*
 
 The program will not say anything, let it sit in the background. **Do not close it.**  
 *You will have to open this any time you wish to use your wallet (or when solo mining).*  

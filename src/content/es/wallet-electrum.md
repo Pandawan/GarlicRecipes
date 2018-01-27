@@ -1,18 +1,18 @@
-# Garlium (Electrum) Wallet
-The Electrum wallet is cross-platform, you can install it on Windows, Mac and Linux.
+# Garlium (Electrum) Cartera
+La cartera Electrum es multiplataforma, puede installarlo en Windows, Mac y Linux.
 
 ## Windows
-**Make sure that you have deleted your %AppData%/Garlium folder before installing!**
-Download this [installer](http://f.ske.wtf/garlium/garlium-3.0.3.1-137-gf09ee4d-setup.exe) and install it. You should be good to go.  
-Thanks to `@Ske#6201` for the Windows Port!
+**Asegurase que borra tu carpeta llamado %AppData%/Garlium antes de installar!**
+Descarga esto [installador](http://f.ske.wtf/garlium/garlium-3.0.3.1-137-gf09ee4d-setup.exe) y installarlo. Eso es todo.
+Gracias a `@Ske#6201` para el Windows Port!
 
 ## Mac
-Mac and Linux builds are not yet available, you should try one of the other wallets instead (for now).  
-If you wish to build it yourself, you can try this [Mac building guide](https://pastebin.com/U5dmBJEN) by `@Zee3658`.
+Las versiones Mac y Linux todavía no están disponibles, puede intentar uno de los carteras otras (por ahora).
+Si desea construirlo usted mismo, puede intentar esto [Guía de construcción de Mac](https://pastebin.com/U5dmBJEN) peor `@Zee3658`.
 
-## Linux
-Mac and Linux builds are not yet available, you should try one of the other wallets instead (for now).  
-If you wish to build it yourself, you can follow the steps from this [GitHub Repo](https://github.com/xSke/garlium) by `@Ske#6201`.  
+## Mac
+Las versiones Mac y Linux todavía no están disponibles, puede intentar uno de los carteras otras (por ahora).
+Si desea construirlo usted mismo, puede intentar esto [GitHub Repo](https://github.com/xSke/garlium) por `@Ske#6201`.  
 
-## Note
-If these don't work or you prefer to use the official wallet (which is a bit harder to use), then follow the other Wallet guides.
+## Anotación
+Si no funcionan estas carteras, o prefiera user la cartera oficial (que es un poco más difícil usar), entonces puede seguir las otras guías de cartera.

@@ -1,4 +1,4 @@
-# Table of Contents
+# El índice de contenidos
 - [Solo Mining](#solo-mining)
 - [Pool Mining](#pool-mining)
 - [Troubleshooting](#troubleshooting)
