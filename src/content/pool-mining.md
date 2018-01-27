@@ -28,6 +28,7 @@ Here is a list of most available pools.
 | GarlicMine        | @fstrmn#8930        | http://garlicmine.com                  | 0.42%    | stratum+tcp://garlicmine.com:3333               | No       |
 | H36               | @Cotix#4250         | https://h36.nl/                        | 0%       | stratum+tcp://h36.nl:3333                       | No       |
 | MineGarlic        | @dmalf#6723         | https://minegarlic.com/                | 1%       | stratum+tcp://pool.minegarlic.com:3032          | No       |
+| FreshGRLC         | @nuc1e4r5n4k3#5815  | https://www.freshgarlicblocks.net/     | 0%       | stratum+tcp://freshgarlicblocks.net:3032        | No       |
 | GRLC Breath       | @revtex#5981        | http://pool.grlcbreath.com/            | 1%       | stratum+tcp://pool.grlcbreath.com:3032          | No       |
 | CageCoin Pool     | @swordfish#5125     | http://cagecoinpool.com                | 1%       | stratum+tcp://cagecoinpool.com:3334             | No       |
 | Golden Loaves     | @Woodsman#5494      | http://goldenloaves.xyz/               | 0.5%     | stratum+tcp://159.89.152.215:3333               | No       |
@@ -37,7 +38,8 @@ Here is a list of most available pools.
 | Garlic Machine    | @xkronusx#3840      | http://holyfskingshtareyouserious.com/ | 0.5%     | stratum+tcp://garlicmachine.redirectme.net:3032 | No       |
 | V2 Pool           | @mario.chamuty#8840 | http://pool.v2.sk/                     | 0.5%     | stratum+tcp://pool.v2.sk:3433                   | No       |
 | Badass Pool       | @MF#3048            | http://garlicoin.iambadass.com/        | 0.69%    | stratum+tcp://garlicoin.iambadass.com:3333      | No       |
-| Bread Pool        | @Spydy#8322         | http://breadpool.org/                  | 0%       | stratum+tcp://breadpool.org:3333                | No       |  
+| Bread Pool        | @Spydy#8322         | http://breadpool.org/                  | 0%       | stratum+tcp://breadpool.org:3333                | No       |
+| Garlic Bois       | @Danoded#6272       | http://garlicbois.com/                 | 0.25%    | stratum+tcp://garlicbois.com:3333               | No       |  
 
 <br>
 \* Gives the 1% fees to Charity (check their website to learn more).  
