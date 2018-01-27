@@ -37,7 +37,7 @@ First you will want to download this special [Solo Miner](https://cryptomining-b
 Now you will want to create a new text file inside that *Miner* folder and rename it to `Run-Miner-Solo-Nvidia.bat` (**Make sure the file ends with .bat**).  
 Edit the file (Right Click > Edit), and enter this:
 ```
-ccminer.exe --algo=scrypt:10 -o 127.0.0.1:42070 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
+ccminer.exe --algo=scrypt:10 -o 127.0.0.1:42068 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
 pause  
 ```
 (make sure that you replace `ADDRESS` to your address).
@@ -70,6 +70,7 @@ If you get any get_work errors, then something is wrong with your network.
 Here are some steps to troubleshoot: 
 - Make sure that your network (`garlicoind`) is running
 - Make sure that you have added a .conf file in your /Roaming/Garlicoin.  
+- If you are *solo mining*, Make sure that both your miner and your .conf file are using the port `42068` (instead of `42070`).
 - Check that your network has downloaded all the blockchain (Check out [Step 5 of the Wallet Guide](./wallet-win.html#step-5-download-the-blockchain)) 
 - If it still doesn't work, make sure that you are using the correct miner with the correct `bat` file, the Solor Miner is different from the Pool one.
 
