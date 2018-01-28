@@ -42,6 +42,7 @@ Here is a list of most available pools.
 | Garlic Bois       | @Danoded#6272        | http://garlicbois.com/                 | 0.25%    | stratum+tcp://garlicbois.com:3333               | No       |
 | GRLC Pool         | @MrSolo#7742         | http://grlc.co/                        | 0.69%    | stratum+tcp://grlc.co:3032                      | No       |
 | Garlic Sauce Pool | @UnnamedProdigy#0130 | http://www.grlcsauce.fun/              | 1%       | stratum+tcp://pool.grlcsauce.fun:3333           | No       |  
+| Wild Garlic       | @Kryptonite#6233     | https://wildgarlic.fun/                | 0%       | stratum+tcp://eu.wildgarlic.fun:3333            | No       |  
 
 <br>
 \* Gives the 1% fees to Charity (check their website to learn more).  
