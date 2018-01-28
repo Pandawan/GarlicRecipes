@@ -28,9 +28,8 @@ Now repeat **Step 2**, you should be good to go.
 
 ## Step 5. Download the Blockchain
 While keeping your network terminal open, open a new terminal.  
-Navigate to your Garlicoin folder and type `./garlicoin-cli getinfo`.  
-Keep using that command until the number of blocks stops changing.  
-If it stops changing (after you run the command a bunch of times), it means that you have downloaded all of the blockchain and can now move to the next step.
+Navigate to your Garlicoin folder and type `./garlicoin-cli getblockchaininfo`.  
+This command displays information about the blockchain you have downloaded, the `blocks` value at the top is the number of blocks that has been recieved. You can run this command a few times to check the status once it hits the value (https://explorer.grlc-bakery.fun/api/getblockcount)[here] your blockchain sync is complete.
 
 # Getting a Wallet
 Once you have gotten the Network up and running, you will need to get a wallet address.  
