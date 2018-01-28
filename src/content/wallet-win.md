@@ -40,7 +40,7 @@ Back to your Garlic folder, there should be a file called `garlicoin.conf`. This
 To access this folder, Open **RUN** (Windows + R), and type `%appdata%`. This should open a folder, locate the `Garlicoin` folder and move the `garlicoin.conf` file to it.
 
 ## Step 4. Restart the Network
-Just to be sure that everything was done correctly. Close your Network window (the one `Run-Network.bat` one) by holding **Ctrl + C**.  
+Just to be sure that everything was done correctly. Close your Network window (the `Run-Network.bat` one) by holding **Ctrl + C**.  
 Now repeat **Step 2**, you should be good to go.  
 <br>
 

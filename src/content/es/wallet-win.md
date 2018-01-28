@@ -58,38 +58,40 @@ Back to your Garlic folder, there should be a file called `garlicoin.conf`. This
 
 To access this folder, Open **RUN** (Windows + R), and type `%appdata%`. This should open a folder, locate the `Garlicoin` folder and move the `garlicoin.conf` file to it.
 
-## Step 4. Restart the Network
-Just to be sure that everything was done correctly. Close your Network window (the one `Run-Network.bat` one) by holding **Ctrl + C**.  
-Now repeat **Step 2**, you should be good to go.  
+## Paso 4. Reiniciar la Red
+Para estar seguro de que todo fue hecho correctamente. Cierra su ventana de red (`Run-Network.bat`) manteniendo las teclas **Ctrl + C**. Ahora repite **Paso 2**, probablemente funcionará.
 <br>
 
-## Step 5. Download the Blockchain
-While keeping your network window open, Open a new Command Prompt.  
-Navigate to your Garlicoin folder (use `cd C:\Garlic\`), and type `garlicoin-cli getinfo`.  
-Keep using that command until the number of blocks stops changing.  
-If it stops changing (after you run the command a bunch of times), it means that you have downloaded all of the blockchain and can now move to the next step.
+## Paso 5. Descargar el Blockchain
+Mientras mantenga abierto la ventana de red, abre un nuevo Command Prompt. Navigar a tu carpeta Garlicoin (usa `cd C:\Garlic\`), y escribir `garlicoin-cli getinfo`. 
+Sigue usando ese mando, hasta que dejan de cambiar los numeros de bloques. Si deja de cambiar (después ejecuta el mando muchas veces), significa que usted ha descargado todo del blockchain y ahora puede mover al paso siguiente.  
 
-# Getting a Wallet
-Once you have gotten the Network up and running, you will need to get a wallet address.  
+# Conseguir una cartera
+Una vez que empiece a functionar la red, tendrá que obtener una dirección de cartera.
 
-## Step 1. Using the Command Prompt
-Open a **Command Prompt**. You will now need to navigate to your installation folder; you can do so like this:  
-If you have installed on a different drive, you need to type the letter of your drive followed by a colon. For example, drive F would be `F:`. Then press enter.
-Type `cd C:\Garlic\` (or whatever your installation folder is) and press Enter . 
+## Paso 1. Usando el Command Prompt
+Abre un **Command Prompt**. Navigar al carpeta de installación, puede hacerlo como esto:
+Si lo installaba a un disco duro, usted tiene que escribir la letra de su disco duro seguido de los dos puntos. Por ejemplo, disco F estaría `F:`.
+Luego apreta 'enter'.
+Escribe (escirbe a máquina) `cd C:\Garlic\` (o lo que es su carpeta de instalación) y apreta 'enter'.
 
-## Step 2. Getting a New Address
-In the Command Prompt, type this command: `garlicoin-cli getnewaddress`.  
-This should return a series of letters and numbers. This is your address. Make sure that you copy it and keep it somewhere.  
-(To copy from the Command Prompt, select the address with your mouse and then right click).  
+## Paso 2. Obtener una dirección nueva
+En el Command Prompt, escribe esto mando:  `garlicoin-cli getnewaddress`.
+Esto debería devolver una serie de letras y numeros. Esto es su dirección. Asegurase de copiarlo y guardarlo en un lugar seguro. 
+(Para copiarlo del Command Prompt, selectionar la dirección con el ratón y luego clic derecho).
 
-*Whenever someone wants to pay you, you can send them this address*
+*Cuando sea alguien quiere pagarle, puede enviarle esta dirección*
 
 ![Image of GetNewAddress](https://i.imgur.com/pjSUslM.png)
 
-## Step 3. Getting Wallet Info
-To make sure that you have done everything right (or to view your balance), you can type: `garlicoin-cli getwalletinfo` in that same Command Prompt.  
-This should give you information about your balance, wallet, when your last transaction was...  
+## Paso 3. Obtener la información de la cartera
+Para Asegurase que ha hecho todo correcto (o ver el saldo), puede escribir: `garlicoin-cli getwalletinfo`, cuando fue su ultima transación...
 <br>
+
+## Paso 4. Hacer una copia de seguridad
+A veces, la applicación de cartera puede fallar y corromper la cartera. Si desea hacer una copia de seguridad antes de que esto suceda (para recuperarlo en caso de que romper), seguir estos pasos:
+En una ventanna de Command Prompt (mientras ejecuta la red), escribe el mando: `garlicoin-cli backupwallet <path>`.
+Esto ahorra blarghs
 
 ## Step 4. Backing Up the Wallet
 Sometimes, the wallet app can fail and corrupt the wallet. If you wish to back it up before that happens (in order to recover it in case it does break), follow these steps:  
