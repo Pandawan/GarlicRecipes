@@ -25,7 +25,7 @@ Here is a list of most available pools.
 | HRY Mining Co.    | @Tyler#9270          | http://hry-mining.co/                  | 0.5%     | stratum+tcp://hry-mining.co:3032                | Yes      |
 | Rich Garlic Boye  | @Reap#3306           | http://rich.garlicboye.com/            | 1%       | stratum+tcp://rich.garlicboye.com:3333          | Yes      |
 | ButterPool        | @GameFuzion#0282     | http://butterpool.com/                 | 0.75%    | stratum+tcp://butterpool.com:3032               | Yes      |
-| GarlicMine        | @fstrmn#8930         | http://garlicmine.com                  | 0.42%    | stratum+tcp://garlicmine.com:3333               | No       |
+| GarlicMine        | @fstrmn#8930         | http://garlicmine.com                  | 0.42%    | stratum+tcp://garlicmine.com:3333               | Yes      |
 | H36               | @Cotix#4250          | https://h36.nl/                        | 0%       | stratum+tcp://h36.nl:3333                       | No       |
 | MineGarlic        | @dmalf#6723          | https://minegarlic.com/                | 1%       | stratum+tcp://pool.minegarlic.com:3032          | No       |
 | FreshGRLC         | @nuc1e4r5n4k3#5815   | https://www.freshgarlicblocks.net/     | 0%       | stratum+tcp://freshgarlicblocks.net:3032        | No       |
