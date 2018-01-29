@@ -43,6 +43,7 @@ Here is a list of most available pools.
 | GRLC Pool         | @MrSolo#7742         | http://grlc.co/                        | 0.69%    | stratum+tcp://grlc.co:3032                      | No       |
 | Garlic Sauce Pool | @UnnamedProdigy#0130 | http://www.grlcsauce.fun/              | 1%       | stratum+tcp://pool.grlcsauce.fun:3333           | No       |
 | Mining Nation     | @JohnDavies1987#5426 | http://mining-nation.ml/               | 0.5%     | stratum+tcp://mining-nation.ml:4008             | No       |  
+| Bread Brit     | @MrDag0n#1388 | https://breadbrit.uk/               | 0.33%     | stratum+tcp://pool.breadbrit.uk:3333             | No       |  
 
 <br>
 \* Gives the 1% fees to Charity (check their website to learn more).  
