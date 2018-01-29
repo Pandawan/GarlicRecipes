@@ -18,8 +18,8 @@
 			"type": "category",
 			"title": "Кошелек",
 			"contains": [{
-					"title": "Electrum (рекомендуется)",
-					"goto": "wallet-electrum"
+					"title": "Garlium (рекомендуется)",
+					"goto": "wallet-garlium"
 				},
 				{
 					"title": "Windows",
@@ -131,9 +131,9 @@
 			}
 		},
 		"get-wallet": {
-			"wallet-electrum": {
+			"wallet-garlium": {
 				"type": "link",
-				"title": "Electrum (рекомендуется))",
+				"title": "Garlium (рекомендуется))",
 				"icon": "custom-icon icon-electron",
 				"description": "Получите простой кошелек под любую платформу."
 			},

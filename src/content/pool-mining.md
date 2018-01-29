@@ -29,7 +29,7 @@ Here is a list of most available pools.
 | H36               | @Cotix#4250          | https://h36.nl/                        | 0%       | stratum+tcp://h36.nl:3333                       | No       |
 | MineGarlic        | @dmalf#6723          | https://minegarlic.com/                | 1%       | stratum+tcp://pool.minegarlic.com:3032          | No       |
 | FreshGRLC         | @nuc1e4r5n4k3#5815   | https://www.freshgarlicblocks.net/     | 0%       | stratum+tcp://freshgarlicblocks.net:3032        | No       |
-| GRLC Breath       | @revtex#5981         | http://pool.grlcbreath.com/            | 1%       | stratum+tcp://pool.grlcbreath.com:3032          | No       |
+| GRLC Breath       | @revtex#5981         | http://pool.grlcbreath.com/            | 0.5%     | stratum+tcp://pool.grlcbreath.com:3032          | No       |
 | CageCoin Pool     | @swordfish#5125      | http://cagecoinpool.com                | 1%       | stratum+tcp://cagecoinpool.com:3334             | No       |
 | Golden Loaves     | @Woodsman#5494       | http://goldenloaves.xyz/               | 0.5%     | stratum+tcp://159.89.152.215:3333               | No       |
 | Clove Mines       | @Bonobo#8875         | http://clovemines.fun/                 | 0.05%    | stratum+tcp://clovemines.fun:3333               | No       |
@@ -41,7 +41,8 @@ Here is a list of most available pools.
 | Bread Pool        | @Spydy#8322          | http://breadpool.org/                  | 0%       | stratum+tcp://breadpool.org:3333                | No       |
 | Garlic Bois       | @Danoded#6272        | http://garlicbois.com/                 | 0.25%    | stratum+tcp://garlicbois.com:3333               | No       |
 | GRLC Pool         | @MrSolo#7742         | http://grlc.co/                        | 0.69%    | stratum+tcp://grlc.co:3032                      | No       |
-| Garlic Sauce Pool | @UnnamedProdigy#0130 | http://www.grlcsauce.fun/              | 1%       | stratum+tcp://pool.grlcsauce.fun:3333           | No       |  
+| Garlic Sauce Pool | @UnnamedProdigy#0130 | http://www.grlcsauce.fun/              | 1%       | stratum+tcp://pool.grlcsauce.fun:3333           | No       |
+| Mining Nation     | @JohnDavies1987#5426 | http://mining-nation.ml/               | 0.5%     | stratum+tcp://mining-nation.ml:4008             | No       |  
 
 <br>
 \* Gives the 1% fees to Charity (check their website to learn more).  

@@ -3,7 +3,7 @@ Primero, puede que quieras aprender sobre Garlicoin, eso lo puedes hacer [aquí]
 
 ## Paso 2: Billetera
 Una vez que lo has hecho, deberás obtener una billetera (para que puedas tener tus propios GRLC)  
-Se **recomienda** que consigas la [Billetera Electrum](./wallet-electrum.html), una app con interfaz amigable que puedes descargar.   
+Se **recomienda** que consigas la [Billetera Garlium](./wallet-garlium.html), una app con interfaz amigable que puedes descargar.   
 **Si planeas minar solo**, deberías obtener una de las billeteras oficiales (Sólo con comandos).  
 - [Windows](./wallet-win.html)
 - [Mac](./wallet-mac.html)
