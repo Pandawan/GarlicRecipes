@@ -90,39 +90,35 @@ Para Asegurase que ha hecho todo correcto (o ver el saldo), puede escribir: `gar
 
 ## Paso 4. Hacer una copia de seguridad
 A veces, la applicación de cartera puede fallar y corromper la cartera. Si desea hacer una copia de seguridad antes de que esto suceda (para recuperarlo en caso de que romper), seguir estos pasos:
-En una ventanna de Command Prompt (mientras ejecuta la red), escribe el mando: `garlicoin-cli backupwallet <path>`.
-Esto ahorra blarghs
-
-## Step 4. Backing Up the Wallet
-Sometimes, the wallet app can fail and corrupt the wallet. If you wish to back it up before that happens (in order to recover it in case it does break), follow these steps:  
-In a Command Prompt window (while the network is running), type the command: `garlicoin-cli backupwallet <path>`.  
-This will save a `wallet.dat` file in at the given path. If your wallet ever gets corrupted, navigate to this folder:
+En una ventanna de Command Prompt (mientras ejecuta la red), escribe el mando: `garlicoin-cli backupwallet <path>`.thats it
+Esto archivará un archivo `wallet.dat` en la ruta de archivo. Si se corrompe su cartera, navigar a esta carpeta:
 - Windows: `%APPDATA%\Bitcoin`
 - Linux: `~/.bitcoin/`
 - MacOS: `~/Library/Application Support/Bitcoin/`
 
-and overwrite the `wallet.dat` file inside the folder by the backup one.
+y sobreescribir el archivo `wallet.dat` dentro la carpeta por la copia de seguridad.
 
-## Step 5. Sending to Someone Else
-If you ever wish to send Garlicoin to someone. You can use this command `garlicoin-cli sendtoaddress <bitcoinaddress> <amount>`.
+## Paso 5. Enviando a alguien
+Si desea enviar Garlicoin a alguien. Puede usar esto mando `garlicoin-cli sendtoaddress <direccióngarlicoin> <cantidad>`.
 
-That's it! You are done!
+Ya está! Usted lo ha hecho!
 
-# Troubleshooting
+
+# La resolución de problemas
 
 ## json\_rpc\_call failed, retry after 10 seconds
-If you are getting this error, let it keep retrying. It should correct itself soon.
+Si tiene este error, lo deja sigue intentar. Debe corregirse pronto.
 
 ## garlicoind is not recognized
-If you are getting this eror, it means that your Command Prompt is not opened in your installation directory. 
-Make sure that you have used `cd C:\Path\To\Garlic\Folder` before running your command.
+Para esto error, significa que no se abre su Command Prompt en la carpeta de installación.
+Asegurase que tiene la ruta `cd C:\Path\To\Garlic\Folder` antes de ejecutar el mando.
 
 ## garlicoin-cli is not recognized
-If you are getting this eror, it means that your Command Prompt is not opened in your installation directory. 
-Make sure that you have used `cd C:\Path\To\Garlic\Folder` before running your command.
+Para esto error, significa que no se abre su Command Prompt en la carpeta de installación.
+Asegurase que tiene la ruta `cd C:\Path\To\Garlic\Folder` antes de ejecutar el mando.
 
 ## 0 blocks
-Try changing your `.conf` file to have the content found on the [Changes page](./changes.html).
+Intenta de cambiar el archivo `.conf` para tener el contenido encontrado en la [pagina de cambios](./changes.html).
 
-## HELP!
-If the above troubleshooting steps do not work. You can ask in the Discord chat `#troubleshooting` or `#windows-mining` or contact me `@Pandawan#4158`.
+## SOCORRO!
+Si no funciona la resolución de problemas. Puede pedir ayuda en la charla Discord `#troubleshooting` o `#windows-mining` o enviarme un mensaje `@Pandawan#4158`.

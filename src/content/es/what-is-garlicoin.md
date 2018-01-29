@@ -1,11 +1,13 @@
 # Intro
-Garlicoin is hot out of the oven and ready to serve you with its buttery goodness.  
-Forked from LTC, this decentralized cryptocurrency with no new technology (except it's ASIC resistant!!) will help you through the darkest times in your life.  
-This is the coin you never thought you needed, and you probably don't.  
+Garlicoin tiene el tamaño perfecto y listo para servirle con sus propiedades mantecoso.
+Se bifurcar de LTC, esto cryptomoneda descentralizado con no technología nueva (salvo la resistencía a ASIC!!) le ayudará por los tiempos oscuros en tu vida.
+Esto es la moneda nunca usted pensó que necesitaba, y más probable no necesitaba.
 
-# What is it?
-Okay, for real, Garlicoin is a new cryptocurrency created by the Garlicoin Team.  
-It is a fork (modified version) of litecoin and therefore works very similarly to it.
+# Qué es esto?
+Okay, de verdad, Garlicoin es una cryptomoneda nueva creado por el equipo Garlicoin.
+Es una bifurcación (versión modificada) de litecoin y por lo tanto funciona de forma muy similar a ella.
+
+# Cartera
 
 # Wallet
 Wallets are where people keep their Garlicoin addresses in. They are usually composed of two keys (long strings of data), one private and one public. The public key is used to receive Garlicoin; give that address to anyone who wishes to send them Garlicoin. The private key is used for people to send Garlicoin; keep that address secret because it gives access to all your Garlicoins. Usually, the private key will be hidden and is stored in a secret place (which only the owner should have access).  

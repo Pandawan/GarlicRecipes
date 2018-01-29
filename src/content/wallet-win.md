@@ -85,6 +85,8 @@ and overwrite the `wallet.dat` file inside the folder by the backup one.
 ## Step 5. Sending to Someone Else
 If you ever wish to send Garlicoin to someone. You can use this command `garlicoin-cli sendtoaddress <bitcoinaddress> <amount>`.
 
+/\ is this meant to be bitcoin?
+
 That's it! You are done!
 
 # Troubleshooting
@@ -93,7 +95,7 @@ That's it! You are done!
 If you are getting this error, let it keep retrying. It should correct itself soon.
 
 ## garlicoind is not recognized
-If you are getting this eror, it means that your Command Prompt is not opened in your installation directory. 
+If you are getting this error, it means that your Command Prompt is not opened in your installation directory. 
 Make sure that you have used `cd C:\Path\To\Garlic\Folder` before running your command.
 
 ## garlicoin-cli is not recognized
