@@ -2,11 +2,6 @@
 	"navbar": [{
 			"type": "link",
 			"title": "Приступить к работе",
-			"goto": ""
-		},
-		{
-			"type": "link",
-			"title": "С чего начать",
 			"goto": "where-to-start"
 		},
 		{
