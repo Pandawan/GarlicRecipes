@@ -41,7 +41,8 @@
 | Bread Brit        | @MrDag0n#1388        | https://breadbrit.uk/                  | 0.33%    | stratum+tcp://pool.breadbrit.uk:3333            | No       |
 | Wild Garlic       | @Kryptonite#6233     | https://wildgarlic.fun/                | 0%       | stratum+tcp://eu.wildgarlic.fun:3333            | No       |
 | GarlicoinPool     | @antibac#4027        | https://garlicoinpool.com/             | 0.5%     | stratum+tcp://garlicoinpool.com:3333            | No       |
-| The Garlic Mines  | @lagwag0n#5386       | http://www.garlicmines.com/            | 0.05%    | stratum+tcp://garlicmines.com:3333              | No       |  
+| The Garlic Mines  | @lagwag0n#5386       | http://www.garlicmines.com/            | 0.05%    | stratum+tcp://garlicmines.com:3333              | No       |
+| GRLC Farm         | @DBN#1688            | https://www.grlc.farm                  | 0.5%     | stratum+tcp://grlc.farm:3333                    | No       |  
 
 <br>
 
