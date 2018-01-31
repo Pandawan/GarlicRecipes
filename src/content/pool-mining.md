@@ -34,7 +34,7 @@ Here is a list of most available pools.
 | Golden Loaves     | @Woodsman#5494       | http://goldenloaves.xyz/               | 0.5%     | stratum+tcp://159.89.152.215:3333               | No       |
 | Clove Mines       | @Bonobo#8875         | http://clovemines.fun/                 | 0.05%    | stratum+tcp://clovemines.fun:3333               | No       |
 | Aioli Pool        | @JeroenDG#8991       | http://aiolipool.eu/                   | 0.5%     | stratum+tcp://mine.aiolipool.eu:3333            | No       |
-| GarlicPress       | @Snorkel#1338        | http://www.garlicpress.eu              | 1%       | stratum+tcp://garlicpress.eu:3333               | No       |
+| Garlic Press      | @Snorkel#1338        | http://pool.garlicpress.eu/            | 0.2%     | stratum+tcp://pool.garlicpress.eu:3333          | No       |
 | Garlic Machine    | @xkronusx#3840       | http://holyfskingshtareyouserious.com/ | 0.5%     | stratum+tcp://garlicmachine.redirectme.net:3032 | No       |
 | V2 Pool           | @mario.chamuty#8840  | http://pool.v2.sk/                     | 0.5%     | stratum+tcp://pool.v2.sk:3433                   | No       |
 | Badass Pool       | @MF#3048             | http://garlicoin.iambadass.com/        | 0.69%    | stratum+tcp://garlicoin.iambadass.com:3333      | No       |
