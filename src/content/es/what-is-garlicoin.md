@@ -8,25 +8,21 @@ Okay, de verdad, Garlicoin es una cryptomoneda nueva creado por el equipo Garlic
 Es una bifurcación (versión modificada) de litecoin y por lo tanto funciona de forma muy similar a ella.
 
 # Cartera
-
-# Wallet
-Wallets are where people keep their Garlicoin addresses in. They are usually composed of two keys (long strings of data), one private and one public. The public key is used to receive Garlicoin; give that address to anyone who wishes to send them Garlicoin. The private key is used for people to send Garlicoin; keep that address secret because it gives access to all your Garlicoins. Usually, the private key will be hidden and is stored in a secret place (which only the owner should have access).  
+Carteras se utilizan para guardar sus direccuines Garlicoin. Se componen usualment de dos llaves (cadenas largas de datos), uno es privada y el otro público. La llave pública se usa para recibir Garlicoin; da esa dirección a alguien que le quiere enviar Garlicoin. La llave privada se usa para enviar Garlicoin; Mantengalo seguro porque permite el acceso a todos sus garlicoins. Usualmente, la llave privada será escondido y guardado en un lugar seguro (que sólo el dueño debe tener acceso).
 <br>
 
-As long as the owner knows his private key and other identifying information, they can use their wallet anywhere (on any computer).
-**Garlicoin are not stored in a file**, they are just kept track of by everyone on the network. That means that deleting a Garlicoin installation will not remove any Garlicoin. The owner just needs the private key (usually stored in a `wallet.dat` file) to recover their coins.
+Siempre y cuando el dueño sabe su llave privada y otra información de identificación, puede usar su cartera en cualquier parte (en cualquier ordenador). **Garlicoin no es guardado en un archivo**, son rastreado por todos en la Red. Significa que borrando una installación Garlicoin no quitará ninguno de garlicoin. El dueño sólo necesita la llava privada (usualment guardado en un `wallet.dat` archivo) para recuperar sus monedas.
 
-# Mining
-Mining, in cryptocurrency, is the process of verifying that a transaction is valid using computer calculations. For each verification a miner makes, they get a small amount of newly created Garlicoin for their "hard" work.  
-You can learn more about how blockchain works [here](https://www.youtube.com/watch?v=bBC-nXj3Ng4).  
+# La minería
+La minería, en cryptomoneda, es el proceso de verificar que una transacción es valido usando calculaciones ordenador. Para each verificación que hace uno minero, reciben una calidad pequeña de recién creado Garlicoin para su "mucho" trabajo. Puede aprender más sobre cómo funciona el blockchain [aquí](https://www.youtube.com/watch?v=bBC-nXj3Ng4).
 <br>
 
-Miners can only use their CPU (Processor) and GPU (Graphics Card) to mine Garlicoin as it is ASIC resistant; meaning that it will try to block mining on mining-specific hardware.
+Los mineros sólo pueden usar su CPU (Procesador) and GPU (Tarjeta gráfica) minar Garlicoin porque es resistente a ASIC; eso significa que intentará bloquear la minería con el hardware minería específica.
 
 # Test-Net vs Main-Net
-If you had a wallet during the Testing period, you need to make sure that you use a Main-Net address (should start with a G).
+Si tiene una cartera durante el periodo, se tiene que asegurar que usa una Main-Net dirección (debe comenzar con un G).
 <br>
 
-# Where to Start?
-First you will need to get a Wallet, many options are available so take your time and chose wisely.  
-If you want to mine, you will need to setup the Wallet and then setup a miner.
+#Donde a comenzar?
+Primero, tiene que conseguir una cartera, muchas opciones son disponible por eso tomarle su tiempo y elegir sabiamente.
+Si quiere minar, tiene que configurar la cartera y luego configurar uno minero.
