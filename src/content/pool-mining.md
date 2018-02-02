@@ -50,6 +50,7 @@ Here is a list of most available pools.
 | The Garlic Mines  | @lagwag0n#5386       | http://www.garlicmines.com/            | 0.05%    | stratum+tcp://garlicmines.com:3333              | No       |
 | GRLC Farm         | @DBN#1688            | https://www.grlc.farm                  | 0.5%     | stratum+tcp://grlc.farm:3333                    | No       |
 | Giveaway Mine     | /u/caleb6801         | http://giveawaymine.com                | 0.75%    | stratum+tcp://giveawaymine.com:3333             | No       |  
+| Widgocorp Pool     | /u/TheWalter_White         | http://grlc.widgocorp.com                | 0%    | stratum+tcp://stratum.grlc.widgocorp.com:3333             | No       |  
 
 
 <br>
