@@ -40,7 +40,7 @@ Here is a list of most available pools.
 | Badass Pool       | @MF#3048             | http://garlicoin.iambadass.com/        | 0.69%    | stratum+tcp://garlicoin.iambadass.com:3333      | No       |
 | Bread Pool        | @Spydy#8322          | http://breadpool.org/                  | 0%       | stratum+tcp://breadpool.org:3333                | No       |
 | Garlic Bois       | @Danoded#6272        | http://garlicbois.com/                 | 0.25%    | stratum+tcp://garlicbois.com:3333               | No       |
-| GRLC Pool         | @MrSolo#7742         | http://grlc.co/                        | 0%    | stratum+tcp://grlc.co:3032                      | No       |
+| GRLC Pool         | @MrSolo#7742         | http://grlc.co/                        | 0%       | stratum+tcp://grlc.co:3032                      | No       |
 | Mining Nation     | @JohnDavies1987#5426 | http://mining-nation.ml/               | 0.5%     | stratum+tcp://mining-nation.ml:4008             | No       |
 | Garlic Mine Asia  | @bearpit#6143        | https://garlicmine.asia/               | 0.5%     | stratum+tcp://pool.garlicmine.asia:3333         | No       |
 | Garlic Legends    | @obxSandDevil#7856   | http://http://garliclegends.ml/        | 0.69%    | stratum+tcp://garliclegends.ml:3333             | No       |
@@ -48,7 +48,8 @@ Here is a list of most available pools.
 | Wild Garlic       | @Kryptonite#6233     | https://wildgarlic.fun/                | 0%       | stratum+tcp://eu.wildgarlic.fun:3333            | No       |
 | GarlicoinPool     | @antibac#4027        | https://garlicoinpool.com/             | 0.5%     | stratum+tcp://garlicoinpool.com:3333            | No       |
 | The Garlic Mines  | @lagwag0n#5386       | http://www.garlicmines.com/            | 0.05%    | stratum+tcp://garlicmines.com:3333              | No       |
-| GRLC Farm         | @DBN#1688            | https://www.grlc.farm                  | 0.5%     | stratum+tcp://grlc.farm:3333                    | No       |  
+| GRLC Farm         | @DBN#1688            | https://www.grlc.farm                  | 0.5%     | stratum+tcp://grlc.farm:3333                    | No       |
+| Giveaway Mine     | /u/caleb6801         | http://giveawaymine.com                | 0.75%    | stratum+tcp://giveawaymine.com:3333             | No       |  
 
 
 <br>
