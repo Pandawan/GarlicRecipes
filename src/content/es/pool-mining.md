@@ -49,7 +49,8 @@ Aquí una lista de las Pools más disponibles.
 | GarlicoinPool     | @antibac#4027        | https://garlicoinpool.com/             | 0.5%     | stratum+tcp://garlicoinpool.com:3333            | No         |
 | The Garlic Mines  | @lagwag0n#5386       | http://www.garlicmines.com/            | 0.05%    | stratum+tcp://garlicmines.com:3333              | No         |
 | GRLC Farm         | @DBN#1688            | https://www.grlc.farm                  | 0.5%     | stratum+tcp://grlc.farm:3333                    | No         |
-| Giveaway Mine     | /u/caleb6801         | http://giveawaymine.com                | 0.75%    | stratum+tcp://giveawaymine.com:3333             | No         |  
+| Garlic, Inc       | @Cableguyp#1285      | http://garlicinc.ca/                   | 0.75%    | stratum+tcp:/garlicinc.ca:3333                  | No         |
+| Widgocorp Pool    | /u/TheWalter_White   | http://grlc.widgocorp.com              | 0%       | stratum+tcp://stratum.grlc.widgocorp.com:3333   | No         |  
 
 <br>
 \* Da la cuota del 1% a beneficiencia (visita su sitio para saber más).  
