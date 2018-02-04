@@ -2,11 +2,6 @@
 	"navbar": [{
 			"type": "link",
 			"title": "Empezar",
-			"goto": ""
-		},
-		{
-			"type": "link",
-			"title": "Dónde empezar",
 			"goto": "where-to-start"
 		},
 		{

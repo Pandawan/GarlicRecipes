@@ -3,7 +3,7 @@
 
 ## Шаг 2: Кошелек
 Чтобы хранить и распоряжаться своими монетами, вам нужно создать кошелек.
-**Рекомендуется** использовать [кошелек Electrum](./wallet-electrum.html), который прост в использовании.
+**Рекомендуется** использовать [кошелек Garlium](./wallet-garlium.html), который прост в использовании.
 **Если вы планируете майнить в соло**, вы должны установить официальный кошелек:  
 - [Windows](./wallet-win.html)
 - [Mac](./wallet-mac.html)
@@ -26,7 +26,7 @@
 - BTC: 13xqEPwdfkYFVdQvF596k91mWeUHRJTRjk
 - LTC: LhrWcYnXxnA3TcznRRvkfuZ8TVYNJ2nisU
 - BCH: 1PidoMufaqTyFMgdn37Gf4fCHf1GAKZT8w
-- GRLC: GJi7QmcjkJzkuzLLxZ1vCa24GZPcxd59d3
+- GRLC: GeVxW6scnydU7RhJZfCTr7eHXmxRFZccrB
 
 ## Шаг 5: Перевод
 По всем вопросам, предложениям и помощью с переводом пишите мне в discord (@drane#6134)

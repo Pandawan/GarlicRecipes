@@ -2,11 +2,6 @@
 	"navbar": [{
 			"type": "link",
 			"title": "Get Started",
-			"goto": ""
-		},
-		{
-			"type": "link",
-			"title": "Where To Start",
 			"goto": "where-to-start"
 		},
 		{

@@ -3,7 +3,7 @@ First, you might want to learn more about Garlicoin, which you can do [here](./w
 
 ## Step 2: Wallet
 Once you have done that, you will want to get a Wallet (so you can have your own GRLC).  
-It is **recommended** that you get the [Electrum wallet](./wallet-electrum.html), a user-friendly GUI app that you can download.  
+It is **recommended** that you get the [Garlium wallet](./wallet-garlium.html), a user-friendly GUI app that you can download.  
 **If you plan on solo mining**, you should get one of the official wallets (Command Only).  
 - [Windows](./wallet-win.html)
 - [Mac](./wallet-mac.html)
@@ -26,4 +26,4 @@ If I helped you, please consider donating to me (@Pandawan#4158):
 - BTC: 13xqEPwdfkYFVdQvF596k91mWeUHRJTRjk
 - LTC: LhrWcYnXxnA3TcznRRvkfuZ8TVYNJ2nisU
 - BCH: 1PidoMufaqTyFMgdn37Gf4fCHf1GAKZT8w
-- GRLC: GJi7QmcjkJzkuzLLxZ1vCa24GZPcxd59d3
+- GRLC: GeVxW6scnydU7RhJZfCTr7eHXmxRFZccrB
