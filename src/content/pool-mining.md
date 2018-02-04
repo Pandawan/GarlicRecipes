@@ -51,9 +51,11 @@ Here is a list of most available pools.
 | GRLC Farm         | @DBN#1688            | https://www.grlc.farm                  | 0.5%     | stratum+tcp://grlc.farm:3333                    | No       |
 | Garlic, Inc       | @Cableguyp#1285      | http://garlicinc.ca/                   | 0.75%    | stratum+tcp:/garlicinc.ca:3333                  | No       |
 | Widgocorp Pool    | /u/TheWalter_White   | http://grlc.widgocorp.com              | 0%       | stratum+tcp://stratum.grlc.widgocorp.com:3333   | No       |  
+| Garlic Bread Pool | @dvs#3349            | http://www.garlicbread.xyz/            | 1%**     | stratum+tcp://stratum.garlicbread.xyz:3032   | No       |  
 
 <br>
 \* Gives the 1% fees to Charity (check their website to learn more).  
+<br>\*\* Half the fees go towards blockfinder reward.
 <br>
 If you are a pool owner and wish to add your pool, just create a [Pull Request](https://github.com/PandawanFr/GarlicoinHelp/pulls) (or message me `@Pandawan#4158`).
 
