@@ -42,13 +42,14 @@
 | Bread Brit         | @MrDag0n#1388        | https://breadbrit.uk/                  | 0.33%    | stratum+tcp://pool.breadbrit.uk:3333            | No       |
 | Wild Garlic        | @Kryptonite#6233     | https://wildgarlic.fun/                | 0%       | stratum+tcp://eu.wildgarlic.fun:3333            | No       |
 | GarlicoinPool      | @antibac#4027        | https://garlicoinpool.com/             | 0.5%     | stratum+tcp://garlicoinpool.com:3333            | No       |
-| The Garlic Mines   | @lagwag0n#5386       | http://www.garlicmines.com/            | 0.05%    | stratum+tcp://garlicmines.com:3333              | No       |
+| The Garlic Mines   | @lagwag0n#5386       | https://www.garlicmines.com/           | 1%       | stratum+tcp://garlicmines.com:3333              | No       |
 | GRLC Farm          | @DBN#1688            | https://www.grlc.farm                  | 0.5%     | stratum+tcp://grlc.farm:3333                    | No       |
 | Garlic, Inc        | @Cableguyp#1285      | http://garlicinc.ca/                   | 0.75%    | stratum+tcp:/garlicinc.ca:3333                  | No       |
 | Widgocorp Pool     | /u/TheWalter_White   | http://grlc.widgocorp.com              | 0%       | stratum+tcp://stratum.grlc.widgocorp.com:3333   | No       |
 | Garlic Billionaire | @NEZBITE#6443        | http://garlicbillionaire.com/          | 3%**\*** | stratum+tcp://garlicbillionaire.com:3032        | No       |
 | Garlic Bread Pool  | @dvs#3349            | http://www.garlicbread.xyz/            | 1%**\*** | stratum+tcp://stratum.garlicbread.xyz:3032      | No       |
-| Eurogarlic         | luplCZ               | https://eurogarlic.pw/                 | 0.8%     | stratum+tcp://mine.eurogarlic.pw:3333           | No       |  
+| Eurogarlic         | luplCZ               | https://eurogarlic.pw/                 | 0.8%     | stratum+tcp://mine.eurogarlic.pw:3333           | No       |
+| The Rypenation     | @RypeDub#7388        | http://rypenation.club/                | 0.63%    | stratum+tcp://RypeNation.club:3333              | No       |  
 
 <br>
 
