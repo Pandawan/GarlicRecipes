@@ -8,9 +8,9 @@ Gracias a `@Ske#6201` para el Windows Port!
 
 ## Mac
 Las versiones Mac y Linux todavía no están disponibles, puede intentar uno de los carteras otras (por ahora).
-Si desea construirlo usted mismo, puede intentar esto [Guía de construcción de Mac](https://pastebin.com/U5dmBJEN) peor `@Zee3658`.
+Si desea construirlo usted mismo, puede intentar esto [Guía de construcción de Mac](https://pastebin.com/U5dmBJEN) por `@Zee3658`.
 
-## Mac
+## Linux
 Las versiones Mac y Linux todavía no están disponibles, puede intentar uno de los carteras otras (por ahora).
 Si desea construirlo usted mismo, puede intentar esto [GitHub Repo](https://github.com/xSke/garlium) por `@Ske#6201`.  
 

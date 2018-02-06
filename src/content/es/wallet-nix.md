@@ -1,1 +1,1 @@
-Por favor pedirle a alguien en la charla `#posix-mining` contribuir a esta página.
+Por favor pedirle a alguien en la charla `#posix-mining` que contribuye a esta página.

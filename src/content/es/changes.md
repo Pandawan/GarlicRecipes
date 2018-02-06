@@ -38,12 +38,12 @@ Main-Net (red prinicipal) ha lanzado. Si desea user eso en vez de Test-Net, quit
 El algoritmo ha vuelto a 'scrypt:10' para el lanzamiento. 
 
 ## 1/18/18
-Ha cambiado 'scrypt' de 11 a 12. Si mine con Test-Net, se asegura que ha cambiado el algoritmo de `scrypt:11` a `scrypt:12`.
-Además, están disponible binarios nuevos en el [página de descarga](https://garlicoin.io/downloads).
+Ha cambiado 'scrypt' de 11 a 12. Si mine con Test-Net, asegurase que ha cambiado el algoritmo de `scrypt:11` a `scrypt:12`.
+Además, están disponible binarios nuevos en la [página de descarga](https://garlicoin.io/downloads).
 
 ## 1/12/18
-Fork Nuevo ha cambiado 'scrypt' de 11 a 12. Si mine con Test-Net, se asegura que ha cambiado el algoritmo de `scrypt:11` a `scrypt:12`.
+Nuevo Fork ha cambiado 'scrypt' de 11 a 12. Si mine con Test-Net, asegurase que ha cambiado el algoritmo de `scrypt:11` a `scrypt:12`.
 Además, están disponible binarios nuevos, puede descargarlos [aquí](https://drive.google.com/file/d/10NDfrLjVJ3K9A6xzPWCCwhrwRf6NZSk7/view).
 
 ## 1/8/18
-Fork Nuevo ha camiado 'scrypt' a 'scrypt-N' (scrypt:10) para combatir la minería ASIC. Se asegura que ha cambiado tu algoritmo de `scrypt` a `scrypt:10`.
+Fork Nuevo ha cambiado 'scrypt' a 'scrypt-N' (scrypt:10) para combatir la minería ASIC. Se asegura que ha cambiado tu algoritmo de `scrypt` a `scrypt:10`.

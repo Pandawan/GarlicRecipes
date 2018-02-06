@@ -95,37 +95,37 @@
 		"get-started": {
 			"where-to-start": {
 				"type": "link",
-				"title": "Where To Start",
+				"title": "Donde empezar",
 				"icon": "fas fa-play-circle",
 				"description": "Get Started with Garlicoin"
 			},
 			"what-is-garlicoin": {
 				"type": "link",
-				"title": "What Is Garlicoin",
+				"title": "Qué es Garlicoin",
 				"icon": "fas fa-question",
 				"description": "Learn the basics of Garlicoin."
 			},
 			"get-wallet": {
 				"type": "category",
-				"title": "Wallet",
+				"title": "Cartera",
 				"icon": "fas fa-credit-card",
 				"description": "Setup a wallet in minutes on all platforms."
 			},
 			"get-miner": {
 				"type": "category",
-				"title": "Mining",
+				"title": "Minería",
 				"icon": "fa fa-server",
 				"description": "Learn to mine on the network using your CPU or GPU."
 			},
 			"changes": {
 				"type": "link",
-				"title": "Changes",
+				"title": "Cambios",
 				"icon": "fas fa-newspaper",
 				"description": "Get updates on Garlicoin and learn what you need to change in your setup"
 			},
 			"explorer": {
 				"type": "link",
-				"title": "Explorer",
+				"title": "Explorador",
 				"icon": "fas fa-globe",
 				"description": "Access the Garlicoin Block Explorer to see all the transactions.",
 				"goto": "https://explorer.grlc-bakery.fun/"
@@ -134,31 +134,31 @@
 		"get-wallet": {
 			"wallet-electrum": {
 				"type": "link",
-				"title": "Electrum (Recommended)",
+				"title": "Electrum (Recomienda)",
 				"icon": "custom-icon icon-electron",
 				"description": "Get an easy to use wallet app for all platforms."
 			},
 			"wallet-win": {
 				"type": "link",
-				"title": "Windows Wallet",
+				"title": "Windows Cartera",
 				"icon": "fab fa-windows",
 				"description": "Setup a wallet in minutes on Windows."
 			},
 			"wallet-mac": {
 				"type": "link",
-				"title": "Mac Wallet",
+				"title": "Mac Cartera",
 				"icon": "fab fa-apple",
 				"description": "Setup a wallet in minutes on Mac."
 			},
 			"wallet-nix": {
 				"type": "link",
-				"title": "Linux Wallet",
+				"title": "Linux Cartera",
 				"icon": "fab fa-linux",
 				"description": "Setup a wallet in minutes on Linux."
 			},
 			"wallet-web": {
 				"type": "link",
-				"title": "Web Wallet",
+				"title": "Web Cartera",
 				"icon": "fas fa-globe",
 				"description": "Get a wallet using the web client breadbox.",
 				"goto": "https://breadbox.xyz"
@@ -167,7 +167,7 @@
 		"get-miner": {
 			"how-to-mine": {
 				"type": "link",
-				"title": "How To Mine",
+				"title": "Cómo Minar",
 				"icon": "fas fa-question",
 				"description": "Learn the basics of mining and the different choices you will have to make."
 			},

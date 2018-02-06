@@ -1,15 +1,15 @@
-# El índice de contenidos
+# El Índice de Contenidos
 - [Solo vs Pool](#solo-vs-pool)
 - [La Diversidad del Pool](#pool-diversity)
 - [Lista de Pools](#list-of-pools)
 - [Cuándo Me Pagan](#when-do-i-get-paid)
 
 # Solo vs Pool
-Mira el [Solo vs Pool](how-to-mine.html#solo-vs-pool) articlo para parender más sobre la diferencia entre la minería Solo y Pool.
+Mira el [Solo vs Pool](how-to-mine.html#solo-vs-pool) articlo para aprender más sobre la diferencia entre la minería Solo y Pool.
 
 # La diversidad del Pool
 **No todos deben usar el mismo Pool**
-Si un pool domina (controla al menos 51% de todo el poder minería), significa que tienen control total sobre el blockchain y por lo tanto puede hacer trampa el sistemo y modificar los numeros (fundamentalmente crear, robar o quitar el dinero). Como consecuencia, la diversidad del pool es muy importante y la gente debe intentar encontrar el pool mejor o uno independiente, para solificarse la red.
+Si un pool domina (controla al menos 51% de todo el poder minería), significa que tiene control total sobre el blockchain y por lo tanto puede hacer trampa al sistemo y modificar los numeros (fundamentalmente crear, robar o quitar el dinero). Como consecuencia, la diversidad del pool es muy importante y la gente debe intentar encontrar el pool mejor o uno independiente, para solificarse la red.
 
 # Lista del Pools
 Aquí está una lista del Pools disponibles.
@@ -30,13 +30,11 @@ Aquí está una lista del Pools disponibles.
 | H36               | @Cotix#4250              | https://h36.nl/             | 2%             | stratum+tcp://h36.nl:3333                 | No         |
 
 <br>
-\* Gives the extra 1% fees to Charity (check their website to learn more).  
 \* Dar la tarifa 1% extra al caridad (Mirar a su sitio para aprender más). 
 <br>
-Si es dueño de Pool y quiere que tu pool se añade, crear un ()
-If you are a pool owner and wish to add your pool, just create a [Pull Request](https://github.com/PandawanFr/GarlicoinHelp/pulls) (o envíame un mensaje `@Pandawan#4158`).
+Si es dueño de Pool y quiere que tu pool se añade, crear un [Pull Request](https://github.com/PandawanFr/GarlicoinHelp/pulls) (o envíame un mensaje `@Pandawan#4158`).
 
 ## Cuándo Me Pagan
-Desde que esto es un Pool, los más probable que pagan cada 100 bloques que usted ayudaba minar.
+Desde que esto es un Pool, los más probable que pagan cada 100 bloques que usted ayuda minar.
 Por ejemplo, si usted mina el bloque 100, luego le pagan cuando se mina el bloque 1100.
-Puede mirar cuál bloques se minaban en el [Explorador](http://explorer.garlicoin.io/).
+Puede mirar cuales bloques han sido minados en el [Explorador](http://explorer.garlicoin.io/).
