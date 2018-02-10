@@ -33,7 +33,7 @@ Aquí una lista de las Pools más disponibles.
 | FreshGRLC          | @nuc1e4r5n4k3#5815   | https://www.freshgarlicblocks.net/      | 0%       | stratum+tcp://freshgarlicblocks.net:3032          | No         |
 | GRLC Breath        | @revtex#5981         | http://pool.grlcbreath.com/             | 0.5%     | stratum+tcp://pool.grlcbreath.com:3032            | No         |
 | CageCoin Pool      | @swordfish#5125      | http://cagecoinpool.com                 | 1%       | stratum+tcp://cagecoinpool.com:3334               | No         |
-| Golden Loaves      | @Woodsman#5494       | http://goldenloaves.xyz/                | 0.5%     | stratum+tcp://159.89.152.215:3333                 | No         |
+| Golden Loaves      | @Woodsman#5494       | http://goldenloaves.xyz/                | 0.5%     | stratum+tcp://goldenloaves.xyz:3333               | No         |
 | Clove Mines        | @Bonobo#8875         | http://clovemines.fun/                  | 0.05%    | stratum+tcp://clovemines.fun:3333                 | No         |
 | Aioli Pool         | @JeroenDG#8991       | http://aiolipool.eu/                    | 0.5%     | stratum+tcp://mine.aiolipool.eu:3333              | No         |
 | Garlic Press       | @Snorkel#1338        | http://pool.garlicpress.eu/             | 0.2%     | stratum+tcp://pool.garlicpress.eu:3333            | No         |
