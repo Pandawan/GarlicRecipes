@@ -17,7 +17,6 @@ Aquí una lista de las Pools más disponibles.
 
 ## Main-Net
 | Nombre             | Propietario(s)       | Sitio                                   | Cuota    | Dirección                                         | Verificada |
-| Name               | Owner(s)             | Website                                 | Pool Fee | Address                                           | Verified   |
 |--------------------|----------------------|-----------------------------------------|----------|---------------------------------------------------|------------|
 | Bakery             | @Vilsol#2060         | http://grlc-bakery.fun/                 | 1%       | stratum+tcp://pool.grlc-bakery.fun:3333           | Yes        |
 | GarlicSoup         | @Martin#6614         | https://pool.garlicsoup.xyz             | 1%**\*** | stratum+tcp://us.pool.garlicsoup.xyz:3333         | Yes        |
