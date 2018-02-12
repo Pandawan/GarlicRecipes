@@ -2,6 +2,7 @@
 - [Соло-майнинг](#solo-mining)
 - [Майнинг в пуле](#pool-mining)
 - [Возможные проблемы](#troubleshooting)
+- [MisasMinerSetup](https://github.com/MisaRistolainen/MisasMinerSetup)
 
 # Соло-майнинг
 Удостоверьтесь, что вы уже установили кошелек и подключены к рабочей сети. Изучите инструкцию [настройки кошелька под Windows](wallet-win.html).

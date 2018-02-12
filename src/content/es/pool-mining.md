@@ -23,7 +23,7 @@ Aquí una lista de las Pools más disponibles.
 | GarlicPool.org     | @Smiba#3781          | https://garlicpool.org                  | 1%       | stratum+tcp://stratum.garlicpool.org:3333         | Yes        |
 | Happy Garlic Pool  | @eins#0361           | http://happy.garlicoin.fun              | 0.5%     | stratum+tcp://happy.garlicoin.fun:3210            | Yes        |
 | HRY Mining Co.     | @Tyler#9270          | http://hry-mining.co/                   | 0.5%     | stratum+tcp://hry-mining.co:3032                  | Yes        |
-| Rich Garlic Boye   | @Reap#3306           | http://rich.garlicboye.com/             | 1%       | stratum+tcp://rich.garlicboye.com:3333            | Yes        | 
+| Rich Garlic Boye   | @Reap#3306           | http://rich.garlicboye.com/             | 1%       | stratum+tcp://rich.garlicboye.com:3333            | Yes        |
 | ButterPool         | @GameFuzion#0282     | http://butterpool.com/                  | 0.75%    | stratum+tcp://butterpool.com:3032                 | Yes        |
 | GarlicMine         | @fstrmn#8930         | http://garlicmine.com                   | 0.42%    | stratum+tcp://garlicmine.com:3333                 | Yes        |
 | Cryptojoy          | @Sobeston#1056       | http://cryptojoy.xyz                    | 0.5%     | stratum+tcp://pool.cryptojoy.xyz:3333             | Yes        |
@@ -60,7 +60,8 @@ Aquí una lista de las Pools más disponibles.
 | TechFreckle        | @Phexeye#2215        | http://garlicoin.techfreckle.com/       | 1%       | stratum+tcp://garlicoin.techfreckle.com:3333      | No         |
 | Garlic Factory     | @ossgeek#5893        | https://garlic-factory.fun/             | 0.42%    | stratum+tcp://pool.garlic-factory.fun:3333        | No         |
 | Garlicoin Recipes† | @RielDeal#1430       | http://garlicoin.recipes/               | 1%       | stratum+tcp://garlicoin.recipes:3032              | No         |
-| Garlic Maker       | Dogeazon             | http://garlicmaker.com/                 | 1%       | stratum+tcp://159.89.153.59:3256                  | No         |  
+| Garlic Maker       | Dogeazon             | http://garlicmaker.com/                 | 1%       | stratum+tcp://159.89.153.59:3256                  | No         |
+| Ballistic Pool     | @Parcanss#0941       | https://ballisticpool.net/              | 0.4%     | stratum+tcp://ballisticpool.net:3333              | No         |  
 
 <br>
 \* Da la cuota del 1% a beneficiencia (visita su sitio para saber más).  

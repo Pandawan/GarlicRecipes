@@ -61,6 +61,7 @@ Here is a list of most available pools.
 | Garlic Factory     | @ossgeek#5893        | https://garlic-factory.fun/             | 0.42%    | stratum+tcp://pool.garlic-factory.fun:3333        | No       |
 | Garlicoin Recipes† | @RielDeal#1430       | http://garlicoin.recipes/               | 1%       | stratum+tcp://garlicoin.recipes:3032              | No       |
 | Garlic Maker       | Dogeazon             | http://garlicmaker.com/                 | 1%       | stratum+tcp://159.89.153.59:3256                  | No       |
+| Ballistic Pool     | @Parcanss#0941       | https://ballisticpool.net/              | 0.4%     | stratum+tcp://ballisticpool.net:3333              | No       |
 
 <br>
 \* Some parts (or all) of their fees are used for different purposes: Charity, Block Finder Reward, Improvement of Garlicoin...

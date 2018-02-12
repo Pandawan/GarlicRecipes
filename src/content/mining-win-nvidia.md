@@ -3,6 +3,7 @@
 - [Solo Mining](#solo-mining)
 - [Improving Performances](#improving-performances)
 - [Troubleshooting](#troubleshooting)
+- [MisasMinerSetup](https://github.com/MisaRistolainen/MisasMinerSetup)
 
 # Pool Mining
 Make sure that you have already setup a wallet! You can check out the [Windows Wallet Guide](wallet-win.html) to learn more.  
