@@ -10,7 +10,7 @@
 La minería Pool no requiere que la red esté en funcionamiento.
 
 ## Paso 1: Descarga de Archivos
-Descarga este especial [Minero Pool](https://github.com/tpruvot/ccminer/releases) (descarga `ccminer-x64-2.2.4-cuda9.7z` si tienes una computadora de 64 bits o `ccminer-x86-2.2.4-cuda9.7z` si tienes una de 32). Extrae esos archivos a su propia carpeta (puede ser *Pool Nvidia Miner*).
+Descarga este especial [Minero Pool](https://github.com/lenis0012/ccminer/releases/latest) (descarga `ccminer-x64.exe` si tienes una computadora de 64 bits). Extrae esos archivos a su propia carpeta (puede ser *Pool Nvidia Miner*).
 
 ## Paso 2: Configuración del Minero
 Ahora deberás crear un nuevo archivo de texto y renombrarlo a `Run-Miner-Pool-Nvidia.bat` (**verifica que termine con/tenga la extensión .bat**).  

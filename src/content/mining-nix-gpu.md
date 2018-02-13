@@ -55,9 +55,9 @@ sudo apt-get install git build-essential libcurl4-openssl-dev libssl-dev libjans
 ## Compiling and running the miners
 
 ### Pool mining
-Clone [ccminer](https://github.com/tpruvot/ccminer) for pool mining, change to linux branch, and build
+Clone [ccminer](https://github.com/lenis0012/ccminer/releases/latest/) for pool mining, change to linux branch, and build
 ```
-git clone https://github.com/tpruvot/ccminer.git
+git clone https://github.com/lenis0012/ccminer.git
 cd ccminer
 git checkout linux
 ./build.sh
@@ -136,7 +136,7 @@ Here are some steps to troubleshoot:
 
 ## Spamming 0 kH/s
 - Disabling DSR factors in nvidia control panel should fix the error.
-- If that doesn't work and you have an **old GPU** (under 900 series), try using [this miner](https://github.com/KBomba/ccminer-KBomba/releases/tag/V1.0.02) instead. 
+- If that doesn't work and you have an **old GPU** (under 900 series), you're out of luck. The new miner which supports allium is not compatible with older GPUs (with a Compute Capability lower than 3.0).
 
 ## Access is denied
 Check your port configurations

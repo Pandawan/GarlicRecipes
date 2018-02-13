@@ -1,3 +1,6 @@
+## 2/13/18 
+In preparation for the fork, please update your garlicoind binaries from the [Downloads](https://garlicoin.io/downloads) page.
+
 ## 1/21/18 - Part 2
 To anyone getting problems with nodes or your network not connecting. Please try replacing your `.conf` file to this:
 ```
