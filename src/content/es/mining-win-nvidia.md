@@ -3,6 +3,7 @@
 - [Minería Solo](#minería-solo)
 - [Mejora del Desempeño](#mejora-del-desempeño)
 - [Solución de Problemas](#solución-de-problemas)
+- [MisasMinerSetup](https://github.com/MisaRistolainen/MisasMinerSetup)
 
 # Minería Pool
 ¡Asegúrate de tener ya tu billetera contigurada! Puedes revisar la [Guía de billetera para Windows](wallet-win.html) para saber más.  

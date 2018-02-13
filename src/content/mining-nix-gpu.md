@@ -96,7 +96,25 @@ A safety measure has been added which prevents your graphics card from overheati
 You can check out a specific max temperature for your GPU [here](#max-temperature). 
 
 # AMD Mining
-A guide is currently in the works. For now, you can follow [this guide](https://docs.google.com/document/d/1sm9ukRzXaT3fBbYx4hUsZmpQrd-RkNVQ2OD1W6r46ew/edit) by `@Daswf852#5539`.
+
+This guide was tested on Ubuntu 16.04 with an AMD Radeon R9 290 and AMDGPU-PRO 17.50 drivers.
+
+* Download the latest AMDGPU-PRO Driver from here: [AMDGPU-Pro](http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-for-Linux-Release-Notes.aspx)
+* Open a terminal and go into the directory where you have downloaded the driver
+* Unpack it: `tar -xf amdgpu-pro*`
+* Install the driver with OpenCL libraries: `./amdgpu-pro-install --opencl=legacy,rocm`
+* Download the APP-SDK (Version 3.0 worked for me): [APP SDK](https://developer.amd.com/amd-accelerated-parallel-processing-app-sdk/)
+* Install required dependencies: `apt-get install libcurl4-openssl-dev pkg-config libtool libncurses5-dev`
+* Clone the nicehash sgminer git repository: `git clone https://github.com/nicehash/sgminer` and cd into the directory `cd sgminer`
+* Download the AMD ADL SDK from [here](https://developer.amd.com/display-library-adl-sdk/)
+* Extract the ADL SDK and copy all files from the `include` directory into the `ADL_SDK` directory inside `sgminer`
+* Compile sgminer:
+    * `git submodule init`
+    * `git submodule update`
+    * `autoreconf -i`
+    * `CFLAGS="-O2 -Wall -march=native -std=gnu99" ./configure`
+    * `make`
+* Run the miner: `./sgminer --gpu-platform 0 --algorithm scrypt-n --nfactor 11 -o <pool address> -u <your garlicoin address> -p x --thread-concurrency 8193 -I 13`
 
 # Troubleshooting
 
