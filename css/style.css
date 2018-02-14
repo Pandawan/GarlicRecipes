@@ -129,7 +129,7 @@ h4:not(.title):not(.subtitle) {
 }
 @media (min-width: 1400px) {
   .smaller-hero-body {
-    padding-top: 10rem !important;
-    padding-bottom: 10rem !important;
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
   }
 }
