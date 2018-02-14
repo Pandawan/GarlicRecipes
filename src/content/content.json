@@ -37,6 +37,10 @@
 					"title": "Paper Wallet",
 					"external": true,
 					"goto": "https://paperbag.brock.pw/"
+				},
+				{
+					"title": "Android Wallet",
+					"goto": "wallet-android"
 				}
 			]
 		},
@@ -169,6 +173,12 @@
 				"icon": "fas fa-file-alt",
 				"description": "Generate a Garlicoin address which you can use anywhere. (This does not come with a Wallet App).",
 				"goto": "https://paperbag.brock.pw/"
+			},
+			"wallet-android": {
+				"type": "link",
+				"title": "Android Wallet",
+				"icon": "fab fa-android",
+				"description": "Check out all the available Android Wallets."
 			}
 		},
 		"get-miner": {

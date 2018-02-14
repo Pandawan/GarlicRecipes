@@ -30,13 +30,16 @@
 				},
 				{
 					"title": "Web",
-					"external": true,
-					"goto": "https://breadbox.xyz"
+					"goto": "wallet-web"
 				},
 				{
 					"title": "Paper Wallet",
 					"external": true,
 					"goto": "https://paperbag.brock.pw/"
+				},
+				{
+					"title": "Android",
+					"goto": "wallet-android"
 				}
 			]
 		},
@@ -173,6 +176,12 @@
 				"icon": "fas fa-file-alt",
 				"description": "Создайте адрес Garlicoin, который вы можете использовать в любом месте. (Это не приложение с кошельком).",
 				"goto": "https://paperbag.brock.pw/"
+			},
+			"wallet-android": {
+				"type": "link",
+				"title": "Android кошелек",
+				"icon": "fab fa-android",
+				"description": "Просмотрите все доступные Android-кошельки."
 			}
 		},
 		"get-miner": {
