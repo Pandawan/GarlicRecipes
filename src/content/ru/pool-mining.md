@@ -49,13 +49,14 @@
 | Garlic Billionaire | @NEZBITE#6443        | http://garlicbillionaire.com/           | 3%**\*** | stratum+tcp://garlicbillionaire.com:3032          | No       |
 | Garlic Bread Pool  | @dvs#3349            | http://www.garlicbread.xyz/             | 1%**\*** | stratum+tcp://stratum.garlicbread.xyz:3032        | No       |
 | Eurogarlic         | luplCZ               | https://eurogarlic.pw/                  | 0.8%     | stratum+tcp://mine.eurogarlic.pw:3333             | No       |
-| The RypeNation     | @RypeDub#7388        | http://rypenation.club/                 | 0.63%    | stratum+tcp://grlc.rypenation.club:3333           | No       |
+| The RypeNation     | @RypeDub#7388        | http://rypenation.club/                 | 1%       | stratum+tcp://pool.rypenation.club:3333           | No       |
 | Vampire Crytonite  | @Andy Anderson#8055  | https://vampirecryptonite.allgamer.net/ | 0.25%    | stratum+tcp://vampirecryptonite.allgamer.net:3333 | No       |
 | TechFreckle        | @Phexeye#2215        | http://garlicoin.techfreckle.com/       | 1%       | stratum+tcp://garlicoin.techfreckle.com:3333      | No       |
 | Garlic Factory     | @ossgeek#5893        | https://garlic-factory.fun/             | 0.42%    | stratum+tcp://pool.garlic-factory.fun:3333        | No       |
 | Garlicoin Recipes† | @RielDeal#1430       | http://garlicoin.recipes/               | 1%       | stratum+tcp://garlicoin.recipes:3032              | No       |
 | Garlic Maker       | Dogeazon             | http://garlicmaker.com/                 | 1%       | stratum+tcp://159.89.153.59:3256                  | No       |
-| Ballistic Pool     | @Parcanss#0941       | https://ballisticpool.net/              | 0.4%     | stratum+tcp://ballisticpool.net:3333              | No       |  
+| Ballistic Pool     | @Parcanss#0941       | https://ballisticpool.net/              | 0.4%     | stratum+tcp://ballisticpool.net:3333              | No       |
+| grlc.suprnova.cc   | @ocminer#2372        | https://grlc.suprnova.cc/               | 1%       | stratum+tcp://grlc.suprnova.cc:8600               | No       |  
 
 <br>
 \* Дайте 1% комиссионных на благотворительность (посетите их сайт, чтобы узнать больше).
