@@ -11,7 +11,7 @@ Pool mining does not require the garlicoin network to run, but you will need an 
 
 Solo mining requires the network to run, so please follow [Linux Wallet Guide](wallet-nix.html) to set it up.
 
-You will have to build the miners (ccminer for pool mining, ccminer-nanashi for solo mining) and possibly also the drivers and CUDA from the source code.
+You most likely will have to build the miners (ccminer for pool mining, ccminer-nanashi for solo mining) and possibly also the drivers and CUDA from the source code.
 
 # NVIDIA Mining
 
@@ -55,7 +55,9 @@ sudo apt-get install git build-essential libcurl4-openssl-dev libssl-dev libjans
 ## Compiling and running the miners
 
 ### Pool mining
-Clone [ccminer](https://github.com/lenis0012/ccminer/releases/latest/) for pool mining, change to linux branch, and build
+**You do not need to compile anymore! A new release with allium support has been built. You can find it [here](https://github.com/lenis0012/ccminer/releases/latest/)**
+
+Clone [ccminer](https://github.com/lenis0012/ccminer/) for pool mining, change to linux branch, and build
 ```
 git clone https://github.com/lenis0012/ccminer.git
 cd ccminer
@@ -64,7 +66,7 @@ git checkout linux
 ```
 If it successfully built, you can now run the miner and connect to a pool
 ```
-./ccminer --algo=scrypt:10 -o POOL -u ADDRESS --max-temp=85
+./ccminer --algo=allium -o POOL -u ADDRESS --max-temp=85
 ```
 Be sure to replace `ADDRESS` with your wallet address and `POOL` with the pool's address (you can find some available pools [here](pool-mining.html#main-net)).
 A safety measure has been added which prevents your graphics card from overheating (`--max-temp=85`). 
@@ -89,7 +91,7 @@ repeat the last command until the ```blocks``` number does not increase anymore.
 
 Go back to the ccminer-nanashi folder. Now you can solo mine with
 ```
-./ccminer --algo=scrypt:10 -o IP:PORT --no-longpoll --no-getwork --coinbase-addr=ADDRESS --max-temp=85 -p test -u test
+./ccminer --algo=allium -o IP:PORT --no-longpoll --no-getwork --coinbase-addr=ADDRESS --max-temp=85 -p test -u test
 ```
 Be sure to change ``IP``, ``PORT``, and ``ADDRESS`` to the respective values.
 A safety measure has been added which prevents your graphics card from overheating (`--max-temp=85`). Only remove this option if you know what you are doing. 
@@ -114,7 +116,7 @@ This guide was tested on Ubuntu 16.04 with an AMD Radeon R9 290 and AMDGPU-PRO 1
     * `autoreconf -i`
     * `CFLAGS="-O2 -Wall -march=native -std=gnu99" ./configure`
     * `make`
-* Run the miner: `./sgminer --gpu-platform 0 --algorithm scrypt-n --nfactor 11 -o <pool address> -u <your garlicoin address> -p x --thread-concurrency 8193 -I 13`
+* Run the miner: `./sgminer --gpu-platform 0 --algorithm allium -o <pool address> -u <your garlicoin address> -p x --thread-concurrency 8193 -I 13`
 
 # Troubleshooting
 

@@ -10,13 +10,13 @@
 La minería Pool no requiere que la red esté en funcionamiento.
 
 ## Paso 1: Descarga de Archivos
-Descarga este especial [Minero Pool](https://github.com/lenis0012/ccminer/releases/latest) (descarga `ccminer-x64.exe` si tienes una computadora de 64 bits). Extrae esos archivos a su propia carpeta (puede ser *Pool Nvidia Miner*).
+Descarga este especial [Minero Pool](https://github.com/lenis0012/ccminer/releases/latest) (descarga `ccminer-x64.exe` si tienes una computadora de 64 bits o `ccminer-x86.exe` si tienes una de 32). Extrae esos archivos a su propia carpeta (puede ser *Pool Nvidia Miner*).
 
 ## Paso 2: Configuración del Minero
 Ahora deberás crear un nuevo archivo de texto y renombrarlo a `Run-Miner-Pool-Nvidia.bat` (**verifica que termine con/tenga la extensión .bat**).  
 Edita el archivo (Clic derecho > Editar), y agrega lo siguiente: 
 ```
-ccminer-x64 --algo=scrypt:10 -o POOL -u ADDRESS --max-temp=85
+ccminer-x64 --algo=allium -o POOL -u ADDRESS --max-temp=85
 pause
 ```
 Después, reemplaza la `POOL` a la dirección de la pool (puede ver algunas disponibles [aquí](pool-mining.html#main-net)).  
@@ -38,7 +38,7 @@ Primero deberás descargar este especial [Minero Solo](https://cryptomining-blog
 Ahora deberás crear un nuevo archvo de texto dentro de la carpeta *Miner* y renombrarlo como `Run-Miner-Solo-Nvidia.bat` (**Verifica que termine con/tenga la extensión .bat**).  
 Edita el archivo (Clic derecho > Editar), y agrega lo siguiente:
 ```
-ccminer.exe --algo=scrypt:10 -o 127.0.0.1:42068 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
+ccminer.exe --algo=allium -o 127.0.0.1:42068 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
 pause  
 ```
 (cerciórate de reemplazar `ADDRESS` con tu dirección).

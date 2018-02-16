@@ -10,13 +10,13 @@ Make sure that you have already setup a wallet! You can check out the [Windows W
 Pool mining does not require the network running. 
 
 ## Step 1: Downloading the Files
-Download this special [Pool Miner](https://github.com/lenis0012/ccminer/releases/latest) (download `ccminer-x64.exe` for Windows 64bit). Put that file in its own folder (perhaps *Pool Nvidia Miner*).
+Download this special [Pool Miner](https://github.com/lenis0012/ccminer/releases/latest) (download `ccminer-x64.exe` for Windows 64bit or `ccminer-x86.exe` for Windows 32bit). Put that file in its own folder (perhaps *Pool Nvidia Miner*).
 
 ## Step 2: Setting Up the Miner
 Now you will want to create a new text file and rename it to `Run-Miner-Pool-Nvidia.bat` (**Make sure the file ends with .bat**).  
 Edit the file (Right Click > Edit), and enter this 
 ```
-ccminer-x64 --algo=scrypt:10 -o POOL -u ADDRESS --max-temp=85
+ccminer-x64 --algo=allium -o POOL -u ADDRESS --max-temp=85
 pause
 ```
 Then, replace the `POOL` to the pool's address (you can find some available pools [here](pool-mining.html#main-net)).  
@@ -39,7 +39,7 @@ First you will want to download this special [Solo Miner](https://github.com/len
 Now you will want to create a new text file inside that *Miner* folder and rename it to `Run-Miner-Solo-Nvidia.bat` (**Make sure the file ends with .bat**).  
 Edit the file (Right Click > Edit), and enter this:
 ```
-ccminer.exe --algo=scrypt:10 -o 127.0.0.1:42068 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
+ccminer.exe --algo=allium -o 127.0.0.1:42068 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
 pause  
 ```
 (make sure that you replace `ADDRESS` to your address).

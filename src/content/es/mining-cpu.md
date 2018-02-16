@@ -77,12 +77,12 @@ Clona desde el [repositorio en GitHub](https://github.com/tpruvot/cpuminer-multi
 
 ### Paso 2a: (Recomendado) Ejecuta el Minero en una Pool
 Necesitarás especificar la dirección de la pool, tu billetera y el algoritmo:
-`./cpuminer --algo=scrypt:4096 -o stratum+tcp://pool.grlc-bakery.fun:3333 -u  <la dirección de tu billetera aquí>`
+`./cpuminer --algo=allium -o stratum+tcp://pool.grlc-bakery.fun:3333 -u  <la dirección de tu billetera aquí>`
 Este usa la siguiente pool: `grlc-bakery.fun`, puedes revisar la lista de pools [aquí](pool-mining.html#main-net)
 
 ### Paso 2b: Ejecuta el Minero Solo
 Al ejecutar un nodo de manera local, especificarás la dirección de tu nodo, tu billetera y el algoritmo:
-`./cpuminer --algo=scrypt:4096 -o 127.0.0.1:42070 -u  <la dirección de tu billetera aquí>`
+`./cpuminer --algo=allium -o 127.0.0.1:42070 -u  <la dirección de tu billetera aquí>`
 
 Deberías poder ver tu hashrate ahora y eventualmente tus bloques confirmados. 
 
