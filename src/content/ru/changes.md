@@ -1,12 +1,7 @@
 ## 2/16/18
 Вышел Allium HardFork!
-Вы можете узнать больше о том, как обновить [здесь](https://docs.google.com/document/d/1SUoSfJVHHLDdWWBbmQdPtAwEHcGdVROScs7ey9cLEQU/edit).
-Вы можете найти обновленные ссылки для скачивания здесь:
-- [garlicoind binaries](https://garlicoin.io/downloads)
-- [cpuminer (ожидающая компиляция)](https://github.com/GarlicoinOrg/cpuminer-multi)
-- [ccminer (Nvidia)](https://github.com/lenis0012/ccminer/releases/latest)
-- [ccminer mac (Nvidia)](https://github.com/tosbaha/ccminer)
-- [sgminer (AMD)](https://github.com/lenis0012/sgminer-gm/releases/latest)
+Ознакомьтесь с руководством по обновлению рудника [здесь](https://www.reddit.com/r/garlicoin/comments/7xwfc1/updating_miners_to_allium/).  
+Вы можете узнать больше о allium fork [здесь](https://docs.google.com/document/d/1SUoSfJVHHLDdWWBbmQdPtAwEHcGdVROScs7ey9cLEQU/edit).  
 
 <br>
 
