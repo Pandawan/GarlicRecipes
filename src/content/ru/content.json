@@ -30,8 +30,16 @@
 				},
 				{
 					"title": "Web",
+					"goto": "wallet-web"
+				},
+				{
+					"title": "Paper Wallet",
 					"external": true,
-					"goto": "https://breadbox.xyz"
+					"goto": "https://paperbag.brock.pw/"
+				},
+				{
+					"title": "Android",
+					"goto": "wallet-android"
 				}
 			]
 		},
@@ -67,6 +75,11 @@
 					"type": "link",
 					"title": "Linux GPU",
 					"goto": "mining-nix-gpu"
+				},
+				{
+					"title": "Бумажный бумажник",
+					"external": true,
+					"goto": "https://paperbag.brock.pw/"
 				}
 			]
 		},
@@ -156,6 +169,19 @@
 				"icon": "fas fa-globe",
 				"description": "Создайте онлайн-кошелек, используя breadbox.",
 				"goto": "https://breadbox.xyz"
+			},
+			"wallet-paper": {
+				"type": "link",
+				"title": "Бумажный бумажник",
+				"icon": "fas fa-file-alt",
+				"description": "Создайте адрес Garlicoin, который вы можете использовать в любом месте. (Это не приложение с кошельком).",
+				"goto": "https://paperbag.brock.pw/"
+			},
+			"wallet-android": {
+				"type": "link",
+				"title": "Android кошелек",
+				"icon": "fab fa-android",
+				"description": "Просмотрите все доступные Android-кошельки."
 			}
 		},
 		"get-miner": {

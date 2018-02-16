@@ -1,3 +1,15 @@
+## 2/16/18
+The Allium HardFork has been released!  
+Check out the miner update guide [here](https://www.reddit.com/r/garlicoin/comments/7xwfc1/updating_miners_to_allium/).  
+You can learn more about the allium fork [here](https://docs.google.com/document/d/1SUoSfJVHHLDdWWBbmQdPtAwEHcGdVROScs7ey9cLEQU/edit).  
+
+<br>
+
+Garlium does not require any updates (unless you are a Garlium node owner).
+
+## 2/13/18 
+In preparation for the fork, please update your garlicoind binaries from the [Downloads](https://garlicoin.io/downloads) page.
+
 ## 1/21/18 - Part 2
 To anyone getting problems with nodes or your network not connecting. Please try replacing your `.conf` file to this:
 ```

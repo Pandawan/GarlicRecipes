@@ -11,7 +11,7 @@ Pool mining does not require the garlicoin network to run, but you will need an 
 
 Solo mining requires the network to run, so please follow [Linux Wallet Guide](wallet-nix.html) to set it up.
 
-You will have to build the miners (ccminer for pool mining, ccminer-nanashi for solo mining) and possibly also the drivers and CUDA from the source code.
+You most likely will have to build the miners (ccminer for pool mining, ccminer-nanashi for solo mining) and possibly also the drivers and CUDA from the source code.
 
 # NVIDIA Mining
 
@@ -55,16 +55,18 @@ sudo apt-get install git build-essential libcurl4-openssl-dev libssl-dev libjans
 ## Compiling and running the miners
 
 ### Pool mining
-Clone [ccminer](https://github.com/tpruvot/ccminer) for pool mining, change to linux branch, and build
+**You do not need to compile anymore! A new release with allium support has been built. You can find it [here](https://github.com/lenis0012/ccminer/releases/latest/)**
+
+Clone [ccminer](https://github.com/lenis0012/ccminer/) for pool mining, change to linux branch, and build
 ```
-git clone https://github.com/tpruvot/ccminer.git
+git clone https://github.com/lenis0012/ccminer.git
 cd ccminer
 git checkout linux
 ./build.sh
 ```
 If it successfully built, you can now run the miner and connect to a pool
 ```
-./ccminer --algo=scrypt:10 -o POOL -u ADDRESS --max-temp=85
+./ccminer --algo=allium -o POOL -u ADDRESS --max-temp=85
 ```
 Be sure to replace `ADDRESS` with your wallet address and `POOL` with the pool's address (you can find some available pools [here](pool-mining.html#main-net)).
 A safety measure has been added which prevents your graphics card from overheating (`--max-temp=85`). 
@@ -89,14 +91,32 @@ repeat the last command until the ```blocks``` number does not increase anymore.
 
 Go back to the ccminer-nanashi folder. Now you can solo mine with
 ```
-./ccminer --algo=scrypt:10 -o IP:PORT --no-longpoll --no-getwork --coinbase-addr=ADDRESS --max-temp=85 -p test -u test
+./ccminer --algo=allium -o IP:PORT --no-longpoll --no-getwork --coinbase-addr=ADDRESS --max-temp=85 -p test -u test
 ```
 Be sure to change ``IP``, ``PORT``, and ``ADDRESS`` to the respective values.
 A safety measure has been added which prevents your graphics card from overheating (`--max-temp=85`). Only remove this option if you know what you are doing. 
 You can check out a specific max temperature for your GPU [here](#max-temperature). 
 
 # AMD Mining
-A guide is currently in the works. For now, you can follow [this guide](https://docs.google.com/document/d/1sm9ukRzXaT3fBbYx4hUsZmpQrd-RkNVQ2OD1W6r46ew/edit) by `@Daswf852#5539`.
+
+This guide was tested on Ubuntu 16.04 with an AMD Radeon R9 290 and AMDGPU-PRO 17.50 drivers.
+
+* Download the latest AMDGPU-PRO Driver from here: [AMDGPU-Pro](http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-for-Linux-Release-Notes.aspx)
+* Open a terminal and go into the directory where you have downloaded the driver
+* Unpack it: `tar -xf amdgpu-pro*`
+* Install the driver with OpenCL libraries: `./amdgpu-pro-install --opencl=legacy,rocm`
+* Download the APP-SDK (Version 3.0 worked for me): [APP SDK](https://developer.amd.com/amd-accelerated-parallel-processing-app-sdk/)
+* Install required dependencies: `apt-get install libcurl4-openssl-dev pkg-config libtool libncurses5-dev`
+* Clone the nicehash sgminer git repository: `git clone https://github.com/nicehash/sgminer` and cd into the directory `cd sgminer`
+* Download the AMD ADL SDK from [here](https://developer.amd.com/display-library-adl-sdk/)
+* Extract the ADL SDK and copy all files from the `include` directory into the `ADL_SDK` directory inside `sgminer`
+* Compile sgminer:
+    * `git submodule init`
+    * `git submodule update`
+    * `autoreconf -i`
+    * `CFLAGS="-O2 -Wall -march=native -std=gnu99" ./configure`
+    * `make`
+* Run the miner: `./sgminer --gpu-platform 0 --algorithm allium -o <pool address> -u <your garlicoin address> -p x --thread-concurrency 8193 -I 13`
 
 # Troubleshooting
 
@@ -118,7 +138,7 @@ Here are some steps to troubleshoot:
 
 ## Spamming 0 kH/s
 - Disabling DSR factors in nvidia control panel should fix the error.
-- If that doesn't work and you have an **old GPU** (under 900 series), try using [this miner](https://github.com/KBomba/ccminer-KBomba/releases/tag/V1.0.02) instead. 
+- If that doesn't work and you have an **old GPU** (under 900 series), you're out of luck. The new miner which supports allium is not compatible with older GPUs (with a Compute Capability lower than 3.0).
 
 ## Access is denied
 Check your port configurations

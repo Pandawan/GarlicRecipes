@@ -1,3 +1,12 @@
+## 2/16/18
+Вышел Allium HardFork!
+Ознакомьтесь с руководством по обновлению рудника [здесь](https://www.reddit.com/r/garlicoin/comments/7xwfc1/updating_miners_to_allium/).  
+Вы можете узнать больше о allium fork [здесь](https://docs.google.com/document/d/1SUoSfJVHHLDdWWBbmQdPtAwEHcGdVROScs7ey9cLEQU/edit).  
+
+<br>
+
+Garlium не требует никаких обновлений (если вы не являетесь владельцем узла Garlium).
+
 ## 1/21/18 
 The Main-Net has been released. If you wish to use that instead of the Test-Net, remove any occurences of `testnet` from your commands and config files (or start the tutorials over).  
 The algorithm has been changed back to `scrypt:10` for release.  

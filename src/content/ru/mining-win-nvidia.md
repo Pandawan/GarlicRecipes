@@ -2,6 +2,7 @@
 - [Соло-майнинг](#solo-mining)
 - [Майнинг в пуле](#pool-mining)
 - [Возможные проблемы](#troubleshooting)
+- [MisasMinerSetup](https://github.com/MisaRistolainen/MisasMinerSetup)
 
 # Соло-майнинг
 Удостоверьтесь, что вы уже установили кошелек и подключены к рабочей сети. Изучите инструкцию [настройки кошелька под Windows](wallet-win.html).
@@ -14,7 +15,7 @@
 Создайте текстовый документ и переименуйте его в `Run-Miner-Solo-Nvidia.bat` (**файл должен иметь расширение .bat**)
 Редактируйте документ (Правый клик > изменить) и скопируйте туда эту строчку: 
 ```
-ccminer.exe --algo=scrypt:10 -o 127.0.0.1:42068 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
+ccminer.exe --algo=allium -o 127.0.0.1:42068 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
 pause
 ```
 (вместо слова `ADDRESS` впишите туда свой адрес Garlicoin).  
@@ -30,14 +31,14 @@ pause
 Для майнинга в пуле подключение к рабочей сети Garlicoin не обязательно.
 
 ## Шаг 1: Скачайте необходимые файлы
-Скачайте [пул-майнер](https://github.com/tpruvot/ccminer/releases) (`ccminer-x64-2.2.4-cuda9.7z` для 64-битных и систем или `ccminer-x86-2.2.4-cuda9.7z` для 32-битных). Распакуйте в любую папку.
+Скачайте [пул-майнер](https://github.com/lenis0012/ccminer/releases/latest) (`ccminer-x64.exe` для 64-битных и систем или `ccminer-x86.exe` для 32-битных). Распакуйте в любую папку.
 
 ## Шаг 2: Настройка майнера
 Создайте текстовый документ и переименуйте его в `Run-Miner-Pool-Nvidia.bat` (**файл должен иметь расширение .bat**)
 
 Редактируйте документ (Правый клик > изменить) и скопируйте туда эту строчку:
 ```
-ccminer-x64 --algo=scrypt:10 -o POOL -u ADDRESS --max-temp=85
+ccminer-x64 --algo=allium -o POOL -u ADDRESS --max-temp=85
 
 pause
 ```  

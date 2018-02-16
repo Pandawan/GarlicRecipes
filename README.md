@@ -1,6 +1,11 @@
 # Garlic Recipes
 Helper Website for Garlicoin
 
+## TODO
+- Add CPU Miner files to zip
+- New SGMiner download?
+- Check that everything is good
+
 ## Contribute
 If you want to contribute to this site, you can submit a Pull Request.  
 
