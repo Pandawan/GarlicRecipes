@@ -55,13 +55,12 @@ sudo apt-get install git build-essential libcurl4-openssl-dev libssl-dev libjans
 ## Compiling and running the miners
 
 ### Pool mining
-**You do not need to compile anymore! A new release with allium support has been built. You can find it [here](https://github.com/lenis0012/ccminer/releases/latest/)**
+**If you have the newest cuda version (9.1), you do not need to compile anymore! A new release with allium support has been built. You can find it [here](https://github.com/lenis0012/ccminer/releases/latest/)**
 
-Clone [ccminer](https://github.com/lenis0012/ccminer/) for pool mining, change to linux branch, and build
+If you have cuda 9.0 or lower (8 comes with Ubuntu), clone [ccminer](https://github.com/lenis0012/ccminer/) (stay on the windows branch), and build
 ```
 git clone https://github.com/lenis0012/ccminer.git
 cd ccminer
-git checkout linux
 ./build.sh
 ```
 If it successfully built, you can now run the miner and connect to a pool
@@ -73,29 +72,7 @@ A safety measure has been added which prevents your graphics card from overheati
 Only remove this option if you know what you are doing. You can check out a specific max temperature for your GPU [here](#max-temperature). 
 
 ### Solo mining
-Clone [ccminer-nanashi](https://github.com/nicehash/ccminer-nanashi) for solo mining and build
-```
-git clone https://github.com/nicehash/ccminer-nanashi.git
-cd ccminer-nanashi
-./build.sh
-```
-To configure the network you are about to run, open your garlicoin.conf file. Make sure you followed the [wallet guide](wallet-nix.html). You can change the IP with ```rpcallowip=IP```.
-If you want to let the network run on localhost (recommended), change it to ```rpcallowip=127.0.0.1```. You can also change the port with ```rpcport=PORT```.
-
-Now start the network. Navigate to where you stored the garlicoin release. Go to the ``bin`` folder, start the network and bring it up to date
-```
-./garlicoind &
-./garlicoin-cli getblockchaininfo
-```
-repeat the last command until the ```blocks``` number does not increase anymore. Now your blockchain is up to date. 
-
-Go back to the ccminer-nanashi folder. Now you can solo mine with
-```
-./ccminer --algo=allium -o IP:PORT --no-longpoll --no-getwork --coinbase-addr=ADDRESS --max-temp=85 -p test -u test
-```
-Be sure to change ``IP``, ``PORT``, and ``ADDRESS`` to the respective values.
-A safety measure has been added which prevents your graphics card from overheating (`--max-temp=85`). Only remove this option if you know what you are doing. 
-You can check out a specific max temperature for your GPU [here](#max-temperature). 
+** A guide for this is in the works and will be updated when tested on the mainnet **
 
 # AMD Mining
 
@@ -107,7 +84,7 @@ This guide was tested on Ubuntu 16.04 with an AMD Radeon R9 290 and AMDGPU-PRO 1
 * Install the driver with OpenCL libraries: `./amdgpu-pro-install --opencl=legacy,rocm`
 * Download the APP-SDK (Version 3.0 worked for me): [APP SDK](https://developer.amd.com/amd-accelerated-parallel-processing-app-sdk/)
 * Install required dependencies: `apt-get install libcurl4-openssl-dev pkg-config libtool libncurses5-dev`
-* Clone the nicehash sgminer git repository: `git clone https://github.com/nicehash/sgminer` and cd into the directory `cd sgminer`
+* Clone the nicehash sgminer git repository: `git clone https://github.com/lenis0012/sgminer-gm.git` and cd into the directory `cd sgminer`
 * Download the AMD ADL SDK from [here](https://developer.amd.com/display-library-adl-sdk/)
 * Extract the ADL SDK and copy all files from the `include` directory into the `ADL_SDK` directory inside `sgminer`
 * Compile sgminer:
