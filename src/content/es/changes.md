@@ -1,3 +1,17 @@
+## 16/02/18
+¡Allium HardFork ha sido lanzado!
+Puede obtener más información sobre cómo actualizar [aquí](https://docs.google.com/document/d/1SUoSfJVHHLDdWWBbmQdPtAwEHcGdVROScs7ey9cLEQU/edit).
+Puede encontrar los enlaces de descarga actualizados aquí:
+- [binarios de garlicoind](https://garlicoin.io/downloads)
+- [cpuminer (compilación pendiente)](https://github.com/GarlicoinOrg/cpuminer-multi)
+- [ccminer (Nvidia)](https://github.com/lenis0012/ccminer/releases/latest)
+- [ccminer mac (Nvidia)](https://github.com/tosbaha/ccminer)
+- [sgminer (AMD)](https://github.com/lenis0012/sgminer-gm/releases/latest)
+
+<br>
+
+Garlium no requiere actualizaciones (a menos que sea propietario de un nodo Garlium).
+
 ## 1/21/18 - Parte 2
 Para los que tengan problemas de que sus nodos o su red no se conecten. Intenten por favor reemplar su archivo `.conf` con esto:
 ```

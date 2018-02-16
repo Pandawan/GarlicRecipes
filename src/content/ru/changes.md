@@ -1,3 +1,17 @@
+## 2/16/18
+Вышел Allium HardFork!
+Вы можете узнать больше о том, как обновить [здесь](https://docs.google.com/document/d/1SUoSfJVHHLDdWWBbmQdPtAwEHcGdVROScs7ey9cLEQU/edit).
+Вы можете найти обновленные ссылки для скачивания здесь:
+- [garlicoind binaries](https://garlicoin.io/downloads)
+- [cpuminer (ожидающая компиляция)](https://github.com/GarlicoinOrg/cpuminer-multi)
+- [ccminer (Nvidia)](https://github.com/lenis0012/ccminer/releases/latest)
+- [ccminer mac (Nvidia)](https://github.com/tosbaha/ccminer)
+- [sgminer (AMD)](https://github.com/lenis0012/sgminer-gm/releases/latest)
+
+<br>
+
+Garlium не требует никаких обновлений (если вы не являетесь владельцем узла Garlium).
+
 ## 1/21/18 
 The Main-Net has been released. If you wish to use that instead of the Test-Net, remove any occurences of `testnet` from your commands and config files (or start the tutorials over).  
 The algorithm has been changed back to `scrypt:10` for release.  
