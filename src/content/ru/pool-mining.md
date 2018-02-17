@@ -56,7 +56,8 @@
 | Garlicoin Recipes† | @RielDeal#1430       | http://garlicoin.recipes/               | 1%       | stratum+tcp://garlicoin.recipes:3032              | No       |
 | Garlic Maker       | Dogeazon             | http://garlicmaker.com/                 | 1%       | stratum+tcp://159.89.153.59:3256                  | No       |
 | Ballistic Pool     | @Parcanss#0941       | https://ballisticpool.net/              | 0.4%     | stratum+tcp://ballisticpool.net:3333              | No       |
-| grlc.suprnova.cc   | @ocminer#2372        | https://grlc.suprnova.cc/               | 1%       | stratum+tcp://grlc.suprnova.cc:8600               | No       |  
+| grlc.suprnova.cc   | @ocminer#2372        | https://grlc.suprnova.cc/               | 1%       | stratum+tcp://grlc.suprnova.cc:8600               | No       |
+| GetGRLC            | @CastawayEGR#2987    | https://getgrlc.com/                    | 0.1%     | stratum+tcp://us.getgrlc.com:3005                 | No       |  
 
 <br>
 \* Дайте 1% комиссионных на благотворительность (посетите их сайт, чтобы узнать больше).
