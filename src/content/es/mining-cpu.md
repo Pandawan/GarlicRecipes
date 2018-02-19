@@ -13,7 +13,7 @@
 Primero deberás descargar los archivos para minería con CPU [aquí](ROOT/files/miner-cpu-win.zip).  
 Extrae los archivos a tu carpeta de instalación (si has seguido las guías para la billetera, debería estar en `C:\Garlic\`)
 
-![Image of CPU Miner Files](https://i.imgur.com/6Nwy2dC.png)
+![Image of CPU Miner Files](https://i.imgur.com/6Nwy2dC.png)  
 
 ## Paso 2: (Recomendado) Configura para Minería Pool
 Esta minería usa un sistema diferente para distintos tipos de CPU. Sigue la sección para tu propio CPU.
@@ -37,7 +37,7 @@ Edita el archivo `Run-Miner-Pool-CPU.bat` (Clic derecho > Editar), asegúrate qu
 Cambia la pool (`POOL`) a cualquier pool, ambia la dirección (`ADDRESS`) a la que sea tu dirección de Garlicoin.
 *Si esto no funciona, considera seguir los pasos para el Intel regular en su lugar.*
 
-![Image of Bat File For Pool](https://i.imgur.com/puFRTqU.png)
+![Image of Bat File For Pool](https://i.imgur.com/puFRTqU.png)  
 *Esta imagen puede no estar actualizada, no intentes copiar su contenido. En su lugar, usa los archivos que se te entregan.*
 <br />
 
@@ -66,12 +66,12 @@ Si la consola retorna algo como *[2018-01-06 23:00:23] accepted: 4/4 (diff 0.000
 
 # Mac
 Las guías para Mac no están disponibles actualmente. Si deseas contribuir a este sitio, puedes crear un pull request [aquí](https://github.com/PandawanFr/GarlicoinHelp/pulls).  
-Por ahora, puedes seguir [esta guía](https://pastebin.com/p1RksRwb) de `@Vilsol#2060`, la cual debería ponerte en marcha (aunque no es tan detallada como una guía normal). 
+Por ahora, puedes seguir [esta guía](https://gist.github.com/PandawanFr/7c0c500ee679eac799ec4b92a225f816) de `@Vilsol#2060`, la cual debería ponerte en marcha (aunque no es tan detallada como una guía normal). 
 
 # Linux
 
 ## Paso 1: Descargar y configurar cpuminer-multi
-Clona desde el [repositorio en GitHub](https://github.com/tpruvot/cpuminer-multi) a un directorio de tu elección. Siguiendo las instrucciones del README, ejecuta `./build.sh` en el nuevo directorio, e instala los prerequisitos para tu ambiente/sistema. 
+Clona desde el [repositorio en GitHub](https://github.com/GarlicoinOrg/cpuminer-multi) a un directorio de tu elección. Siguiendo las instrucciones del README, ejecuta `./build.sh` en el nuevo directorio, e instala los prerequisitos para tu ambiente/sistema. 
 
 ## Paso 2: Ejecuta el Minero
 

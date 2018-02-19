@@ -59,9 +59,9 @@
 # Mac
 Инструкции для Mac и Linux систем пока недоступны. 
 Mac and Linux guides are currently not available. If you wish to contribute to this site, please create a pull request [here](https://github.com/PandawanFr/GarlicoinHelp/pulls).  
-For now, you can follow [this guide](https://pastebin.com/p1RksRwb) by `@Vilsol#2060`, which should get you going (although it is not as detailed as a normal guide). 
+For now, you can follow [this guide](https://gist.github.com/PandawanFr/7c0c500ee679eac799ec4b92a225f816) by `@Vilsol#2060`, which should get you going (although it is not as detailed as a normal guide). 
 
 # Linux
 Инструкции для Mac и Linux систем пока недоступны. 
 Mac and Linux guides are currently not available. If you wish to contribute to this site, please create a pull request [here](https://github.com/PandawanFr/GarlicoinHelp/pulls).  
-For now, you can follow [this guide](https://pastebin.com/p1RksRwb) by `@Vilsol#2060`, which should get you going (although it is not as detailed as a normal guide). 
+For now, you can follow [this guide](https://gist.github.com/PandawanFr/7c0c500ee679eac799ec4b92a225f816) by `@Vilsol#2060`, which should get you going (although it is not as detailed as a normal guide). 
