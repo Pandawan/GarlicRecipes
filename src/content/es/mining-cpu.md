@@ -23,19 +23,8 @@ Si tienenes un Intel i7, las instrucciones son distintas que para los otros CPU 
 **Puedes aprender más sobre la diferenia entre la minería Solo y Pool [aquí](how-to-mine.html#solo-vs-pool).**  
 **Si prefieres minar Solo, puedes saltarte a esa sección [aquí](#step-4-optional-solo-mining).**
 
-### Intel (regular) CPU
-Edita el archivo `Run-Miner-Pool-CPU.bat` (Clic derecho > Editar), asegúrate que al incio del archivo diga `.\Miner\cpuminer-gw64-core2`.  
-Cambia la pool (`POOL`) a cualquier pool, cambia la dirección (`ADDRESS`) a la que sea tu dirección de Garlicoin.
-
-### Intel i7 CPU
-Edita el archivo `Run-Miner-Pool-CPU.bat` (Clic derecho > Editar), asegúrate que al inicio del archivo diga `.\Miner\cpuminer-gw64-corei7` (**verifica que diga corei7**).  
-Cambia la pool (`POOL`) a cualquier pool, ambia la dirección (`ADDRESS`) a la que sea tu dirección de Garlicoin.
-*Si esto no funciona, considera seguir los pasos para el Intel regular en su lugar.*
-
-### AMD CPU
-Edita el archivo `Run-Miner-Pool-CPU.bat` (Clic derecho > Editar), asegúrate que al inicio del archivo diga `.\Miner\cpuminer-gw64-avx2` (**verifica que diga avx2**).  
-Cambia la pool (`POOL`) a cualquier pool, ambia la dirección (`ADDRESS`) a la que sea tu dirección de Garlicoin.
-*Si esto no funciona, considera seguir los pasos para el Intel regular en su lugar.*
+Edita el archivo `Run-Miner-Pool-CPU.bat` (Clic derecho > Editar).  
+Cambia la pool (`POOL`) a cualquier pool, cambia la dirección (`ADDRESS`) a la que sea tu dirección de Garlicoin.  
 
 ![Image of Bat File For Pool](https://i.imgur.com/puFRTqU.png)  
 *Esta imagen puede no estar actualizada, no intentes copiar su contenido. En su lugar, usa los archivos que se te entregan.*
