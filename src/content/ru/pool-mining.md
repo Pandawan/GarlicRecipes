@@ -57,6 +57,7 @@
 | Ballistic Pool     | @Parcanss#0941       | https://ballisticpool.net/              | 0.4%     | stratum+tcp://ballisticpool.net:3333              |
 | grlc.suprnova.cc   | @ocminer#2372        | https://grlc.suprnova.cc/               | 1%       | stratum+tcp://grlc.suprnova.cc:8600               |
 | GetGRLC            | @CastawayEGR#2987    | https://getgrlc.com/                    | 0.1%     | stratum+tcp://us.getgrlc.com:3005                 |  
+| Drink Garlic Wine  | @fishfox#5979        | http://drink.garlic.wine                | 0%       | stratum+tcp://nomp.ojaimark.com:3333              |  
 
 <br>
 \* Дайте 1% комиссионных на благотворительность (посетите их сайт, чтобы узнать больше).
