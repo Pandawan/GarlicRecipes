@@ -33,13 +33,18 @@ The miner might take a while to calibrate, it can take between 1 to 10 minutes.
 Make sure that you have already setup a wallet and that your network is running correctly! You can check out the [Windows Wallet Guide](wallet-win.html) to learn more.
 
 ## Step 1: Downloading the Files
-First you will want to download this special [Solo Miner](https://github.com/lenis0012/ccminer/releases/latest) (this one only works for Solo Mining) and extract it to its own folder (perhaps *Solo Nvidia Miner*).  
+First you will want to download this special [Solo Miner](https://github.com/beanjo55/ccminer-nanashi/releases/latest) (this one only works for Solo Mining) and extract it to its own folder (perhaps *Solo Nvidia Miner*).  
 
 ## Step 2: Setting Up the Miner
+Either you can use the `run.bat` file that is given, or you can create your own. It ends up in the same thing.  
+If you do use the `run.bat` file, make sure that you change the address to your own address.  
+
+<br />
+
 Now you will want to create a new text file inside that *Miner* folder and rename it to `Run-Miner-Solo-Nvidia.bat` (**Make sure the file ends with .bat**).  
 Edit the file (Right Click > Edit), and enter this:
 ```
-ccminer.exe --algo=allium -o 127.0.0.1:42068 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
+ccminer.exe --algo=allium -o 127.0.0.1:42068 -u test -p test --coinbase-addr=ADDRESS --no-stratum --no-longpoll --max-temp=85
 pause  
 ```
 (make sure that you replace `ADDRESS` to your address).

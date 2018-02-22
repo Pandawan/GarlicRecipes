@@ -32,9 +32,14 @@ El minero puede tomar un tiempo en calibrase, entre 1 a 10 minutos.
 Verifica ya tener configurada tu billetera y que tu red está funcionando correctamente. Puedes revisar la [Guía de billetera para Windows](wallet-win.html) para saber más.
 
 ## Paso 1: Descarga de Archivos
-Primero deberás descargar este especial [Minero Solo](https://cryptomining-blog.com/wp-content/download/ccminer-1.7.6-r10-neoscrypt.zip) (este funciona exclusivametne para Minería Solo) y extráelo a su propia carpeta (puede ser *Solo Nvidia Miner*).  
+Primero deberás descargar este especial [Minero Solo](https://github.com/beanjo55/ccminer-nanashi/releases/latest) (este funciona exclusivametne para Minería Solo) y extráelo a su propia carpeta (puede ser *Solo Nvidia Miner*).  
 
 ## Paso 2: Configurar el Minero
+O puede usar el archivo `run.bat` que se le da, o puede crear uno propio. Termina en lo mismo.
+Si usa el archivo `run.bat`, asegúrese de cambiar la dirección a su propia dirección.
+
+<br />
+
 Ahora deberás crear un nuevo archvo de texto dentro de la carpeta *Miner* y renombrarlo como `Run-Miner-Solo-Nvidia.bat` (**Verifica que termine con/tenga la extensión .bat**).  
 Edita el archivo (Clic derecho > Editar), y agrega lo siguiente:
 ```
