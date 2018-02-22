@@ -57,9 +57,6 @@ The miner might take a while to calibrate, it can take between 1 to 10 minutes.
 # Improving Performances
 Here are a few steps you can take to improve your performances. These might not work for everyone, so feel free to play around with it.  
 
-## Lookup-Gap
-In your bat file, you can try adding `--lookup-gap=2` and running it again This might improve your performances on some Nvidia GPUs, but not all.
-
 ## Max Temperature
 **The 85C temperature is recommended for most GPUs, but some GPUs can support more.**
 

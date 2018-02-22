@@ -57,9 +57,6 @@ Al minero le puede tomar un tiempo calibrarse, entre 1 y 10 minutos.
 # Mejora del Desempeño
 Aquí algunos pasos que puedes seguir para mejorar tu desempeño. Puede que no funcionen para todos, así que siénte libre de probarlos. 
 
-## Lookup-Gap
-En tu archivo bat, puedes intentar agregar `--lookup-gap=2` y ejecutarlo de nuevo. Esto podría mejorar el rendimiento de algunos GPU Nvidia, pero no de todos. 
-
 # Solución de Problemas
 
 ## Errores get_work 
