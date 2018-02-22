@@ -40,7 +40,7 @@ Here is a list of most available pools.
 | V2 Pool            | @mario.chamuty#8840  | http://pool.v2.sk/                      | 0.5%     | stratum+tcp://pool.v2.sk:3433                     |
 | Badass Pool        | @MF#3048             | http://garlicoin.iambadass.com/         | 0.69%    | stratum+tcp://garlicoin.iambadass.com:3333        |
 | Bread Pool         | @Spydy#8322          | http://breadpool.org/                   | 0%       | stratum+tcp://breadpool.org:3333                  |
-| Garlic Bois        | @Danoded#6272        | http://garlicbois.com/                  | 0.25%    | stratum+tcp://garlicbois.com:3333                 |
+| Garlic Bois        | @PoolWarrior#3690    | http://garlicbois.com/                  | 0.25%    | stratum+tcp://garlicbois.com:3333                 |
 | GRLC Pool          | @MrSolo#7742         | http://grlc.co/                         | 0%       | stratum+tcp://grlc.co:3032                        |
 | Mining Nation      | @JohnDavies1987#5426 | http://mining-nation.ml/                | 0.5%     | stratum+tcp://mining-nation.ml:4008               |
 | Garlic Mine Asia   | @bearpit#6143        | https://garlicmine.asia/                | 0.5%     | stratum+tcp://pool.garlicmine.asia:3333           |
