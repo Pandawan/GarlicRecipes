@@ -51,7 +51,7 @@
 | The RypeNation     | @RypeDub#7388        | http://rypenation.club/                 | 1%       | stratum+tcp://pool.rypenation.club:3333           |
 | Vampire Crytonite  | @Andy Anderson#8055  | https://vampirecryptonite.allgamer.net/ | 0.25%    | stratum+tcp://vampirecryptonite.allgamer.net:3333 |
 | TechFreckle        | @Phexeye#2215        | http://garlicoin.techfreckle.com/       | 1%       | stratum+tcp://garlicoin.techfreckle.com:3333      |
-| Garlic Factory     | @ossgeek#5893        | https://garlic-factory.fun/             | 0.42%    | stratum+tcp://pool.garlic-factory.fun:3333        |
+| Garlic Factory     | @ossgeek#5893        | https://garlic-factory.fun/             | 0%       | stratum+tcp://pool.garlic-factory.fun:3333        |
 | Garlicoin Recipes† | @RielDeal#1430       | http://garlicoin.recipes/               | 1%       | stratum+tcp://garlicoin.recipes:3032              |
 | Garlic Maker       | Dogeazon             | http://garlicmaker.com/                 | 1%       | stratum+tcp://159.89.153.59:3256                  |
 | Ballistic Pool     | @Parcanss#0941       | https://ballisticpool.net/              | 0.4%     | stratum+tcp://ballisticpool.net:3333              |
