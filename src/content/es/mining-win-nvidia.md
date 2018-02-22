@@ -43,7 +43,7 @@ Si usa el archivo `run.bat`, asegúrese de cambiar la dirección a su propia dir
 Ahora deberás crear un nuevo archvo de texto dentro de la carpeta *Miner* y renombrarlo como `Run-Miner-Solo-Nvidia.bat` (**Verifica que termine con/tenga la extensión .bat**).  
 Edita el archivo (Clic derecho > Editar), y agrega lo siguiente:
 ```
-ccminer.exe --algo=allium -o 127.0.0.1:42068 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
+ccminer.exe --algo=allium -o 127.0.0.1:42068 -u test -p test --coinbase-addr=ADDRESS --no-stratum --no-longpoll --max-temp=85
 pause  
 ```
 (cerciórate de reemplazar `ADDRESS` con tu dirección).

@@ -15,8 +15,8 @@
 Создайте текстовый документ и переименуйте его в `Run-Miner-Solo-Nvidia.bat` (**файл должен иметь расширение .bat**)
 Редактируйте документ (Правый клик > изменить) и скопируйте туда эту строчку: 
 ```
-ccminer.exe --algo=allium -o 127.0.0.1:42068 -u test -p test --no-longpoll --no-getwork --no-stratum --coinbase-addr=ADDRESS --max-temp=85
-pause
+ccminer.exe --algo=allium -o 127.0.0.1:42068 -u test -p test --coinbase-addr=ADDRESS --no-stratum --no-longpoll --max-temp=85
+pause  
 ```
 (вместо слова `ADDRESS` впишите туда свой адрес Garlicoin).  
 
