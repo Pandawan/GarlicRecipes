@@ -62,8 +62,9 @@ Here is a list of most available pools.
 | Garlic Maker       | Dogeazon             | http://garlicmaker.com/                 | 1%       | stratum+tcp://159.89.153.59:3256                  |
 | Ballistic Pool     | @Parcanss#0941       | https://ballisticpool.net/              | 0.4%     | stratum+tcp://ballisticpool.net:3333              |
 | grlc.suprnova.cc   | @ocminer#2372        | https://grlc.suprnova.cc/               | 1%       | stratum+tcp://grlc.suprnova.cc:8600               |
-| GetGRLC            | @CastawayEGR#2987    | https://getgrlc.com/                    | 0.1%     | stratum+tcp://us.getgrlc.com:3005                 |  
-| Drink Garlic Wine  | @fishfox#5979        | http://drink.garlic.wine                | 0%       | stratum+tcp://drink.garlic.wine:3333              |  
+| GetGRLC            | @CastawayEGR#2987    | https://getgrlc.com/                    | 0.1%     | stratum+tcp://us.getgrlc.com:3005                 |
+| Drink Garlic Wine  | @fishfox#5979        | http://drink.garlic.wine                | 0%       | stratum+tcp://drink.garlic.wine:3333              |
+| Garlic Oven        | @Qwerert#4703        | https://grlcoven.com/                   | 0%       | stratum+tcp://grlcoven.com:3333                   |  
 
 <br>
 \* Some parts (or all) of their fees are used for different purposes: Charity, Block Finder Reward, Improvement of Garlicoin...
