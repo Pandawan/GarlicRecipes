@@ -58,7 +58,8 @@
 | grlc.suprnova.cc   | @ocminer#2372        | https://grlc.suprnova.cc/               | 1%       | stratum+tcp://grlc.suprnova.cc:8600               |
 | GetGRLC            | @CastawayEGR#2987    | https://getgrlc.com/                    | 0.1%     | stratum+tcp://us.getgrlc.com:3005                 |
 | Drink Garlic Wine  | @fishfox#5979        | http://drink.garlic.wine                | 0%       | stratum+tcp://drink.garlic.wine:3333              |
-| Garlic Oven        | @Qwerert#4703        | https://grlcoven.com/                   | 0%       | stratum+tcp://grlcoven.com:3333                   |  
+| Garlic Oven        | @Qwerert#4703        | https://grlcoven.com/                   | 0%       | stratum+tcp://grlcoven.com:3333                   |
+| GRLC.Life          | @SecretRecipe#7739   | http://pool.grlc.life/                  | 0.8%     | stratum+tcp://pool.grlc.life:3333                 |  
 
 <br>
 \* Дайте 1% комиссионных на благотворительность (посетите их сайт, чтобы узнать больше).
