@@ -1,0 +1,223 @@
+{
+	"navbar": [{
+			"type": "link",
+			"title": "Loslegen",
+			"goto": "where-to-start"
+		},
+		{
+			"type": "link",
+			"title": "Grundlagen",
+			"goto": "what-is-garlicoin"
+		},
+		{
+			"type": "category",
+			"title": "Wallet",
+			"contains": [{
+					"title": "Garlium (Empfohlen)",
+					"external": true,
+					"goto": "https://xske.github.io/garlium/"
+				},
+				{
+					"title": "Windows",
+					"goto": "wallet-win"
+				},
+				{
+					"title": "Mac",
+					"goto": "wallet-mac"
+				},
+				{
+					"title": "Linux",
+					"goto": "wallet-nix"
+				},
+				{
+					"title": "Web",
+					"goto": "wallet-web"
+				},
+				{
+					"title": "Paper Wallet",
+					"external": true,
+					"goto": "https://paperbag.brock.pw/"
+				},
+				{
+					"title": "Android Wallet",
+					"goto": "wallet-android"
+				}
+			]
+		},
+		{
+			"type": "category",
+			"title": "Mining",
+			"contains": [{
+					"type": "link",
+					"title": "Mining Grundlagen",
+					"goto": "how-to-mine"
+				},
+				{
+					"type": "link",
+					"title": "Pool Mining",
+					"goto": "pool-mining"
+				},
+				{
+					"type": "link",
+					"title": "CPU",
+					"goto": "mining-cpu"
+				},
+				{
+					"type": "link",
+					"title": "Windows Nvidia",
+					"goto": "mining-win-nvidia"
+				},
+				{
+					"type": "link",
+					"title": "Windows AMD",
+					"goto": "mining-win-amd"
+				},
+				{
+					"type": "link",
+					"title": "Linux GPU",
+					"goto": "mining-nix-gpu"
+				}
+			]
+		},
+		{
+			"type": "link",
+			"title": "Änderungen",
+			"goto": "changes"
+		},
+		{
+			"type": "link",
+			"title": "Download",
+			"external": "true",
+			"goto": "https://garlicoin.io/downloads"
+		}
+	],
+	"content": {
+		"default": {
+			"value": "get-started",
+			"title": "Loslegen"
+		},
+		"get-started": {
+			"where-to-start": {
+				"type": "link",
+				"title": "Womit anfangen?",
+				"icon": "fas fa-play-circle",
+				"description": "Leg' los mit Garlicoin."
+			},
+			"what-is-garlicoin": {
+				"type": "link",
+				"title": "Was ist Garlicoin?",
+				"icon": "fas fa-question",
+				"description": "Lerne die Grundlagen von Garlicoin kennen."
+			},
+			"get-wallet": {
+				"type": "category",
+				"title": "Wallet",
+				"icon": "fas fa-credit-card",
+				"description": "Erstelle in wenigen Minuten ein eigenes Wallet."
+			},
+			"get-miner": {
+				"type": "category",
+				"title": "Mining",
+				"icon": "fa fa-server",
+				"description": "Lerne, am Mining per CPU oder GPU teilzunehmen."
+			},
+			"changes": {
+				"type": "link",
+				"title": "Änderungen",
+				"icon": "fas fa-newspaper",
+				"description": "Erfahre über alle Neuerungen in Garlicoin und wie du deine Konfiguration eventuell ändern musst."
+			},
+			"explorer": {
+				"type": "link",
+				"title": "Explorer",
+				"icon": "fas fa-globe",
+				"description": "Nutze den Garlicoin Block Explorer, um alle Transaktionen im Netzwerk einsehen zu können.",
+				"goto": "https://explorer.grlc-bakery.fun/"
+			}
+		},
+		"get-wallet": {
+			"wallet-garlium": {
+				"type": "link",
+				"title": "Garlium (Empfohlen)",
+				"icon": "custom-icon icon-electron",
+				"description": "Ein einfach zu bedienendes Wallet mit grafischer Oberfläche.",
+				"goto": "https://xske.github.io/garlium/"
+			},
+			"wallet-win": {
+				"type": "link",
+				"title": "Windows Wallet",
+				"icon": "fab fa-windows",
+				"description": "Erstelle in wenigen Minuten ein Wallet mit Windows."
+			},
+			"wallet-mac": {
+				"type": "link",
+				"title": "Mac Wallet",
+				"icon": "fab fa-apple",
+				"description": "Erstelle in wenigen Minuten ein Wallet mit einem Mac."
+			},
+			"wallet-nix": {
+				"type": "link",
+				"title": "Linux Wallet",
+				"icon": "fab fa-linux",
+				"description": "Erstelle in wenigen Minuten ein Wallet mit Linux."
+			},
+			"wallet-web": {
+				"type": "link",
+				"title": "Web Wallet",
+				"icon": "fas fa-globe",
+				"description": "Nutze ein Web Wallet, um von jedem Punkt darauf zugreifen zu können."
+			},
+			"wallet-paper": {
+				"type": "link",
+				"title": "Paper Wallet",
+				"icon": "fas fa-file-alt",
+				"description": "Generiere ein ausdruckbares Wallet (ohne Verbindung zu einer bestimmten Anwendung)",
+				"goto": "https://paperbag.brock.pw/"
+			},
+			"wallet-android": {
+				"type": "link",
+				"title": "Android Wallet",
+				"icon": "fab fa-android",
+				"description": "Verschiedene verfügbare Android Wallets."
+			}
+		},
+		"get-miner": {
+			"how-to-mine": {
+				"type": "link",
+				"title": "Mining How-to",
+				"icon": "fas fa-question",
+				"description": "Lerne die Grundlagen des Mining kennen."
+			},
+			"pool-mining": {
+				"type": "link",
+				"title": "Pool Mining",
+				"icon": "fas fa-server",
+				"description": "Mehr Informationen zum Pool Mining und eine Liste von Pools"
+			},
+			"mining-cpu": {
+				"type": "link",
+				"title": "CPU",
+				"icon": "fas fa-microchip",
+				"description": "Nutze den Prozessor (CPU) für das Mining."
+			},
+			"mining-win-nvidia": {
+				"type": "link",
+				"title": "Windows Nvidia",
+				"icon": "custom-icon icon-nvidia",
+				"description": "Nutze deine Nvidia Grafikkarte unter Windows für das Mining."
+			},
+			"mining-win-amd": {
+				"type": "link",
+				"title": "Windows AMD",
+				"icon": "custom-icon icon-amd",
+				"description": "Nutze deine AMD Grafikkarte unter Windows für das Mining."
+			},
+			"mining-nix-gpu": {
+				"type": "link",
+				"title": "Linux GPU",
+				"icon": "fab fa-linux",
+				"description": "Nutze deine Grafikkarte unter Linux für das Mining."
+			}
+		}
+	}
+}
