@@ -18,7 +18,7 @@
 | Happy Garlic Pool  | @eins#0361           | http://happy.garlicoin.fun              | 0.5%     | stratum+tcp://happy.garlicoin.fun:3210            |
 | HRY Mining Co.     | @Tyler#9270          | http://hry-mining.co/                   | 0.5%     | stratum+tcp://hry-mining.co:3032                  |
 | Rich Garlic Boye   | @Reap#3306           | http://rich.garlicboye.com/             | 1%       | stratum+tcp://rich.garlicboye.com:3333            |
-| ButterPool         | @GameFuzion#0282     | http://butterpool.com/                  | 0.75%    | stratum+tcp://butterpool.com:3032                 |
+| ButterPool         | @GameFuzion#0282     | http://butterpool.com/                  | 0.5%     | stratum+tcp://butterpool.com:3032                 |
 | GarlicMine         | @fstrmn#8930         | http://garlicmine.com                   | 0.42%    | stratum+tcp://garlicmine.com:3333                 |
 | Cryptojoy          | @Sobeston#1056       | http://cryptojoy.xyz                    | 0.5%     | stratum+tcp://pool.cryptojoy.xyz:3333             |
 | H36                | @Cotix#4250          | https://h36.nl/                         | 0%       | stratum+tcp://h36.nl:3333                         |
