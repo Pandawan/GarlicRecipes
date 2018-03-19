@@ -12,7 +12,7 @@
 ## Test-Net (тестовая сеть!)
 | Имя                | Владелец             | Сайт                                    | Pool Fee | Адрес                                             |
 |--------------------|----------------------|-----------------------------------------|----------|---------------------------------------------------|
-| Bakery             | @Vilsol#2060         | http://grlc-bakery.fun/                 | 1%       | stratum+tcp://pool.grlc-bakery.fun:3333           |
+| Bakery             | @Vilsol#2060         | http://grlc-bakery.fun/                 | 1%**\*** | stratum+tcp://pool.grlc-bakery.fun:3333           |
 | GarlicSoup         | @Martin#6614         | https://pool.garlicsoup.xyz             | 1%**\*** | stratum+tcp://us.pool.garlicsoup.xyz:3333         |
 | GarlicPool.org     | @Smiba#3781          | https://garlicpool.org                  | 1%       | stratum+tcp://stratum.garlicpool.org:3333         |
 | Happy Garlic Pool  | @eins#0361           | http://happy.garlicoin.fun              | 0.5%     | stratum+tcp://happy.garlicoin.fun:3210            |
@@ -42,7 +42,6 @@
 | Bread Brit         | @MrDag0n#1388        | https://breadbrit.uk/                   | 0.33%    | stratum+tcp://pool.breadbrit.uk:3333              |
 | Wild Garlic        | @Kryptonite#6233     | https://wildgarlic.fun/                 | 0%       | stratum+tcp://eu.wildgarlic.fun:3333              |
 | GarlicoinPool      | @antibac#4027        | https://garlicoinpool.com/              | 0.5%     | stratum+tcp://garlicoinpool.com:3333              |
-| GRLC Farm          | @DBN#1688            | https://www.grlc.farm                   | 0.5%     | stratum+tcp://grlc.farm:3333                      |
 | Garlic, Inc        | @Cableguyp#1285      | http://garlicinc.ca/                    | 0.75%    | stratum+tcp:/garlicinc.ca:3333                    |
 | Widgocorp Pool     | /u/TheWalter_White   | http://grlc.widgocorp.com               | 0%       | stratum+tcp://stratum.grlc.widgocorp.com:3333     |
 | Garlic Billionaire | @NEZBITE#6443        | http://garlicbillionaire.com/           | 3%**\*** | stratum+tcp://garlicbillionaire.com:3032          |
@@ -60,7 +59,7 @@
 | Drink Garlic Wine  | @fishfox#5979        | http://drink.garlic.wine                | 0%       | stratum+tcp://drink.garlic.wine:3333              |
 | Garlic Oven        | @Qwerert#4703        | https://grlcoven.com/                   | 0%       | stratum+tcp://grlcoven.com:3333                   |
 | GRLC GANG          | @SecretRecipe#7739   | http://pool.grlc.life/                  | 0.5%     | stratum+tcp://pool.grlc.life:3333                 |
-| Garlic Field       | @zachabossaloler#1179 | https://garlicfield.ovh/               | 1%       | stratum+tcp://garlicfield.ovh:3333                |  
+| Garlic Field       | @zachabossaloler#1179 | https://garlicfield.ovh/               | 1%       | stratum+tcp://garlicfield.ovh:3333                |
 | The GarlicPool     | @eradev#8004         | http://garlic.itenv.net/                | 1%       | stratum+tcp://garlic.itenv.net:3333               |  
 
 <br>
