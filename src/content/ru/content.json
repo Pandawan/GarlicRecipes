@@ -14,7 +14,8 @@
 			"title": "Кошелек",
 			"contains": [{
 					"title": "Garlium (рекомендуется)",
-					"goto": "wallet-garlium"
+					"external": true,
+					"goto": "https://xske.github.io/garlium/"
 				},
 				{
 					"title": "Windows",
