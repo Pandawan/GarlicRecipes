@@ -12,11 +12,7 @@
 		{
 			"type": "category",
 			"title": "Billetera",
-			"contains": [{
-					"title": "Garlium (Recomendada)",
-					"external": true,
-					"goto": "https://xske.github.io/garlium/"
-				},
+			"contains": [
 				{
 					"title": "Windows",
 					"goto": "wallet-win"
@@ -34,13 +30,18 @@
 					"goto": "wallet-web"
 				},
 				{
+					"title": "Android",
+					"goto": "wallet-android"
+				},
+				{
+					"title": "Garlium",
+					"external": true,
+					"goto": "https://xske.github.io/garlium/"
+				},
+				{
 					"title": "Billetera de papel",
 					"external": true,
 					"goto": "https://paperbag.brock.pw/"
-				},
-				{
-					"title": "Android",
-					"goto": "wallet-android"
 				}
 			]
 		},
