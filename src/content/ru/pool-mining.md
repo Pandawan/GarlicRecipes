@@ -12,7 +12,7 @@
 ## Test-Net (тестовая сеть!)
 | Имя                | Владелец             | Сайт                                    | Pool Fee | Адрес                                             |
 |--------------------|----------------------|-----------------------------------------|----------|---------------------------------------------------|
-| Bakery             | @Vilsol#2060         | http://grlc-bakery.fun/                 | 1%**\*** | stratum+tcp://pool.grlc-bakery.fun:3333           |
+| Bakery             | @Vilsol#2060         | http://grlc-bakery.org/                 | 1%**\*** | stratum+tcp://pool.grlc-bakery.fun:3333           |
 | GarlicSoup         | @Martin#6614         | https://pool.garlicsoup.xyz             | 1%**\*** | stratum+tcp://us.pool.garlicsoup.xyz:3333         |
 | GarlicPool.org     | @Smiba#3781          | https://garlicpool.org                  | 1%       | stratum+tcp://stratum.garlicpool.org:3333         |
 | Happy Garlic Pool  | @eins#0361           | http://happy.garlicoin.fun              | 0.5%     | stratum+tcp://happy.garlicoin.fun:3210            |
