@@ -137,7 +137,7 @@
 				"title": "Просмотр блоков",
 				"icon": "fas fa-globe",
 				"description": "Используйте Garlicoin Block Explorer для просмотра всех транзакций.",
-				"goto": "https://explorer.grlc-bakery.fun/"
+				"goto": "https://garli.co.in/"
 			}
 		},
 		"get-wallet": {

@@ -133,7 +133,7 @@
 				"title": "Explorador",
 				"icon": "fas fa-globe",
 				"description": "Accede al Explorador de Bloques de Garlicoin para ver todas las transacciones.",
-				"goto": "https://explorer.grlc-bakery.fun/"
+				"goto": "https://garli.co.in/"
 			}
 		},
 		"get-wallet": {
