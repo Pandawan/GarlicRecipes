@@ -58,7 +58,7 @@
 | GetGRLC            | @CastawayEGR#2987    | https://getgrlc.com/                    | 0.1%     | stratum+tcp://us.getgrlc.com:3005                 |
 | Drink Garlic Wine  | @fishfox#5979        | http://drink.garlic.wine                | 0%       | stratum+tcp://drink.garlic.wine:3333              |
 | Garlic Oven        | @Qwerert#4703        | https://grlcoven.com/                   | 0%       | stratum+tcp://grlcoven.com:3333                   |
-| GRLC GANG          | @SecretRecipe#7739   | http://pool.grlc.life/                  | 0.5%     | stratum+tcp://pool.grlc.life:3333                 |
+| GRLC GANG 2.0      | @SecretRecipe#7739   | https://grlcgang.com/                   | 0%       | stratum+tcp://grlcgang.com:3333                   |
 | Garlic Field       | @zachabossaloler#1179 | https://garlicfield.ovh/               | 1%       | stratum+tcp://garlicfield.ovh:3333                |
 | The GarlicPool     | @eradev#8004         | http://garlic.itenv.net/                | 1%       | stratum+tcp://garlic.itenv.net:3333               |  
 
