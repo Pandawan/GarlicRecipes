@@ -23,7 +23,7 @@ let argv = require('yargs').argv;
 let content = reload('./src/content/content.json');
 
 // Language List to build (for languages other than default, add a / at the end)
-let langList = ['', 'ru/', 'es/'];
+let langList = [''];
 if (argv.lang) {
 	langList = [(argv.lang == 'en' ? '' : argv.lang + '/')];
 }
