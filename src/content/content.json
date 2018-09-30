@@ -26,16 +26,12 @@
 					"goto": "wallet-nix"
 				},
 				{
-					"title": "Web",
-					"goto": "wallet-web"
-				},
-				{
 					"title": "Android Wallet",
 					"goto": "wallet-android"
 				}, {
 					"title": "Garlium",
 					"external": true,
-					"goto": "https://xske.github.io/garlium/"
+					"goto": "https://github.com/garlicoin-project/garlium/releases/tag/v2.0.0"
 				},
 				{
 					"title": "Paper Wallet",
@@ -81,11 +77,6 @@
 		},
 		{
 			"type": "link",
-			"title": "Changes",
-			"goto": "changes"
-		},
-		{
-			"type": "link",
 			"title": "Download",
 			"external": "true",
 			"goto": "https://garlicoin.io/downloads"
@@ -121,12 +112,6 @@
 				"icon": "fa fa-server",
 				"description": "Learn to mine on the network using your CPU or GPU."
 			},
-			"changes": {
-				"type": "link",
-				"title": "Changes",
-				"icon": "fas fa-newspaper",
-				"description": "Get updates on Garlicoin and learn what you need to change in your setup"
-			},
 			"explorer": {
 				"type": "link",
 				"title": "Explorer",
@@ -141,7 +126,7 @@
 				"title": "Garlium (Recommended)",
 				"icon": "custom-icon icon-electron",
 				"description": "Get an easy to use GUI wallet app for all platforms.",
-				"goto": "https://xske.github.io/garlium/"
+				"goto": "https://github.com/garlicoin-project/garlium/releases/tag/v2.0.0"
 			},
 			"wallet-win": {
 				"type": "link",
@@ -160,12 +145,6 @@
 				"title": "Linux Wallet",
 				"icon": "fab fa-linux",
 				"description": "Setup a wallet in minutes on Linux."
-			},
-			"wallet-web": {
-				"type": "link",
-				"title": "Web Wallet",
-				"icon": "fas fa-globe",
-				"description": "Get access to your wallet on the web with multiple Web Clients."
 			},
 			"wallet-paper": {
 				"type": "link",

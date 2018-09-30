@@ -1,1 +1,0 @@
-Pide por favor alguien en el chat `#posix-mining` que contribuya a esta página.

@@ -1,10 +1,12 @@
 # Table of Contents
+
 - [What Is Mining](#what-is-mining)
 - [CPU vs GPU](#cpu-vs-gpu)
 - [Solo vs Pool](#solo-vs-pool)
 - [Start Mining](#start-mining)
 
 # What Is Mining
+
 Mining, in cryptocurrency, is the process of verifying that a transaction is valid using computer calculations. For each verification a miner makes, they get a small amount of newly created Garlicoin for their "hard" work.  
 You can learn more about how blockchain works [here](https://www.youtube.com/watch?v=bBC-nXj3Ng4).  
 <br>
@@ -12,11 +14,13 @@ You can learn more about how blockchain works [here](https://www.youtube.com/wat
 Miners can only use their CPU (Processor) and GPU (Graphics Card) to mine Garlicoin as it is ASIC resistant; meaning that it will try to block mining on mining-specific hardware.
 
 # CPU vs GPU
+
 Miners can use either their CPU (processor) or GPU (graphics card) to mine Garlicoin (since Garlicoin is ASIC resistant, those are the only two options).  
 Mining on the CPU is more accessible and easier to setup, but mining on the GPU is much faster and will yield to better results; It is therefore recommended to mine on the GPU (if available).
 It should be noted that mining on a laptop is not recommended (although feasible), because laptops are much less powerful and could get damaged much more easily.
 
 # Solo vs Pool
+
 When mining, whoever succesfully verifies (or mines) a block first gets the reward for mining it.  
 <br>
 
@@ -29,8 +33,10 @@ Pool mining is when multiple miners get together and mine as a group (called a p
 **Not everybody should use the same pool**. If a pool dominates (controls at least 51% of all the mining power), it means that they have full control over the blockchain and can therefore cheat the system by modifying some of the values (essentially creating, stealing, or removing money). As a result, pool diversity is very important and people should try to find the best pool or independent ones, to solidify the network.
 
 # Start Mining
+
 If you wish to start mining, you can check out these options:
 **GPU Pool Mining is recommended** as it has the highest success rate.
+
 - [CPU (all)](./mining-cpu.html)
 - [Windows Nvidia](./mining-win-nvidia.html)
 - [Windows AMD](./mining-win-amd.html)

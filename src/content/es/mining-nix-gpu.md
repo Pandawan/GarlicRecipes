@@ -1,1 +1,0 @@
-Actualmente se está trabajando en una guía. Por el momento, puedes seguir [esta guía](https://docs.google.com/document/d/1sm9ukRzXaT3fBbYx4hUsZmpQrd-RkNVQ2OD1W6r46ew/edit) de `@Daswf852#5539`.
