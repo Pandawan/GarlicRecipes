@@ -64,8 +64,8 @@ If the console returns something like _[2018-01-06 23:00:23] accepted: 4/4 (diff
 
 # Mac
 
-Mac guides are currently not available. If you wish to contribute to this site, please create a pull request [here](https://github.com/PandawanFr/GarlicRecipes/pulls).  
-For now, you can follow [this guide](https://gist.github.com/PandawanFr/7c0c500ee679eac799ec4b92a225f816) originally by `@Vilsol#2060`, which should get you going (although it is not as detailed as a normal guide).
+Mac guides are currently not available. If you wish to contribute to this site, please create a pull request [here](https://github.com/Pandawan/GarlicRecipes/pulls).  
+For now, you can follow [this guide](https://gist.github.com/Pandawan/7c0c500ee679eac799ec4b92a225f816) originally by `@Vilsol#2060`, which should get you going (although it is not as detailed as a normal guide).
 
 # Linux
 

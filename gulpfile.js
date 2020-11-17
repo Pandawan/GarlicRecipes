@@ -213,7 +213,7 @@ gulp.task('reload', function (cb) {
 
 // Upload to GitHub Pages
 gulp.task('deploy', function (cb) {
-	root = 'https://pandawanfr.github.io/GarlicRecipes'
+	root = 'https://pandawan.github.io/GarlicRecipes'
 	runSequence('clean', 'build', 'clean-html', function () {
 		// No need to call gulp prod anymore, dist folder is ignored by gitignore
 		ghpages.publish('dist', cb);
@@ -242,5 +242,4 @@ gulp.task('watch', ['build'], function () {
 	gulp.watch('src/fonts/**/*', ['fonts']);
 	gulp.watch('src/files/**/*', ['files']);
 	gulp.watch('src/images/**/*', ['images']);
-
 });

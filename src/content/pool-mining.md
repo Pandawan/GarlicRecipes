@@ -24,7 +24,7 @@ You can find list of most available pools [here](https://pools.garlicoin.fun/).
 <br>
 † Not affiliated with Garlic Recipes
 <br>
-If you are a pool owner and wish to add your pool, just create a [Pull Request](https://github.com/PandawanFr/GarlicRecipes/pulls) (or message me `@Pandawan#4158`).
+If you are a pool owner and wish to add your pool, just create a [Pull Request](https://github.com/Pandawan/GarlicRecipes/pulls) (or message me `@Pandawan#4158`).
 
 ## When Do I Get Paid
 

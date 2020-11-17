@@ -16,11 +16,11 @@
   ],
   "author": "Pandawan",
   "license": "MIT",
-  "repository": "git+https://github.com/PandawanFr/GarlicRecipes.git",
+  "repository": "git+https://github.com/Pandawan/GarlicRecipes.git",
   "bugs": {
-    "url": "https://github.com/PandawanFr/GarlicRecipes/issues"
+    "url": "https://github.com/Pandawan/GarlicRecipes/issues"
   },
-  "homepage": "https://github.com/PandawanFr/GarlicRecipes#readme",
+  "homepage": "https://github.com/Pandawan/GarlicRecipes#readme",
   "dependencies": {
     "del": "^3.0.0",
     "express": "^4.16.2"
