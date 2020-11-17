@@ -1,7 +1,7 @@
 # Garlic Recipes
 Helper Website for Garlicoin  
 
-If https://guide.garli.co.in does not work, check out https://pandawanfr.github.io/GarlicRecipes (Chrome gives a false-positive as a dangerous site, just ignore it).
+If https://guide.garli.co.in does not work, check out https://pandawan.github.io/GarlicRecipes (Chrome gives a false-positive as a dangerous site, just ignore it).
 
 ## TODO
 - Add CPU Miner files to zip
