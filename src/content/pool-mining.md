@@ -16,14 +16,6 @@ If a pool dominates (controls at least 51% of all the mining power), it means th
 
 # List of Pools
 
-You can find list of most available pools [here](https://pools.garlicoin.fun/).  
-**NOTE: These are community pools, we are not responsible for any incident that could happen when mining or using them.**
-
-<br>
-\* Some parts (or all) of their fees are used for different purposes: Charity, Block Finder Reward, Improvement of Garlicoin...
-<br>
-† Not affiliated with Garlic Recipes
-<br>
 If you are a pool owner and wish to add your pool, just create a [Pull Request](https://github.com/Pandawan/GarlicRecipes/pulls) (or message me `@Pandawan#4158`).
 
 ## When Do I Get Paid
