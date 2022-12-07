@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Pandawan/GarlicRecipes#readme",
   "dependencies": {
     "del": "^3.0.0",
-    "express": "^4.16.2"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.4",
