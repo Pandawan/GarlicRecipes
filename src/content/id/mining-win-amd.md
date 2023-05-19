@@ -1,0 +1,1 @@
+Berikut adalah [panduan](https://docs.google.com/document/d/16VRVwALJXiU9P4aeJ3bi1dpTh_3pWYLvWa2D5AmgX9w/edit) yang diperbarui dan mudah digunakan oleh `@SirFish#7124` dan `@Danoded#6272`.

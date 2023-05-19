@@ -1,0 +1,1 @@
+Silakan minta seseorang di obrolan `#wallet-support` di Discord untuk membantu Anda (dan mungkin berkontribusi ke halaman ini).
