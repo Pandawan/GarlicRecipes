@@ -1,17 +1,17 @@
 {
 	"navbar": [{
 			"type": "link",
-			"title": "Get Started",
+			"title": "Memulai",
 			"goto": "where-to-start"
 		},
 		{
 			"type": "link",
-			"title": "Basics",
+			"title": "Dasar",
 			"goto": "what-is-garlicoin"
 		},
 		{
 			"type": "category",
-			"title": "Wallet",
+			"title": "dompet",
 			"contains": [
 				{
 					"title": "Windows",
@@ -26,7 +26,7 @@
 					"goto": "wallet-nix"
 				},
 				{
-					"title": "Android Wallet",
+					"title": "Dompet Android",
 					"goto": "wallet-android"
 				}, {
 					"title": "Garlium",
@@ -34,7 +34,7 @@
 					"goto": "https://github.com/garlicoin-project/garlium/releases/tag/v2.0.0"
 				},
 				{
-					"title": "Paper Wallet",
+					"title": "Dompet Kertas",
 					"external": true,
 					"goto": "https://walletgenerator.net/?currency=Garlicoin"
 				}
@@ -42,15 +42,15 @@
 		},
 		{
 			"type": "category",
-			"title": "Mining",
+			"title": "Menambang",
 			"contains": [{
 					"type": "link",
-					"title": "How To Mine",
+					"title": "Bagaimana Cara Menambangnya",
 					"goto": "how-to-mine"
 				},
 				{
 					"type": "link",
-					"title": "Pool Mining",
+					"title": "Kolam Penambangan",
 					"goto": "pool-mining"
 				},
 				{
@@ -77,7 +77,7 @@
 		},
 		{
 			"type": "link",
-			"title": "Download",
+			"title": "Unduh",
 			"external": "true",
 			"goto": "https://garlicoin.io/downloads"
 		}
@@ -85,36 +85,36 @@
 	"content": {
 		"default": {
 			"value": "get-started",
-			"title": "Getting Started"
+			"title": "Panduan Awal"
 		},
 		"get-started": {
 			"where-to-start": {
 				"type": "link",
-				"title": "Where To Start",
+				"title": "Dimana Memulainya",
 				"icon": "fas fa-play-circle",
 				"description": "Get Started with Garlicoin"
 			},
 			"what-is-garlicoin": {
 				"type": "link",
-				"title": "What Is Garlicoin",
+				"title": "Apa Itu Garlicoin",
 				"icon": "fas fa-question",
 				"description": "Learn the basics of Garlicoin."
 			},
 			"get-wallet": {
 				"type": "category",
-				"title": "Wallet",
+				"title": "Dompet",
 				"icon": "fas fa-credit-card",
 				"description": "Setup a wallet in minutes on all platforms."
 			},
 			"get-miner": {
 				"type": "category",
-				"title": "Mining",
+				"title": "Menambang",
 				"icon": "fa fa-server",
 				"description": "Learn to mine on the network using your CPU or GPU."
 			},
 			"explorer": {
 				"type": "link",
-				"title": "Explorer",
+				"title": "Penjelajah",
 				"icon": "fas fa-globe",
 				"description": "Access the Garlicoin Block Explorer to see all the transactions.",
 				"goto": "https://garli.co.in/"
@@ -123,79 +123,79 @@
 		"get-wallet": {
 			"wallet-garlium": {
 				"type": "link",
-				"title": "Garlium (Recommended)",
+				"title": "Garlium (Direkomendasikan)",
 				"icon": "custom-icon icon-electron",
-				"description": "Get an easy to use GUI wallet app for all platforms.",
+				"description": "Dapatkan aplikasi dompet GUI yang mudah digunakan untuk semua platform.",
 				"goto": "https://github.com/garlicoin-project/garlium/releases/tag/v2.0.0"
 			},
 			"wallet-win": {
 				"type": "link",
-				"title": "Windows Wallet",
+				"title": "Dompet Windows",
 				"icon": "fab fa-windows",
-				"description": "Setup a wallet in minutes on Windows."
+				"description": "Siapkan dompet dalam hitungan menit di Windows."
 			},
 			"wallet-mac": {
 				"type": "link",
-				"title": "Mac Wallet",
+				"title": "Dompet Mac",
 				"icon": "fab fa-apple",
-				"description": "Setup a wallet in minutes on Mac."
+				"description": "Siapkan dompet dalam hitungan menit di Mac."
 			},
 			"wallet-nix": {
 				"type": "link",
-				"title": "Linux Wallet",
+				"title": "Dompet Linux",
 				"icon": "fab fa-linux",
-				"description": "Setup a wallet in minutes on Linux."
+				"description": "Siapkan dompet dalam hitungan menit di Linux."
 			},
 			"wallet-paper": {
 				"type": "link",
-				"title": "Paper Wallet",
+				"title": "Dompet Kertas",
 				"icon": "fas fa-file-alt",
-				"description": "Generate a Garlicoin address which you can use anywhere. (This does not come with a Wallet App).",
+				"description": "Hasilkan alamat Garlicoin yang dapat Anda gunakan di mana saja. (Ini tidak disertakan dengan Aplikasi Wallet).",
 				"goto": "https://walletgenerator.net/?currency=Garlicoin"
 			},
 			"wallet-android": {
 				"type": "link",
-				"title": "Android Wallet",
+				"title": "Dompet Android",
 				"icon": "fab fa-android",
-				"description": "Check out all the available Android Wallets."
+				"description": "Lihat semua Dompet Android yang tersedia."
 			}
 		},
 		"get-miner": {
 			"how-to-mine": {
 				"type": "link",
-				"title": "How To Mine",
+				"title": "Cara Menambang",
 				"icon": "fas fa-question",
-				"description": "Learn the basics of mining and the different choices you will have to make."
+				"description": "Pelajari dasar-dasar penambangan dan berbagai pilihan yang harus Anda buat."
 			},
 			"pool-mining": {
 				"type": "link",
-				"title": "Pool Mining",
+				"title": "Kolam Penambangan",
 				"icon": "fas fa-server",
-				"description": "Learn more about pool mining, and the different pools that are available."
+				"description": "Pelajari lebih lanjut tentang penambangan kolam, dan berbagai kolam yang tersedia."
 			},
 			"mining-cpu": {
 				"type": "link",
 				"title": "CPU",
 				"icon": "fas fa-microchip",
-				"description": "Learn to mine using your processor (CPU) on all platforms."
+				"description": "Pelajari cara menambang menggunakan prosesor (CPU) Anda di semua platform."
 			},
 			"mining-win-nvidia": {
 				"type": "link",
 				"title": "Windows Nvidia",
 				"icon": "custom-icon icon-nvidia",
-				"description": "Learn to mine using your Nvidia GPU on Windows with CCMiner."
+				"description": "Belajar menambang menggunakan GPU Nvidia Anda di Windows dengan CCMiner."
 			},
 			"mining-win-amd": {
 				"type": "link",
 				"title": "Windows AMD",
 				"icon": "custom-icon icon-amd",
-				"description": "Learn to mine using your AMD GPU on Windows with YACMiner."
+				"description": "Belajar menambang menggunakan GPU AMD Anda di Windows dengan YACMiner."
 			},
 			"mining-nix-gpu": {
 				"type": "link",
 				"title": "Linux GPU",
 				"icon": "fab fa-linux",
-				"description": "Learn to mine using your Nvidia or AMD GPU on Linux."
+				"description": "Pelajari cara menambang menggunakan GPU Nvidia atau AMD Anda di Linux."
 			}
 		}
 	}
