@@ -1,0 +1,202 @@
+{
+	"navbar": [{
+			"type": "link",
+			"title": "Get Started",
+			"goto": "where-to-start"
+		},
+		{
+			"type": "link",
+			"title": "Basics",
+			"goto": "what-is-garlicoin"
+		},
+		{
+			"type": "category",
+			"title": "Wallet",
+			"contains": [
+				{
+					"title": "Windows",
+					"goto": "wallet-win"
+				},
+				{
+					"title": "Mac",
+					"goto": "wallet-mac"
+				},
+				{
+					"title": "Linux",
+					"goto": "wallet-nix"
+				},
+				{
+					"title": "Android Wallet",
+					"goto": "wallet-android"
+				}, {
+					"title": "Garlium",
+					"external": true,
+					"goto": "https://github.com/garlicoin-project/garlium/releases/tag/v2.0.0"
+				},
+				{
+					"title": "Paper Wallet",
+					"external": true,
+					"goto": "https://walletgenerator.net/?currency=Garlicoin"
+				}
+			]
+		},
+		{
+			"type": "category",
+			"title": "Mining",
+			"contains": [{
+					"type": "link",
+					"title": "How To Mine",
+					"goto": "how-to-mine"
+				},
+				{
+					"type": "link",
+					"title": "Pool Mining",
+					"goto": "pool-mining"
+				},
+				{
+					"type": "link",
+					"title": "CPU",
+					"goto": "mining-cpu"
+				},
+				{
+					"type": "link",
+					"title": "Windows Nvidia",
+					"goto": "mining-win-nvidia"
+				},
+				{
+					"type": "link",
+					"title": "Windows AMD",
+					"goto": "mining-win-amd"
+				},
+				{
+					"type": "link",
+					"title": "Linux GPU",
+					"goto": "mining-nix-gpu"
+				}
+			]
+		},
+		{
+			"type": "link",
+			"title": "Download",
+			"external": "true",
+			"goto": "https://garlicoin.io/downloads"
+		}
+	],
+	"content": {
+		"default": {
+			"value": "get-started",
+			"title": "Getting Started"
+		},
+		"get-started": {
+			"where-to-start": {
+				"type": "link",
+				"title": "Where To Start",
+				"icon": "fas fa-play-circle",
+				"description": "Get Started with Garlicoin"
+			},
+			"what-is-garlicoin": {
+				"type": "link",
+				"title": "What Is Garlicoin",
+				"icon": "fas fa-question",
+				"description": "Learn the basics of Garlicoin."
+			},
+			"get-wallet": {
+				"type": "category",
+				"title": "Wallet",
+				"icon": "fas fa-credit-card",
+				"description": "Setup a wallet in minutes on all platforms."
+			},
+			"get-miner": {
+				"type": "category",
+				"title": "Mining",
+				"icon": "fa fa-server",
+				"description": "Learn to mine on the network using your CPU or GPU."
+			},
+			"explorer": {
+				"type": "link",
+				"title": "Explorer",
+				"icon": "fas fa-globe",
+				"description": "Access the Garlicoin Block Explorer to see all the transactions.",
+				"goto": "https://garli.co.in/"
+			}
+		},
+		"get-wallet": {
+			"wallet-garlium": {
+				"type": "link",
+				"title": "Garlium (Recommended)",
+				"icon": "custom-icon icon-electron",
+				"description": "Get an easy to use GUI wallet app for all platforms.",
+				"goto": "https://github.com/garlicoin-project/garlium/releases/tag/v2.0.0"
+			},
+			"wallet-win": {
+				"type": "link",
+				"title": "Windows Wallet",
+				"icon": "fab fa-windows",
+				"description": "Setup a wallet in minutes on Windows."
+			},
+			"wallet-mac": {
+				"type": "link",
+				"title": "Mac Wallet",
+				"icon": "fab fa-apple",
+				"description": "Setup a wallet in minutes on Mac."
+			},
+			"wallet-nix": {
+				"type": "link",
+				"title": "Linux Wallet",
+				"icon": "fab fa-linux",
+				"description": "Setup a wallet in minutes on Linux."
+			},
+			"wallet-paper": {
+				"type": "link",
+				"title": "Paper Wallet",
+				"icon": "fas fa-file-alt",
+				"description": "Generate a Garlicoin address which you can use anywhere. (This does not come with a Wallet App).",
+				"goto": "https://walletgenerator.net/?currency=Garlicoin"
+			},
+			"wallet-android": {
+				"type": "link",
+				"title": "Android Wallet",
+				"icon": "fab fa-android",
+				"description": "Check out all the available Android Wallets."
+			}
+		},
+		"get-miner": {
+			"how-to-mine": {
+				"type": "link",
+				"title": "How To Mine",
+				"icon": "fas fa-question",
+				"description": "Learn the basics of mining and the different choices you will have to make."
+			},
+			"pool-mining": {
+				"type": "link",
+				"title": "Pool Mining",
+				"icon": "fas fa-server",
+				"description": "Learn more about pool mining, and the different pools that are available."
+			},
+			"mining-cpu": {
+				"type": "link",
+				"title": "CPU",
+				"icon": "fas fa-microchip",
+				"description": "Learn to mine using your processor (CPU) on all platforms."
+			},
+			"mining-win-nvidia": {
+				"type": "link",
+				"title": "Windows Nvidia",
+				"icon": "custom-icon icon-nvidia",
+				"description": "Learn to mine using your Nvidia GPU on Windows with CCMiner."
+			},
+			"mining-win-amd": {
+				"type": "link",
+				"title": "Windows AMD",
+				"icon": "custom-icon icon-amd",
+				"description": "Learn to mine using your AMD GPU on Windows with YACMiner."
+			},
+			"mining-nix-gpu": {
+				"type": "link",
+				"title": "Linux GPU",
+				"icon": "fab fa-linux",
+				"description": "Learn to mine using your Nvidia or AMD GPU on Linux."
+			}
+		}
+	}
+}
